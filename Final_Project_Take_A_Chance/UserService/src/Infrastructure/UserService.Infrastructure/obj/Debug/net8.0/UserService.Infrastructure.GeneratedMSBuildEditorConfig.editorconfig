@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UserService.Infrastructure
-build_property.ProjectDir = D:\programming\CodeAcademy\Final_Project\User Service\UserService\src\Infrastructure\UserService.Infrastructure\
+build_property.ProjectDir = D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Infrastructure\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -15,3 +15,21 @@ D:\programming\CodeAcademy\Final_Project\User Service\UserService\src\Infrastruc
 D:\programming\CodeAcademy\Final_Project\User Service\UserService\src\Infrastructure\UserService.Infrastructure\obj\Debug\net8.0\refint\UserService.Infrastructure.dll
 D:\programming\CodeAcademy\Final_Project\User Service\UserService\src\Infrastructure\UserService.Infrastructure\obj\Debug\net8.0\UserService.Infrastructure.pdb
 D:\programming\CodeAcademy\Final_Project\User Service\UserService\src\Infrastructure\UserService.Infrastructure\obj\Debug\net8.0\ref\UserService.Infrastructure.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Infrastructure\bin\Debug\net8.0\UserService.Infrastructure.deps.json
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Infrastructure\bin\Debug\net8.0\UserService.Infrastructure.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Infrastructure\bin\Debug\net8.0\UserService.Infrastructure.pdb
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Infrastructure\bin\Debug\net8.0\UserService.Application.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Infrastructure\bin\Debug\net8.0\UserService.Domain.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Infrastructure\bin\Debug\net8.0\UserService.Application.pdb
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Infrastructure\bin\Debug\net8.0\UserService.Domain.pdb
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Infrastructure\obj\Debug\net8.0\UserService.Infrastructure.csproj.AssemblyReference.cache
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Infrastructure\obj\Debug\net8.0\UserService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Infrastructure\obj\Debug\net8.0\UserService.Infrastructure.AssemblyInfoInputs.cache
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Infrastructure\obj\Debug\net8.0\UserService.Infrastructure.AssemblyInfo.cs
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Infrastructure\obj\Debug\net8.0\UserService.Infrastructure.csproj.CoreCompileInputs.cache
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Infrastructure\obj\Debug\net8.0\UserService.Infrastructure.sourcelink.json
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Infrastructure\obj\Debug\net8.0\UserServ.28B62BA0.Up2Date
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Infrastructure\obj\Debug\net8.0\UserService.Infrastructure.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Infrastructure\obj\Debug\net8.0\refint\UserService.Infrastructure.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Infrastructure\obj\Debug\net8.0\UserService.Infrastructure.pdb
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Infrastructure\obj\Debug\net8.0\ref\UserService.Infrastructure.dll

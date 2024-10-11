@@ -17,3 +17,23 @@ D:\programming\CodeAcademy\Final_Project\User Service\UserService\src\Infrastruc
 D:\programming\CodeAcademy\Final_Project\User Service\UserService\src\Infrastructure\UserService.Persistence\obj\Debug\net8.0\UserService.Persistence.pdb
 D:\programming\CodeAcademy\Final_Project\User Service\UserService\src\Infrastructure\UserService.Persistence\obj\Debug\net8.0\UserService.Persistence.genruntimeconfig.cache
 D:\programming\CodeAcademy\Final_Project\User Service\UserService\src\Infrastructure\UserService.Persistence\obj\Debug\net8.0\ref\UserService.Persistence.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Persistence\bin\Debug\net8.0\UserService.Persistence.deps.json
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Persistence\bin\Debug\net8.0\UserService.Persistence.runtimeconfig.json
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Persistence\bin\Debug\net8.0\UserService.Persistence.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Persistence\bin\Debug\net8.0\UserService.Persistence.pdb
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Persistence\bin\Debug\net8.0\UserService.Application.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Persistence\bin\Debug\net8.0\UserService.Domain.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Persistence\bin\Debug\net8.0\UserService.Application.pdb
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Persistence\bin\Debug\net8.0\UserService.Domain.pdb
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Persistence\obj\Debug\net8.0\UserService.Persistence.csproj.AssemblyReference.cache
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Persistence\obj\Debug\net8.0\UserService.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Persistence\obj\Debug\net8.0\UserService.Persistence.AssemblyInfoInputs.cache
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Persistence\obj\Debug\net8.0\UserService.Persistence.AssemblyInfo.cs
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Persistence\obj\Debug\net8.0\UserService.Persistence.csproj.CoreCompileInputs.cache
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Persistence\obj\Debug\net8.0\UserService.Persistence.sourcelink.json
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Persistence\obj\Debug\net8.0\UserServ.3A94AA1C.Up2Date
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Persistence\obj\Debug\net8.0\UserService.Persistence.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Persistence\obj\Debug\net8.0\refint\UserService.Persistence.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Persistence\obj\Debug\net8.0\UserService.Persistence.pdb
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Persistence\obj\Debug\net8.0\UserService.Persistence.genruntimeconfig.cache
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Infrastructure\UserService.Persistence\obj\Debug\net8.0\ref\UserService.Persistence.dll

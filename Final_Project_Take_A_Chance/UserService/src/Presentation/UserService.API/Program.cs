@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;
+using UserService.Application.Features.Commands.UsersCommands.UserCreateCommands;
 using UserService.Domain.Entities;
 using UserService.Persistence.Contexts;
 
@@ -31,6 +32,11 @@ namespace UserService.API
                 opt.Lockout.MaxFailedAccessAttempts = 5;
                 opt.SignIn.RequireConfirmedEmail = true;
             }).AddEntityFrameworkStores<AppDbContext>();
+
+            builder.Services.AddMediatR(opt =>
+            {
+                opt.RegisterServicesFromAssemblyContaining(typeof(UserCreateCommandRequest));
+            });
 
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();

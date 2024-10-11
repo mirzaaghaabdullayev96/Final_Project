@@ -820,11 +820,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\programming\\CodeAcademy\\Final_Project\\User Service\\UserService\\src\\Core\\UserService.Domain\\UserService.Domain.csproj",
+      "projectUniqueName": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Domain\\UserService.Domain.csproj",
       "projectName": "UserService.Domain",
-      "projectPath": "D:\\programming\\CodeAcademy\\Final_Project\\User Service\\UserService\\src\\Core\\UserService.Domain\\UserService.Domain.csproj",
+      "projectPath": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Domain\\UserService.Domain.csproj",
       "packagesPath": "C:\\Users\\mirze\\.nuget\\packages\\",
-      "outputPath": "D:\\programming\\CodeAcademy\\Final_Project\\User Service\\UserService\\src\\Core\\UserService.Domain\\obj\\",
+      "outputPath": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mirze\\AppData\\Roaming\\NuGet\\NuGet.Config",

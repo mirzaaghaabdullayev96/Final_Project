@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "pBpU5Uu4Y0jwA5Yh6BqsAYNSnyerBg/86fUIuIrz48c=",
+  "Hash": "6NsqTyqMZr8LXhfZ+0NaoC6Yil7XarFO3tO8LTQgrlk=",
   "Source": "UserService.API",
   "BasePath": "_content/UserService.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "UserService.API\\wwwroot",
+      "Source": "UserService.API",
+      "ContentRoot": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Presentation\\UserService.API\\wwwroot\\",
+      "BasePath": "_content/UserService.API",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

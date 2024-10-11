@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\programming\\CodeAcademy\\Final_Project\\User Service\\UserService\\src\\Core\\UserService.Application\\UserService.Application.csproj": {}
+    "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\UserService.Application.csproj": {}
   },
   "projects": {
-    "D:\\programming\\CodeAcademy\\Final_Project\\User Service\\UserService\\src\\Core\\UserService.Application\\UserService.Application.csproj": {
+    "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\UserService.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\programming\\CodeAcademy\\Final_Project\\User Service\\UserService\\src\\Core\\UserService.Application\\UserService.Application.csproj",
+        "projectUniqueName": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\UserService.Application.csproj",
         "projectName": "UserService.Application",
-        "projectPath": "D:\\programming\\CodeAcademy\\Final_Project\\User Service\\UserService\\src\\Core\\UserService.Application\\UserService.Application.csproj",
+        "projectPath": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\UserService.Application.csproj",
         "packagesPath": "C:\\Users\\mirze\\.nuget\\packages\\",
-        "outputPath": "D:\\programming\\CodeAcademy\\Final_Project\\User Service\\UserService\\src\\Core\\UserService.Application\\obj\\",
+        "outputPath": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mirze\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\programming\\CodeAcademy\\Final_Project\\User Service\\UserService\\src\\Core\\UserService.Domain\\UserService.Domain.csproj": {
-                "projectPath": "D:\\programming\\CodeAcademy\\Final_Project\\User Service\\UserService\\src\\Core\\UserService.Domain\\UserService.Domain.csproj"
+              "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Domain\\UserService.Domain.csproj": {
+                "projectPath": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Domain\\UserService.Domain.csproj"
               }
             }
           }
@@ -53,6 +53,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.4.1, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
             }
           },
           "imports": [
@@ -67,6 +71,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -75,14 +82,14 @@
         }
       }
     },
-    "D:\\programming\\CodeAcademy\\Final_Project\\User Service\\UserService\\src\\Core\\UserService.Domain\\UserService.Domain.csproj": {
+    "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Domain\\UserService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\programming\\CodeAcademy\\Final_Project\\User Service\\UserService\\src\\Core\\UserService.Domain\\UserService.Domain.csproj",
+        "projectUniqueName": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Domain\\UserService.Domain.csproj",
         "projectName": "UserService.Domain",
-        "projectPath": "D:\\programming\\CodeAcademy\\Final_Project\\User Service\\UserService\\src\\Core\\UserService.Domain\\UserService.Domain.csproj",
+        "projectPath": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Domain\\UserService.Domain.csproj",
         "packagesPath": "C:\\Users\\mirze\\.nuget\\packages\\",
-        "outputPath": "D:\\programming\\CodeAcademy\\Final_Project\\User Service\\UserService\\src\\Core\\UserService.Domain\\obj\\",
+        "outputPath": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mirze\\AppData\\Roaming\\NuGet\\NuGet.Config",
