@@ -8,7 +8,7 @@ using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using UserService.Application.Features.Commands.UsersCommands.UserCreateCommands;
+using UserService.Application.Features.Commands.UsersCommands.UserRegisterCommands;
 using UserService.Application.Utilities.Enums;
 using UserService.Application.Utilities.Helpers;
 using UserService.Domain.Entities;

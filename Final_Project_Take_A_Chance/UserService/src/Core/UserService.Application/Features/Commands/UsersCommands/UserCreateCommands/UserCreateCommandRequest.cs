@@ -8,9 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using UserService.Application.Utilities.Helpers;
 
-namespace UserService.Application.Features.Commands.UsersCommands.UserCreateCommands
+namespace UserService.Application.Features.Commands.UsersCommands.UserRegisterCommands
 {
-    public class UserCreateCommandRequest : IRequest<Result>
+    public class UserRegisterCommandRequest : IRequest<Result>
     {
         public required string Name { get; set; }
         public string? Surname { get; set; }

@@ -2,30 +2,40 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Routing;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using UserService.Application.Services.Interfaces;
 using UserService.Application.Utilities.Enums;
 using UserService.Application.Utilities.Helpers;
 using UserService.Domain.Entities;
 
-namespace UserService.Application.Features.Commands.UsersCommands.UserCreateCommands
+namespace UserService.Application.Features.Commands.UsersCommands.UserRegisterCommands
 {
 
-    public class UserCreateCommandHandler : IRequestHandler<UserCreateCommandRequest, Result>
+    public class UserRegisterCommandHandler : IRequestHandler<UserRegisterCommandRequest, Result>
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly IWebHostEnvironment _env;
-        public UserCreateCommandHandler(UserManager<AppUser> userManager, IWebHostEnvironment env)
+        private readonly LinkGenerator _linkGenerator;
+        private readonly IHttpContextAccessor _httpContextAccessor;
+        private readonly IEmailService _emailService;
+        private readonly IBackgroundTaskQueue _taskQueue;
+        public UserRegisterCommandHandler(UserManager<AppUser> userManager, IWebHostEnvironment env, LinkGenerator linkGenerator, IHttpContextAccessor httpContextAccessor, IEmailService emailService, IBackgroundTaskQueue taskQueue)
         {
             _userManager = userManager;
             _env = env;
+            _linkGenerator = linkGenerator;
+            _httpContextAccessor = httpContextAccessor;
+            _emailService = emailService;
+            _taskQueue = taskQueue;
         }
 
-        public async Task<Result> Handle(UserCreateCommandRequest request, CancellationToken cancellationToken)
+        public async Task<Result> Handle(UserRegisterCommandRequest request, CancellationToken cancellationToken)
         {
             if (request.Password != request.ConfirmPassword)
             {
@@ -67,7 +77,7 @@ namespace UserService.Application.Features.Commands.UsersCommands.UserCreateComm
                 BirthDate = request.BirthDate
             };
 
-            var result = await _userManager.CreateAsync(appUser, request.Password);
+            var result = await _userManager.CreateAsync(appUser, "Salam123@");
             if (!result.Succeeded)
             {
                 return new ErrorResult("", 400) { Messages = result.Errors.Select(x => x.Description).ToList() };
@@ -78,6 +88,24 @@ namespace UserService.Application.Features.Commands.UsersCommands.UserCreateComm
             {
                 appUser.ProfilePicture = await request.ProfilePicture.CreateFileAsync(_env.WebRootPath, "UsersProfileImages");
             }
+
+            var emailToken = await _userManager.GenerateEmailConfirmationTokenAsync(appUser);
+
+            string confirmationLink = _linkGenerator.GetUriByAction(
+            _httpContextAccessor.HttpContext!,
+            action: "ConfirmEmail",
+            controller: "Auth",
+            values: new { userId = appUser.Id, token = emailToken },
+            scheme: "http");
+
+            string text = "To confirm your Email, please click to the link below";
+
+            await _emailService.SendMailAsync(request.Email, "Email Confirmation", appUser.Name, token: confirmationLink, text: text);
+
+            //_taskQueue.QueueBackgroundWorkItem(async tokenCancellation =>
+            //{
+            //    await _emailService.SendMailAsync(request.Email, "Email Confirmation", appUser.Name, token:confirmationLink, text:text);
+            //});
 
             return new SuccessResult("User successfully created", 201);
         }

@@ -22,12 +22,11 @@ namespace UserService.Application.Features.Queries.UsersQueries.UserGetAllQuerie
         {
             var users = await _userManager.Users.ToListAsync();
 
-            var userResponses= users.Select(user => new UserGetAllResponse
+            var userResponses = users.Select(user => new UserGetAllResponse
             {
                 Id = user.Id,
                 Email = user.Email,
                 Name = user.Name,
-                Surname = user.Surname
             }).ToList();
 
             return new SuccessResult<ICollection<UserGetAllResponse>>(userResponses, "Users retrieved successfully", 200);

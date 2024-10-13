@@ -26,7 +26,7 @@ namespace UserService.Application.Utilities.Helpers
 
         public T Entities
         {
-            get => Success ? _entities : throw new Exception($"You can't access .{nameof(Entities)} when .{nameof(Success)} is false");
+            get => _entities;
             set => _entities = value;
         }
     }

@@ -1,8 +1,50 @@
 [
   {
     "ContainingType": "UserService.API.Controllers.AuthController",
-    "Method": "CreateUser",
-    "RelativePath": "api/Auth/CreateUser",
+    "Method": "ConfirmEmail",
+    "RelativePath": "api/Auth/ConfirmEmail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserService.API.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserService.API.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/RegisterUser",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -52,8 +94,55 @@
   },
   {
     "ContainingType": "UserService.API.Controllers.UsersController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/Users/ChangePassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CurrentPassword",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NewPassword",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ConfirmNewPassword",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserService.API.Controllers.UsersController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/Users/ForgotPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "UserService.Application.Features.Queries.UsersQueries.UserForgotPasswordQueries.UserForgotPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserService.API.Controllers.UsersController",
     "Method": "GetAllUsers",
-    "RelativePath": "api/Users",
+    "RelativePath": "api/Users/GetAllUsers",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -62,8 +151,24 @@
   },
   {
     "ContainingType": "UserService.API.Controllers.UsersController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/Users/ResetPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "UserService.Application.Features.Commands.UsersCommands.UserResetPasswordCommands.UserResetPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserService.API.Controllers.UsersController",
     "Method": "UpdateUser",
-    "RelativePath": "api/Users/{id}",
+    "RelativePath": "api/Users/UpdateUser{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,

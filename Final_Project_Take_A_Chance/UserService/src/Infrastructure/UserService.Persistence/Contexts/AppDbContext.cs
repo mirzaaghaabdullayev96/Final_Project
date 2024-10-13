@@ -16,14 +16,31 @@ namespace UserService.Persistence.Contexts
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<AppUser>()
-             .Property(u => u.BirthDate)
-             .HasColumnType("date");
+                 .Property(u => u.BirthDate)
+                 .HasColumnType("date");
 
             modelBuilder.Entity<AppUser>()
-             .Property(u => u.Account)
-             .HasDefaultValue(0.0m);
+                 .Property(u => u.Account)
+                 .HasDefaultValue(0.0m)
+                 .HasColumnType("decimal(18,2)");
+
+
+            modelBuilder.Entity<AppUser>()
+                .Property(u => u.Email)
+                .IsRequired()
+                .HasMaxLength(128);
+
+            modelBuilder.Entity<AppUser>()
+                .Property(u => u.Name)
+                .IsRequired()
+                .HasMaxLength(128);
+
+
             base.OnModelCreating(modelBuilder);
+
         }
+
+
 
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {

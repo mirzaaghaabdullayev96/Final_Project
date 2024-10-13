@@ -92,6 +92,7 @@ namespace UserService.Persistence.Migrations
                         .HasColumnType("nvarchar(13)");
 
                     b.Property<string>("Email")
+                        .IsRequired()
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
@@ -246,7 +247,8 @@ namespace UserService.Persistence.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(128)
+                        .HasColumnType("nvarchar(128)");
 
                     b.Property<string>("ProfilePicture")
                         .HasColumnType("nvarchar(max)");

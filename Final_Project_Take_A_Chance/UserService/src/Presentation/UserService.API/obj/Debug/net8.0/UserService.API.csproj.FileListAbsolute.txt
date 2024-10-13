@@ -291,7 +291,6 @@ D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentat
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\obj\Debug\net8.0\UserService.API.AssemblyInfoInputs.cache
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\obj\Debug\net8.0\UserService.API.AssemblyInfo.cs
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\obj\Debug\net8.0\UserService.API.csproj.CoreCompileInputs.cache
-D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\obj\Debug\net8.0\UserService.API.MvcApplicationPartsAssemblyInfo.cs
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\obj\Debug\net8.0\UserService.API.MvcApplicationPartsAssemblyInfo.cache
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\obj\Debug\net8.0\UserService.API.sourcelink.json
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\obj\Debug\net8.0\staticwebassets.build.json
@@ -308,3 +307,9 @@ D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentat
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\obj\Debug\net8.0\UserService.API.pdb
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\obj\Debug\net8.0\UserService.API.genruntimeconfig.cache
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\obj\Debug\net8.0\ref\UserService.API.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\UserService.Infrastructure.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\UserService.Infrastructure.pdb
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\MailKit.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\MimeKit.dll

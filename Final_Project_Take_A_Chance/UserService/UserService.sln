@@ -9,19 +9,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8874B873
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{2B840761-BC71-48CB-8996-7013C9F461E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService.Domain", "src\Core\UserService.Domain\UserService.Domain.csproj", "{E9016E3C-59DE-47BC-9D41-5AC8684D5D83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserService.Domain", "src\Core\UserService.Domain\UserService.Domain.csproj", "{E9016E3C-59DE-47BC-9D41-5AC8684D5D83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService.Application", "src\Core\UserService.Application\UserService.Application.csproj", "{6FA6A253-3161-402B-A1AB-7F84EEF3615D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserService.Application", "src\Core\UserService.Application\UserService.Application.csproj", "{6FA6A253-3161-402B-A1AB-7F84EEF3615D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{38C7261D-F2ED-4D37-9C9D-010D7F48CE0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService.Infrastructure", "src\Infrastructure\UserService.Infrastructure\UserService.Infrastructure.csproj", "{FD884069-6385-42FD-A6A3-C05AB799A50B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserService.Infrastructure", "src\Infrastructure\UserService.Infrastructure\UserService.Infrastructure.csproj", "{FD884069-6385-42FD-A6A3-C05AB799A50B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService.Persistence", "src\Infrastructure\UserService.Persistence\UserService.Persistence.csproj", "{28464A1A-36CB-43BD-978D-8E6190E535BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserService.Persistence", "src\Infrastructure\UserService.Persistence\UserService.Persistence.csproj", "{28464A1A-36CB-43BD-978D-8E6190E535BD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{DA7CCE46-11B1-4E8D-8AE5-ECDB9CF997F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService.API", "src\Presentation\UserService.API\UserService.API.csproj", "{EBE7BD4F-7C03-4F13-84E5-D2C3F9C86136}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserService.API", "src\Presentation\UserService.API\UserService.API.csproj", "{EBE7BD4F-7C03-4F13-84E5-D2C3F9C86136}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
