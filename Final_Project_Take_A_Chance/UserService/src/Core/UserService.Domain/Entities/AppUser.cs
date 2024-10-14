@@ -18,5 +18,9 @@ namespace UserService.Domain.Entities
         public string? ProfilePicture { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
+
+        //relational
+
+        public ICollection<AccountTopUp> AccountTopUps { get; set; }
     }
 }

@@ -100,7 +100,7 @@ namespace UserService.Application.Features.Commands.UsersCommands.UserRegisterCo
 
             string text = "To confirm your Email, please click to the link below";
 
-            await _emailService.SendMailAsync(request.Email, "Email Confirmation", appUser.Name, token: confirmationLink, text: text);
+            //await _emailService.SendMailAsync(request.Email, "Email Confirmation", appUser.Name, token: confirmationLink, text: text);
 
             //_taskQueue.QueueBackgroundWorkItem(async tokenCancellation =>
             //{

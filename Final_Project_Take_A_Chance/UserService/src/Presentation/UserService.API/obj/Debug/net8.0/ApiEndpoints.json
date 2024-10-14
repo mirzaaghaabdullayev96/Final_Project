@@ -93,6 +93,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "UserService.API.Controllers.AuthController",
+    "Method": "CreateRoles",
+    "RelativePath": "api/Auth/Roles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserService.API.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CMain\u003Eb__0_5",
+    "RelativePath": "api/user/transactions",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountTopUp",
+        "Type": "UserService.Domain.Entities.AccountTopUp",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "UserService.API.Controllers.UsersController",
     "Method": "ChangePassword",
     "RelativePath": "api/Users/ChangePassword",

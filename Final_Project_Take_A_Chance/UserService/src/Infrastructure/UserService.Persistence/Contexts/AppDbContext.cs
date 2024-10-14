@@ -10,9 +10,12 @@ using UserService.Domain.Entities;
 
 namespace UserService.Persistence.Contexts
 {
-    public class AppDbContext : IdentityDbContext
+    public class AppDbContext : IdentityDbContext<AppUser>
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+        public DbSet<AppUser> Users { get; set; }
+        public DbSet<AccountTopUp> TransactionsBalanceTopUp { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<AppUser>()
@@ -35,6 +38,18 @@ namespace UserService.Persistence.Contexts
                 .IsRequired()
                 .HasMaxLength(128);
 
+            modelBuilder.Entity<AccountTopUp>()
+                 .Property(u => u.Amount)
+                 .HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<AccountTopUp>()
+                .HasKey(x => x.TransactionId);
+
+            modelBuilder.Entity<AccountTopUp>()
+                .HasOne(x => x.AppUser)
+                .WithMany(u => u.AccountTopUps)
+                .HasForeignKey(x => x.UserId)
+                .IsRequired();
 
             base.OnModelCreating(modelBuilder);
 

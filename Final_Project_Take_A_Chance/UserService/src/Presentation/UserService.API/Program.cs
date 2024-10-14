@@ -1,11 +1,13 @@
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System;
+using System.Security.Claims;
 using System.Text;
 using UserService.Application.Features.Commands.UsersCommands.UserRegisterCommands;
 using UserService.Application.Services.Interfaces;
+using UserService.Application.Utilities.Helpers;
 using UserService.Domain.Entities;
 using UserService.Infrastructure.Services.Implementations;
 using UserService.Persistence.Contexts;
@@ -80,6 +82,34 @@ namespace UserService.API
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+
+            //minimal API for top up balance
+            app.MapPost("/api/user/transactions", async (
+             HttpContext httpContext, AccountTopUp accountTopUp , AppDbContext dbContext) =>
+            {
+                var userIdClaim = httpContext.User.FindFirst(ClaimTypes.NameIdentifier);
+                if (userIdClaim == null) return Results.Unauthorized();
+                string userId = userIdClaim.Value;
+
+                var user = await dbContext.Users.FindAsync(userId);
+                if (user == null) return Results.NotFound("User not found.");
+
+                if (accountTopUp.Amount <= 0) return Results.BadRequest("Amount must be greater than 0");
+
+                user.Account += accountTopUp.Amount;
+
+                var transaction = new AccountTopUp
+                {
+                    UserId = userId,
+                    Amount = accountTopUp.Amount,
+                };
+
+                await dbContext.TransactionsBalanceTopUp.AddAsync(transaction);
+                await dbContext.SaveChangesAsync();
+
+                return Results.Ok(new { TransactionId = transaction.TransactionId });
+            }).RequireAuthorization();
+
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
