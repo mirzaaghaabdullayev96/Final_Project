@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "OFryhrLL4wo=",
+  "success": true,
+  "projectFilePath": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.Application\\PaymentService.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mirze\\.nuget\\packages\\microsoft.bcl.timeprovider\\8.0.1\\microsoft.bcl.timeprovider.8.0.1.nupkg.sha512",
+    "C:\\Users\\mirze\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.1.2\\microsoft.identitymodel.abstractions.8.1.2.nupkg.sha512",
+    "C:\\Users\\mirze\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.1.2\\microsoft.identitymodel.jsonwebtokens.8.1.2.nupkg.sha512",
+    "C:\\Users\\mirze\\.nuget\\packages\\microsoft.identitymodel.logging\\8.1.2\\microsoft.identitymodel.logging.8.1.2.nupkg.sha512",
+    "C:\\Users\\mirze\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.1.2\\microsoft.identitymodel.tokens.8.1.2.nupkg.sha512",
+    "C:\\Users\\mirze\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.1.2\\system.identitymodel.tokens.jwt.8.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

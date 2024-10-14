@@ -60,6 +60,8 @@ namespace UserService.Persistence.Contexts
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
             var datas = ChangeTracker.Entries<AppUser>();
+            var transactions = ChangeTracker.Entries<AccountTopUp>();
+
 
             foreach (var data in datas)
             {
@@ -71,6 +73,18 @@ namespace UserService.Persistence.Contexts
                         break;
                     case EntityState.Modified:
                         data.Entity.UpdatedAt = DateTime.Now;
+                        break;
+                    default:
+                        break;
+                }
+            }
+
+            foreach (var data in transactions)
+            {
+                switch (data.State)
+                {
+                    case EntityState.Added:
+                        data.Entity.CreatedAt = DateTime.Now;
                         break;
                     default:
                         break;

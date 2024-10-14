@@ -157,9 +157,8 @@ namespace UserService.Persistence.Migrations
 
             modelBuilder.Entity("UserService.Domain.Entities.AccountTopUp", b =>
                 {
-                    b.Property<Guid>("TransactionId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<string>("TransactionId")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<decimal>("Amount")
                         .HasColumnType("decimal(18,2)");

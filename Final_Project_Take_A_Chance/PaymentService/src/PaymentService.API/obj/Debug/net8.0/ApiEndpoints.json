@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "PaymentService.API.Controllers.PaymentsController",
+    "Method": "AddBalance",
+    "RelativePath": "api/Payments/add-balance",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "amount",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

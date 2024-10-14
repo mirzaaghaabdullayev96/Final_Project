@@ -1,0 +1,16 @@
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Application\bin\Debug\net8.0\PaymentService.Application.deps.json
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Application\bin\Debug\net8.0\PaymentService.Application.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Application\bin\Debug\net8.0\PaymentService.Application.pdb
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Application\bin\Debug\net8.0\PaymentService.Domain.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Application\bin\Debug\net8.0\PaymentService.Domain.pdb
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Application\obj\Debug\net8.0\PaymentService.Application.csproj.AssemblyReference.cache
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Application\obj\Debug\net8.0\PaymentService.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Application\obj\Debug\net8.0\PaymentService.Application.AssemblyInfoInputs.cache
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Application\obj\Debug\net8.0\PaymentService.Application.AssemblyInfo.cs
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Application\obj\Debug\net8.0\PaymentService.Application.csproj.CoreCompileInputs.cache
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Application\obj\Debug\net8.0\PaymentService.Application.sourcelink.json
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Application\obj\Debug\net8.0\PaymentS.03DFC2EE.Up2Date
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Application\obj\Debug\net8.0\PaymentService.Application.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Application\obj\Debug\net8.0\refint\PaymentService.Application.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Application\obj\Debug\net8.0\PaymentService.Application.pdb
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Application\obj\Debug\net8.0\ref\PaymentService.Application.dll

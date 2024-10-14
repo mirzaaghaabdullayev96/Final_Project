@@ -5,34 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EBE7BD4F-7C03-4F13-84E5-D2C3F9C86136}|src\\Presentation\\UserService.API\\UserService.API.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\presentation\\userservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBE7BD4F-7C03-4F13-84E5-D2C3F9C86136}|src\\Presentation\\UserService.API\\UserService.API.csproj|solutionrelative:src\\presentation\\userservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\core\\userservice.application\\features\\queries\\usersqueries\\userloginqueries\\userloginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|solutionrelative:src\\core\\userservice.application\\features\\queries\\usersqueries\\userloginqueries\\userloginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\core\\userservice.application\\features\\commands\\userscommands\\usercreatecommands\\usercreatecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|solutionrelative:src\\core\\userservice.application\\features\\commands\\userscommands\\usercreatecommands\\usercreatecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBE7BD4F-7C03-4F13-84E5-D2C3F9C86136}|src\\Presentation\\UserService.API\\UserService.API.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\presentation\\userservice.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBE7BD4F-7C03-4F13-84E5-D2C3F9C86136}|src\\Presentation\\UserService.API\\UserService.API.csproj|solutionrelative:src\\presentation\\userservice.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBE7BD4F-7C03-4F13-84E5-D2C3F9C86136}|src\\Presentation\\UserService.API\\UserService.API.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\presentation\\userservice.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBE7BD4F-7C03-4F13-84E5-D2C3F9C86136}|src\\Presentation\\UserService.API\\UserService.API.csproj|solutionrelative:src\\presentation\\userservice.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9016E3C-59DE-47BC-9D41-5AC8684D5D83}|src\\Core\\UserService.Domain\\UserService.Domain.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\core\\userservice.domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9016E3C-59DE-47BC-9D41-5AC8684D5D83}|src\\Core\\UserService.Domain\\UserService.Domain.csproj|solutionrelative:src\\core\\userservice.domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9016E3C-59DE-47BC-9D41-5AC8684D5D83}|src\\Core\\UserService.Domain\\UserService.Domain.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\core\\userservice.domain\\entities\\accounttopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9016E3C-59DE-47BC-9D41-5AC8684D5D83}|src\\Core\\UserService.Domain\\UserService.Domain.csproj|solutionrelative:src\\core\\userservice.domain\\entities\\accounttopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28464A1A-36CB-43BD-978D-8E6190E535BD}|src\\Infrastructure\\UserService.Persistence\\UserService.Persistence.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\infrastructure\\userservice.persistence\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28464A1A-36CB-43BD-978D-8E6190E535BD}|src\\Infrastructure\\UserService.Persistence\\UserService.Persistence.csproj|solutionrelative:src\\infrastructure\\userservice.persistence\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,73 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserCreateCommandHandler.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Features\\Commands\\UsersCommands\\UserCreateCommands\\UserCreateCommandHandler.cs",
-              "RelativeDocumentMoniker": "src\\Core\\UserService.Application\\Features\\Commands\\UsersCommands\\UserCreateCommands\\UserCreateCommandHandler.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Features\\Commands\\UsersCommands\\UserCreateCommands\\UserCreateCommandHandler.cs",
-              "RelativeToolTip": "src\\Core\\UserService.Application\\Features\\Commands\\UsersCommands\\UserCreateCommands\\UserCreateCommandHandler.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAADwv2YAAACIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T11:35:12.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Presentation\\UserService.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "src\\Presentation\\UserService.API\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Presentation\\UserService.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "src\\Presentation\\UserService.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAADwv1QAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T11:33:38.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserLoginHandler.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Features\\Queries\\UsersQueries\\UserLoginQueries\\UserLoginHandler.cs",
-              "RelativeDocumentMoniker": "src\\Core\\UserService.Application\\Features\\Queries\\UsersQueries\\UserLoginQueries\\UserLoginHandler.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Features\\Queries\\UsersQueries\\UserLoginQueries\\UserLoginHandler.cs",
-              "RelativeToolTip": "src\\Core\\UserService.Application\\Features\\Queries\\UsersQueries\\UserLoginQueries\\UserLoginHandler.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAqwC4AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T11:24:33.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Presentation\\UserService.API\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "src\\Presentation\\UserService.API\\Controllers\\UsersController.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Presentation\\UserService.API\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "src\\Presentation\\UserService.API\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T11:13:53.046Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Infrastructure\\UserService.Persistence\\Contexts\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\UserService.Persistence\\Contexts\\AppDbContext.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Infrastructure\\UserService.Persistence\\Contexts\\AppDbContext.cs",
-              "RelativeToolTip": "src\\Infrastructure\\UserService.Persistence\\Contexts\\AppDbContext.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAUwBAAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T10:50:08.772Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -117,35 +24,9 @@
               "RelativeDocumentMoniker": "src\\Presentation\\UserService.API\\Program.cs",
               "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Presentation\\UserService.API\\Program.cs",
               "RelativeToolTip": "src\\Presentation\\UserService.API\\Program.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAAAF0AAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAswGIAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T10:48:54.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Domain\\Entities\\AppUser.cs",
-              "RelativeDocumentMoniker": "src\\Core\\UserService.Domain\\Entities\\AppUser.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Domain\\Entities\\AppUser.cs",
-              "RelativeToolTip": "src\\Core\\UserService.Domain\\Entities\\AppUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T10:47:01.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AccountTopUp.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Domain\\Entities\\AccountTopUp.cs",
-              "RelativeDocumentMoniker": "src\\Core\\UserService.Domain\\Entities\\AccountTopUp.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Domain\\Entities\\AccountTopUp.cs",
-              "RelativeToolTip": "src\\Core\\UserService.Domain\\Entities\\AccountTopUp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T10:45:50.878Z",
+              "WhenOpened": "2024-10-14T14:28:52.683Z",
               "EditorCaption": ""
             }
           ]

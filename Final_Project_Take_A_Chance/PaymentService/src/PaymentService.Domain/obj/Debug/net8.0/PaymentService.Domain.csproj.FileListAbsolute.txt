@@ -1,0 +1,12 @@
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Domain\bin\Debug\net8.0\PaymentService.Domain.deps.json
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Domain\bin\Debug\net8.0\PaymentService.Domain.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Domain\bin\Debug\net8.0\PaymentService.Domain.pdb
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Domain\obj\Debug\net8.0\PaymentService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Domain\obj\Debug\net8.0\PaymentService.Domain.AssemblyInfoInputs.cache
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Domain\obj\Debug\net8.0\PaymentService.Domain.AssemblyInfo.cs
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Domain\obj\Debug\net8.0\PaymentService.Domain.csproj.CoreCompileInputs.cache
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Domain\obj\Debug\net8.0\PaymentService.Domain.sourcelink.json
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Domain\obj\Debug\net8.0\PaymentService.Domain.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Domain\obj\Debug\net8.0\refint\PaymentService.Domain.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Domain\obj\Debug\net8.0\PaymentService.Domain.pdb
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Domain\obj\Debug\net8.0\ref\PaymentService.Domain.dll

@@ -111,8 +111,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "accountTopUp",
-        "Type": "UserService.Domain.Entities.AccountTopUp",
+        "Name": "request",
+        "Type": "UserService.Application.DTOs.AmountDto",
         "IsRequired": true
       }
     ],
