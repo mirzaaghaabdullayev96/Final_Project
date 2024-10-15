@@ -1,0 +1,16 @@
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.Application\bin\Debug\net8.0\ProductService.Application.deps.json
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.Application\bin\Debug\net8.0\ProductService.Application.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.Application\bin\Debug\net8.0\ProductService.Application.pdb
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.Application\bin\Debug\net8.0\ProductService.Domain.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.Application\bin\Debug\net8.0\ProductService.Domain.pdb
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.Application\obj\Debug\net8.0\ProductService.Application.csproj.AssemblyReference.cache
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.Application\obj\Debug\net8.0\ProductService.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.Application\obj\Debug\net8.0\ProductService.Application.AssemblyInfoInputs.cache
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.Application\obj\Debug\net8.0\ProductService.Application.AssemblyInfo.cs
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.Application\obj\Debug\net8.0\ProductService.Application.csproj.CoreCompileInputs.cache
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.Application\obj\Debug\net8.0\ProductService.Application.sourcelink.json
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.Application\obj\Debug\net8.0\ProductS.46A6959E.Up2Date
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.Application\obj\Debug\net8.0\ProductService.Application.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.Application\obj\Debug\net8.0\refint\ProductService.Application.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.Application\obj\Debug\net8.0\ProductService.Application.pdb
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.Application\obj\Debug\net8.0\ref\ProductService.Application.dll

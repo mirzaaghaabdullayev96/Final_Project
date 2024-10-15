@@ -1,0 +1,12 @@
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.Domain\bin\Debug\net8.0\ProductService.Domain.deps.json
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.Domain\bin\Debug\net8.0\ProductService.Domain.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.Domain\bin\Debug\net8.0\ProductService.Domain.pdb
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.Domain\obj\Debug\net8.0\ProductService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.Domain\obj\Debug\net8.0\ProductService.Domain.AssemblyInfoInputs.cache
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.Domain\obj\Debug\net8.0\ProductService.Domain.AssemblyInfo.cs
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.Domain\obj\Debug\net8.0\ProductService.Domain.csproj.CoreCompileInputs.cache
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.Domain\obj\Debug\net8.0\ProductService.Domain.sourcelink.json
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.Domain\obj\Debug\net8.0\ProductService.Domain.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.Domain\obj\Debug\net8.0\refint\ProductService.Domain.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.Domain\obj\Debug\net8.0\ProductService.Domain.pdb
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.Domain\obj\Debug\net8.0\ref\ProductService.Domain.dll
