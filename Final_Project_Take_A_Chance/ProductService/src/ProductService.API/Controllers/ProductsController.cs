@@ -1,7 +1,9 @@
-﻿using MediatR;
+﻿using Azure.Core;
+using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ProductService.Application.Features.Commands.ProductCommands.ProductCreate;
+using ProductService.Application.Features.Commands.ProductCommands.ProductUpdate;
 using ProductService.Application.Utilities.Helpers;
 
 namespace ProductService.API.Controllers
@@ -21,6 +23,19 @@ namespace ProductService.API.Controllers
         [HttpPost("CreateProduct")]
         public async Task<IActionResult> CreateProduct([FromForm] ProductCreateRequest request)
         {
+            var result = await _mediator.Send(request);
+            return result switch
+            {
+                ErrorResult errorResult => BadRequest(errorResult),
+                SuccessResult successResult => Ok(successResult),
+                _ => new StatusCodeResult(500)
+            };
+        }
+
+        [HttpPut("UpdateProduct{id}")]
+        public async Task<IActionResult> UpdateProduct([FromRoute] int id, [FromForm] ProductUpdateRequest request)
+        {
+            request.Id = id;
             var result = await _mediator.Send(request);
             return result switch
             {

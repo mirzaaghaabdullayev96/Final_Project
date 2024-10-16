@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4FC245FE-EC3D-4A32-B545-C924F22CBF0B}|src\\ProductService.Application\\ProductService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\productservice\\src\\productservice.application\\features\\commands\\productcommands\\productupdate\\productupdatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC245FE-EC3D-4A32-B545-C924F22CBF0B}|src\\ProductService.Application\\ProductService.Application.csproj|solutionrelative:src\\productservice.application\\features\\commands\\productcommands\\productupdate\\productupdatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4FC245FE-EC3D-4A32-B545-C924F22CBF0B}|src\\ProductService.Application\\ProductService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\productservice\\src\\productservice.application\\features\\commands\\productcommands\\productcreate\\productcreatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FC245FE-EC3D-4A32-B545-C924F22CBF0B}|src\\ProductService.Application\\ProductService.Application.csproj|solutionrelative:src\\productservice.application\\features\\commands\\productcommands\\productcreate\\productcreatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54864E3A-5D29-46A1-9A2E-DBB50AF4B5AB}|src\\ProductService.API\\ProductService.API.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\productservice\\src\\productservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54864E3A-5D29-46A1-9A2E-DBB50AF4B5AB}|src\\ProductService.API\\ProductService.API.csproj|solutionrelative:src\\productservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FC245FE-EC3D-4A32-B545-C924F22CBF0B}|src\\ProductService.Application\\ProductService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\productservice\\src\\productservice.application\\features\\commands\\productcommands\\productupdate\\productupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC245FE-EC3D-4A32-B545-C924F22CBF0B}|src\\ProductService.Application\\ProductService.Application.csproj|solutionrelative:src\\productservice.application\\features\\commands\\productcommands\\productupdate\\productupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F738877-399F-44F7-8F5B-BC00990E4357}|src\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\productservice\\src\\productservice.infrastructure\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F738877-399F-44F7-8F5B-BC00990E4357}|src\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj|solutionrelative:src\\productservice.infrastructure\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54864E3A-5D29-46A1-9A2E-DBB50AF4B5AB}|src\\ProductService.API\\ProductService.API.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\productservice\\src\\productservice.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,45 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 237,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductCreateHandler.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.Application\\Features\\Commands\\ProductCommands\\ProductCreate\\ProductCreateHandler.cs",
-              "RelativeDocumentMoniker": "src\\ProductService.Application\\Features\\Commands\\ProductCommands\\ProductCreate\\ProductCreateHandler.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.Application\\Features\\Commands\\ProductCommands\\ProductCreate\\ProductCreateHandler.cs",
-              "RelativeToolTip": "src\\ProductService.Application\\Features\\Commands\\ProductCommands\\ProductCreate\\ProductCreateHandler.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAADwvzUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:27:07.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.API\\Program.cs",
-              "RelativeDocumentMoniker": "src\\ProductService.API\\Program.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.API\\Program.cs",
-              "RelativeToolTip": "src\\ProductService.API\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAswA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:24:11.336Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.API\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "src\\ProductService.API\\Controllers\\ProductsController.cs",
               "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.API\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "src\\ProductService.API\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAcwBUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:21:36.631Z",
+              "WhenOpened": "2024-10-16T14:31:48.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.Infrastructure\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "src\\ProductService.Infrastructure\\ServiceRegistration.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.Infrastructure\\ServiceRegistration.cs",
+              "RelativeToolTip": "src\\ProductService.Infrastructure\\ServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T14:26:33.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductUpdateHandler.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.Application\\Features\\Commands\\ProductCommands\\ProductUpdate\\ProductUpdateHandler.cs",
+              "RelativeDocumentMoniker": "src\\ProductService.Application\\Features\\Commands\\ProductCommands\\ProductUpdate\\ProductUpdateHandler.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.Application\\Features\\Commands\\ProductCommands\\ProductUpdate\\ProductUpdateHandler.cs",
+              "RelativeToolTip": "src\\ProductService.Application\\Features\\Commands\\ProductCommands\\ProductUpdate\\ProductUpdateHandler.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T13:44:14.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductUpdateRequest.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.Application\\Features\\Commands\\ProductCommands\\ProductUpdate\\ProductUpdateRequest.cs",
+              "RelativeDocumentMoniker": "src\\ProductService.Application\\Features\\Commands\\ProductCommands\\ProductUpdate\\ProductUpdateRequest.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.Application\\Features\\Commands\\ProductCommands\\ProductUpdate\\ProductUpdateRequest.cs",
+              "RelativeToolTip": "src\\ProductService.Application\\Features\\Commands\\ProductCommands\\ProductUpdate\\ProductUpdateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T13:43:53.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductCreateHandler.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.Application\\Features\\Commands\\ProductCommands\\ProductCreate\\ProductCreateHandler.cs",
+              "RelativeDocumentMoniker": "src\\ProductService.Application\\Features\\Commands\\ProductCommands\\ProductCreate\\ProductCreateHandler.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.Application\\Features\\Commands\\ProductCommands\\ProductCreate\\ProductCreateHandler.cs",
+              "RelativeToolTip": "src\\ProductService.Application\\Features\\Commands\\ProductCommands\\ProductCreate\\ProductCreateHandler.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAcwD8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T12:27:07.374Z",
               "EditorCaption": ""
             }
           ]

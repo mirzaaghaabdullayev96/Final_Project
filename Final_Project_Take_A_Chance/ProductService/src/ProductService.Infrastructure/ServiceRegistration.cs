@@ -18,6 +18,7 @@ namespace ProductService.Infrastructure
         {
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<IProductCategoryRepository, ProductCategoryRepository>();
 
             services.AddDbContext<AppDbContext>(opt =>
             {

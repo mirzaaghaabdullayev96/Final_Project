@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FD884069-6385-42FD-A6A3-C05AB799A50B}|src\\Infrastructure\\UserService.Infrastructure\\UserService.Infrastructure.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\infrastructure\\userservice.infrastructure\\services\\implementations\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD884069-6385-42FD-A6A3-C05AB799A50B}|src\\Infrastructure\\UserService.Infrastructure\\UserService.Infrastructure.csproj|solutionrelative:src\\infrastructure\\userservice.infrastructure\\services\\implementations\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28464A1A-36CB-43BD-978D-8E6190E535BD}|src\\Infrastructure\\UserService.Persistence\\UserService.Persistence.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\infrastructure\\userservice.persistence\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28464A1A-36CB-43BD-978D-8E6190E535BD}|src\\Infrastructure\\UserService.Persistence\\UserService.Persistence.csproj|solutionrelative:src\\infrastructure\\userservice.persistence\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE7BD4F-7C03-4F13-84E5-D2C3F9C86136}|src\\Presentation\\UserService.API\\UserService.API.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\presentation\\userservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EBE7BD4F-7C03-4F13-84E5-D2C3F9C86136}|src\\Presentation\\UserService.API\\UserService.API.csproj|solutionrelative:src\\presentation\\userservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EBE7BD4F-7C03-4F13-84E5-D2C3F9C86136}|src\\Presentation\\UserService.API\\UserService.API.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\presentation\\userservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBE7BD4F-7C03-4F13-84E5-D2C3F9C86136}|src\\Presentation\\UserService.API\\UserService.API.csproj|solutionrelative:src\\presentation\\userservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +31,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Infrastructure\\UserService.Infrastructure\\Services\\Implementations\\EmailService.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\UserService.Infrastructure\\Services\\Implementations\\EmailService.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Infrastructure\\UserService.Infrastructure\\Services\\Implementations\\EmailService.cs",
+              "RelativeToolTip": "src\\Infrastructure\\UserService.Infrastructure\\Services\\Implementations\\EmailService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAcwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T13:12:17.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Infrastructure\\UserService.Persistence\\Contexts\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\UserService.Persistence\\Contexts\\AppDbContext.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Infrastructure\\UserService.Persistence\\Contexts\\AppDbContext.cs",
+              "RelativeToolTip": "src\\Infrastructure\\UserService.Persistence\\Contexts\\AppDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:49:32.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Presentation\\UserService.API\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Presentation\\UserService.API\\appsettings.json",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Presentation\\UserService.API\\appsettings.json",
+              "RelativeToolTip": "src\\Presentation\\UserService.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-15T12:21:46.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Presentation\\UserService.API\\Program.cs",
               "RelativeDocumentMoniker": "src\\Presentation\\UserService.API\\Program.cs",
