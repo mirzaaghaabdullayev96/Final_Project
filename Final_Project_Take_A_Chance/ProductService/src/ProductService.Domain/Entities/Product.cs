@@ -18,6 +18,6 @@ namespace ProductService.Domain.Entities
         //relational
         public ICollection<Image> Images { get; set; }
         public ICollection<ProductCategory> ProductCategories { get; set; }
-        public required string UserId { get; set; } 
+
     }
 }

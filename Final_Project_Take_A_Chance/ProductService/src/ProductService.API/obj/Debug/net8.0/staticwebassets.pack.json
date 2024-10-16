@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.API\\wwwroot\\ProductImages\\9bdc6fbc-c627-40fd-a301-c8198697bde6product-5.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\9bdc6fbc-c627-40fd-a301-c8198697bde6product-5.jpg"
+    },
+    {
+      "Id": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.API\\wwwroot\\ProductImages\\9dcfa3fd-51fa-4a82-a4f5-32863d753098product-2.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\9dcfa3fd-51fa-4a82-a4f5-32863d753098product-2.jpg"
+    },
+    {
+      "Id": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.API\\wwwroot\\ProductImages\\a15e662c-5446-4c0e-9880-a25bf03ff61dproduct-4.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\a15e662c-5446-4c0e-9880-a25bf03ff61dproduct-4.jpg"
+    },
+    {
+      "Id": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.API\\wwwroot\\ProductImages\\de62a2bb-ac68-498b-a4ed-b5ea9ed06025product-2.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\de62a2bb-ac68-498b-a4ed-b5ea9ed06025product-2.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProductService.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ProductService.API.props",
+      "PackagePath": "build\\ProductService.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ProductService.API.props",
+      "PackagePath": "buildMultiTargeting\\ProductService.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ProductService.API.props",
+      "PackagePath": "buildTransitive\\ProductService.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

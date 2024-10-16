@@ -1,4 +1,5 @@
 
+using ProductService.Application.Features.Commands.ProductCommands.ProductCreate;
 using ProductService.Infrastructure;
 
 namespace ProductService.API
@@ -9,9 +10,14 @@ namespace ProductService.API
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            builder.Services.RegisterServices(builder.Configuration.GetConnectionString("Default"));
+            builder.Services.RegisterServices(builder.Configuration);
 
             builder.Services.AddControllers();
+
+            builder.Services.AddMediatR(opt =>
+            {
+                opt.RegisterServicesFromAssemblyContaining(typeof(ProductCreateRequest));
+            });
 
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();

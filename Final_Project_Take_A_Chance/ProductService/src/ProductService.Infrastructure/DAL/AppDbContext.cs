@@ -37,6 +37,7 @@ namespace ProductService.Infrastructure.DAL
                     case EntityState.Added:
                         data.Entity.CreatedAt = DateTime.UtcNow;
                         data.Entity.UpdatedAt = DateTime.UtcNow;
+                        data.Entity.IsDeleted = false;
                         break;
                     case EntityState.Modified:
                         data.Entity.UpdatedAt = DateTime.UtcNow;

@@ -147,3 +147,6 @@ D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\Produc
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.API\bin\Debug\net8.0\ProductService.API.staticwebassets.runtime.json
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.API\bin\Debug\net8.0\MediatR.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\ProductService\src\ProductService.API\bin\Debug\net8.0\MediatR.Contracts.dll

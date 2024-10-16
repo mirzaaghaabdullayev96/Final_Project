@@ -1,13 +1,27 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\ProductService.Domain\ProductService.Domain.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="MediatR" Version="12.4.1" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+		<PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\ProductService.Domain\ProductService.Domain.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Features\Commands\ProductCommands\ProductDelete\" />
+	  <Folder Include="Features\Commands\ProductCommands\ProductUpdate\" />
+	  <Folder Include="Features\Queries\ProductQueries\ProductGetOne\" />
+	  <Folder Include="Features\Queries\ProductQueries\ProductGellAll\" />
+	</ItemGroup>
 
 </Project>
