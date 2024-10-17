@@ -3,7 +3,10 @@ using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ProductService.Application.Features.Commands.ProductCommands.ProductCreate;
+using ProductService.Application.Features.Commands.ProductCommands.ProductDelete;
 using ProductService.Application.Features.Commands.ProductCommands.ProductUpdate;
+using ProductService.Application.Features.Queries.ProductQueries.ProductGetAll;
+using ProductService.Application.Features.Queries.ProductQueries.ProductGetOne;
 using ProductService.Application.Utilities.Helpers;
 
 namespace ProductService.API.Controllers
@@ -19,17 +22,11 @@ namespace ProductService.API.Controllers
             _mediator = mediator;
         }
 
-
         [HttpPost("CreateProduct")]
         public async Task<IActionResult> CreateProduct([FromForm] ProductCreateRequest request)
         {
             var result = await _mediator.Send(request);
-            return result switch
-            {
-                ErrorResult errorResult => BadRequest(errorResult),
-                SuccessResult successResult => Ok(successResult),
-                _ => new StatusCodeResult(500)
-            };
+            return ActionResponse.HandleResult(this, result);
         }
 
         [HttpPut("UpdateProduct{id}")]
@@ -37,12 +34,28 @@ namespace ProductService.API.Controllers
         {
             request.Id = id;
             var result = await _mediator.Send(request);
-            return result switch
-            {
-                ErrorResult errorResult => BadRequest(errorResult),
-                SuccessResult successResult => Ok(successResult),
-                _ => new StatusCodeResult(500)
-            };
+            return ActionResponse.HandleResult(this, result);
         }
+
+        [HttpPut("DeleteProduct/{id}")]
+        public async Task<IActionResult> DeleteProduct([FromRoute] int id)
+        {
+            var result = await _mediator.Send(new ProductDeleteRequest(id));
+            return ActionResponse.HandleResult(this, result);
+        }
+
+        [HttpGet("GetAllProducts")]
+        public async Task<IActionResult> GetAllProducts()
+        {
+            return Ok(await _mediator.Send(new ProductGetAllRequest()));
+        }
+
+        [HttpGet("GetProductById/{id}")]
+        public async Task<IActionResult> GetProductById([FromRoute] int id)
+        {
+            var result = await _mediator.Send(new ProductGetOneRequest(id));
+            return ActionResponse.HandleResult<ProductGetOneResponse>(this, result);
+        }
+
     }
 }

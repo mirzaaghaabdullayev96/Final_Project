@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UhsZRr0B99fgl0gTskncvnBWNMwtoaEDZHo+YL6LCOo=",
+  "Hash": "3k1at5463TqUxeVuO3D8oULTglLMBHkYqz2SMNkUaSg=",
   "Source": "ProductService.API",
   "BasePath": "_content/ProductService.API",
   "Mode": "Default",
@@ -34,6 +34,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\ProductImages\\4030f109-c095-4709-912a-de956d133896product-12.jpg"
+    },
+    {
+      "Identity": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.API\\wwwroot\\ProductImages\\51f6e498-9a70-4fd8-8208-29b1463b2534product-3.jpg",
+      "SourceId": "ProductService.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.API\\wwwroot\\",
+      "BasePath": "_content/ProductService.API",
+      "RelativePath": "ProductImages/51f6e498-9a70-4fd8-8208-29b1463b2534product-3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ProductImages\\51f6e498-9a70-4fd8-8208-29b1463b2534product-3.jpg"
     },
     {
       "Identity": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.API\\wwwroot\\ProductImages\\646cd522-f265-4ef6-ac7d-7b8f4051a017product-10.jpg",

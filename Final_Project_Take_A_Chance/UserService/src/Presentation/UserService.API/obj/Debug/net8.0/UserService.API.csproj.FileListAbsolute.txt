@@ -313,3 +313,4 @@ D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentat
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\MailKit.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\MimeKit.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\obj\Debug\net8.0\UserService.API.MvcApplicationPartsAssemblyInfo.cs
