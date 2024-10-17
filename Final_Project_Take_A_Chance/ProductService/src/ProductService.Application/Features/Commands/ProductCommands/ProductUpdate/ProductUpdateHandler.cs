@@ -39,6 +39,7 @@ namespace ProductService.Application.Features.Commands.ProductCommands.ProductUp
             if (request.Id < 1) return new ErrorResult("Id can not be less than 1", 400);
             Product? product = await _productRepository.GetAsync(x => x.Id == request.Id, x => x.Include(y => y.ProductCategories!).ThenInclude(pc => pc.Category!).Include(y => y.Images));
 
+            if (product == null) return new ErrorResult("Product was not found", 400);  
             if (request.Price <= 0) return new ErrorResult("Price must be more than 0", 400, "Price");
             if (request.Name.Length > 150) return new ErrorResult("Name length should be less than 150", 400, "Name");
             if (request.Description.Length > 1500) return new ErrorResult("Description length should be less than 150", 400, "Description");

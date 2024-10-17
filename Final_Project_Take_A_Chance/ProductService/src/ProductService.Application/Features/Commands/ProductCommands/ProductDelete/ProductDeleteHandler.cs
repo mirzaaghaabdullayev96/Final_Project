@@ -21,10 +21,10 @@ namespace ProductService.Application.Features.Commands.ProductCommands.ProductDe
         public async Task<Result> Handle(ProductDeleteRequest request, CancellationToken cancellationToken)
         {
             var product = await _productRepository.GetAsync(request.Id);
-            if (product == null) return new ErrorResult("Product not found", 404);
+            if (product == null) return new ErrorResult("Product was not found", 404);
             product.IsDeleted= true;
             await _productRepository.UpdateAsync(product);
-            return new SuccessResult("Product deleted successfully", 200);
+            return new SuccessResult("Product deleted successfully", 204);
         }
     }
 }

@@ -13,19 +13,12 @@ namespace ProductService.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProductsController : ControllerBase
+    public class ProductsController(IMediator mediator) : ControllerBase
     {
-        private readonly IMediator _mediator;
-
-        public ProductsController(IMediator mediator)
-        {
-            _mediator = mediator;
-        }
-
         [HttpPost("CreateProduct")]
         public async Task<IActionResult> CreateProduct([FromForm] ProductCreateRequest request)
         {
-            var result = await _mediator.Send(request);
+            var result = await mediator.Send(request);
             return ActionResponse.HandleResult(this, result);
         }
 
@@ -33,27 +26,27 @@ namespace ProductService.API.Controllers
         public async Task<IActionResult> UpdateProduct([FromRoute] int id, [FromForm] ProductUpdateRequest request)
         {
             request.Id = id;
-            var result = await _mediator.Send(request);
+            var result = await mediator.Send(request);
             return ActionResponse.HandleResult(this, result);
         }
 
         [HttpPut("DeleteProduct/{id}")]
         public async Task<IActionResult> DeleteProduct([FromRoute] int id)
         {
-            var result = await _mediator.Send(new ProductDeleteRequest(id));
+            var result = await mediator.Send(new ProductDeleteRequest(id));
             return ActionResponse.HandleResult(this, result);
         }
 
         [HttpGet("GetAllProducts")]
         public async Task<IActionResult> GetAllProducts()
         {
-            return Ok(await _mediator.Send(new ProductGetAllRequest()));
+            return Ok(await mediator.Send(new ProductGetAllRequest()));
         }
 
         [HttpGet("GetProductById/{id}")]
         public async Task<IActionResult> GetProductById([FromRoute] int id)
         {
-            var result = await _mediator.Send(new ProductGetOneRequest(id));
+            var result = await mediator.Send(new ProductGetOneRequest(id));
             return ActionResponse.HandleResult<ProductGetOneResponse>(this, result);
         }
 

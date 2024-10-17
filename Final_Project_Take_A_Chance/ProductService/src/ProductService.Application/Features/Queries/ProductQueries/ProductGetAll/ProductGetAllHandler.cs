@@ -10,16 +10,11 @@ using System.Threading.Tasks;
 
 namespace ProductService.Application.Features.Queries.ProductQueries.ProductGetAll
 {
-    public class ProductGetAllHandler : IRequestHandler<ProductGetAllRequest, Result<ICollection<ProductGetAllResponse>>>
+    public class ProductGetAllHandler(IProductRepository productRepository) : IRequestHandler<ProductGetAllRequest, Result<ICollection<ProductGetAllResponse>>>
     {
-        private readonly IProductRepository _productRepository;
-        public ProductGetAllHandler(IProductRepository productRepository)
-        {
-            _productRepository = productRepository;
-        }
         public async Task<Result<ICollection<ProductGetAllResponse>>> Handle(ProductGetAllRequest request, CancellationToken cancellationToken)
         {
-            var products = await _productRepository.GetListAsync(include: x => x.Include(y => y.Images).Include(y => y.ProductCategories).ThenInclude(y => y.Category));
+            var products = await productRepository.GetListAsync(include: x => x.Include(y => y.Images).Include(y => y.ProductCategories).ThenInclude(y => y.Category));
 
             var productsResponse = products.Select(x => new ProductGetAllResponse()
             {
