@@ -1,71 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{4DBDCF2F-4FC6-4F1E-A93F-7F2A8CBB4538}|src\\PaymentService.API\\PaymentService.API.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\paymentservice\\src\\paymentservice.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DBDCF2F-4FC6-4F1E-A93F-7F2A8CBB4538}|src\\PaymentService.API\\PaymentService.API.csproj|solutionrelative:src\\paymentservice.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A091AEE3-87DC-45CB-9D5F-38D19CE47470}|src\\PaymentService.Application\\PaymentService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\paymentservice\\src\\paymentservice.application\\services\\imlementations\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A091AEE3-87DC-45CB-9D5F-38D19CE47470}|src\\PaymentService.Application\\PaymentService.Application.csproj|solutionrelative:src\\paymentservice.application\\services\\imlementations\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A091AEE3-87DC-45CB-9D5F-38D19CE47470}|src\\PaymentService.Application\\PaymentService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\paymentservice\\src\\paymentservice.application\\exceptions\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A091AEE3-87DC-45CB-9D5F-38D19CE47470}|src\\PaymentService.Application\\PaymentService.Application.csproj|solutionrelative:src\\paymentservice.application\\exceptions\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ErrorResponse.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.Application\\Exceptions\\ErrorResponse.cs",
-              "RelativeDocumentMoniker": "src\\PaymentService.Application\\Exceptions\\ErrorResponse.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.Application\\Exceptions\\ErrorResponse.cs",
-              "RelativeToolTip": "src\\PaymentService.Application\\Exceptions\\ErrorResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T15:28:06.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PaymentsController.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.API\\Controllers\\PaymentsController.cs",
-              "RelativeDocumentMoniker": "src\\PaymentService.API\\Controllers\\PaymentsController.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.API\\Controllers\\PaymentsController.cs",
-              "RelativeToolTip": "src\\PaymentService.API\\Controllers\\PaymentsController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAswBMAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T15:20:45.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TransactionService.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.Application\\Services\\Imlementations\\TransactionService.cs",
-              "RelativeDocumentMoniker": "src\\PaymentService.Application\\Services\\Imlementations\\TransactionService.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.Application\\Services\\Imlementations\\TransactionService.cs",
-              "RelativeToolTip": "src\\PaymentService.Application\\Services\\Imlementations\\TransactionService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAArwB0AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T15:18:40.817Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

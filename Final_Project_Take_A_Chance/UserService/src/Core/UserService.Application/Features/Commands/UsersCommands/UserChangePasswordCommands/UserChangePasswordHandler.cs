@@ -11,22 +11,17 @@ using UserService.Domain.Entities;
 
 namespace UserService.Application.Features.Commands.UsersCommands.UserChangePasswordCommands
 {
-    public class UserChangePasswordHandler : IRequestHandler<UserChangePasswordRequest, Result>
+    public class UserChangePasswordHandler(UserManager<AppUser> userManager) : IRequestHandler<UserChangePasswordRequest, Result>
     {
-        private readonly UserManager<AppUser> _userManager;
-        public UserChangePasswordHandler(UserManager<AppUser> userManager)
-        {
-            _userManager = userManager;
-        }
         public async Task<Result> Handle(UserChangePasswordRequest request, CancellationToken cancellationToken)
         {
-            AppUser? user = await _userManager.FindByIdAsync(request.Id);
+            AppUser? user = await userManager.FindByIdAsync(request.Id);
             if (user == null)
             {
                 return new ErrorResult("Invalid id.", 400);
             }
 
-            if (!await _userManager.CheckPasswordAsync(user, request.CurrentPassword))
+            if (!await userManager.CheckPasswordAsync(user, request.CurrentPassword))
             {
                 return new ErrorResult("Current password is wrong", 400, "CurrentPassword");
             }
@@ -36,7 +31,7 @@ namespace UserService.Application.Features.Commands.UsersCommands.UserChangePass
                 return new ErrorResult("Passwords do not match", 400, nameof(request.NewPassword));
             }
 
-            var result = await _userManager.ChangePasswordAsync(user, request.CurrentPassword, request.NewPassword);
+            var result = await userManager.ChangePasswordAsync(user, request.CurrentPassword, request.NewPassword);
 
             if (!result.Succeeded)
             {

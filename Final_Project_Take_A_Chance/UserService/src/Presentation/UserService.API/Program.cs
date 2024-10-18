@@ -6,8 +6,7 @@ using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Security.Claims;
 using System.Text;
-using UserService.Application.DTOs;
-using UserService.Application.Features.Commands.UsersCommands.UserRegisterCommands;
+using UserService.Application.Features.Commands.UsersCommands;
 using UserService.Application.Services.Interfaces;
 using UserService.Application.Utilities.Helpers;
 using UserService.Domain.Entities;
@@ -74,6 +73,8 @@ namespace UserService.API
             builder.Services.AddHostedService<QueuedHostedService>();
 
             builder.Services.AddHttpContextAccessor();
+
+            builder.Services.AddHttpContextAccessor();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
@@ -86,32 +87,35 @@ namespace UserService.API
             }
 
             //minimal API for top up balance
-            app.MapPost("/api/user/transactions", async (
-             HttpContext httpContext, AmountDto request , AppDbContext dbContext) =>
-            {
-                var userIdClaim = httpContext.User.FindFirst(ClaimTypes.NameIdentifier);
-                if (userIdClaim == null) return Results.Unauthorized();
-                string userId = userIdClaim.Value;
+            //app.MapPost("/api/user/addbalance", async (
+            // HttpContext httpContext, AmountDto request, AppDbContext dbContext) =>
+            //{
+            //    var userIdClaim = httpContext.User.FindFirst(ClaimTypes.NameIdentifier);
+            //    if (userIdClaim == null) return Results.Unauthorized();
+            //    string userId = userIdClaim.Value;
 
-                var user = await dbContext.Users.FindAsync(userId);
-                if (user == null) return Results.NotFound("User not found.");
+            //    var user = await dbContext.Users.FindAsync(userId);
+            //    if (user == null) return Results.NotFound("User not found.");
 
-                if (request.Amount <= 0) return Results.BadRequest("Amount must be greater than 0");
+            //    if (request.Amount <= 0) return Results.BadRequest("Amount must be greater than 0");
 
-                user.Account += request.Amount;
+            //    user.Account += request.Amount;
 
-                var transaction = new AccountTopUp
-                {
-                    TransactionId= Guid.NewGuid().ToString(),
-                    UserId = userId,
-                    Amount = request.Amount,
-                };
+            //    var transaction = new AccountTopUp
+            //    {
+            //        TransactionId = Guid.NewGuid().ToString(),
+            //        UserId = userId,
+            //        Amount = request.Amount,
+            //    };
 
-                await dbContext.TransactionsBalanceTopUp.AddAsync(transaction);
-                await dbContext.SaveChangesAsync();
+            //    await dbContext.TransactionsBalanceTopUp.AddAsync(transaction);
+            //    await dbContext.SaveChangesAsync();
 
-                return Results.Ok(new { TransactionId = transaction.TransactionId });
-            }).RequireAuthorization();
+            //    return Results.Ok(new { TransactionId = transaction.TransactionId });
+            //}).RequireAuthorization();
+
+
+
 
 
             app.UseHttpsRedirection();

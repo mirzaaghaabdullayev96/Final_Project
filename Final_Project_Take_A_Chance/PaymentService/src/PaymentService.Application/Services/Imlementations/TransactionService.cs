@@ -25,7 +25,7 @@ namespace PaymentService.Application.Services.Imlementations
 
         public async Task AddBalanceAsync(string token, decimal amount)
         {
-            if (amount <= 0) throw new AmountLessThanOneException(400,"Amount", "You can top up your balance with a minimum of 1 manat ");
+            if (amount <= 0) throw new AmountLessThanOneException(400, "Amount", "You can top up your balance with a minimum of 1 manat ");
 
             var transactionId = await _userServiceClient.AddBalanceAsync(token, amount);
 
@@ -42,7 +42,7 @@ namespace PaymentService.Application.Services.Imlementations
                 CreatedAt = DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ss")
             };
             await _transactionRepository.SaveTransactionAsync(transaction);
-                        
+
         }
     }
 }

@@ -12,8 +12,8 @@ using UserService.Persistence.Contexts;
 namespace UserService.Persistence.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241014143317_UsersTransactionsCreated")]
-    partial class UsersTransactionsCreated
+    [Migration("20241018134006_AppUserCreated")]
+    partial class AppUserCreated
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -158,28 +158,6 @@ namespace UserService.Persistence.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("UserService.Domain.Entities.AccountTopUp", b =>
-                {
-                    b.Property<string>("TransactionId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<decimal>("Amount")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.HasKey("TransactionId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("TransactionsBalanceTopUp");
-                });
-
             modelBuilder.Entity("UserService.Domain.Entities.AppUser", b =>
                 {
                     b.Property<string>("Id")
@@ -320,22 +298,6 @@ namespace UserService.Persistence.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("UserService.Domain.Entities.AccountTopUp", b =>
-                {
-                    b.HasOne("UserService.Domain.Entities.AppUser", "AppUser")
-                        .WithMany("AccountTopUps")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("AppUser");
-                });
-
-            modelBuilder.Entity("UserService.Domain.Entities.AppUser", b =>
-                {
-                    b.Navigation("AccountTopUps");
                 });
 #pragma warning restore 612, 618
         }

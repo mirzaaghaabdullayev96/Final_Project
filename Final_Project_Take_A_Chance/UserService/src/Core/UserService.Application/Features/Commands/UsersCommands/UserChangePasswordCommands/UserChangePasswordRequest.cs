@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UserService.Application.Utilities.Helpers;
 
-namespace UserService.Application.Features.Commands.UsersCommands.UserChangePasswordCommands
+namespace UserService.Application.Features.Commands.UsersCommands
 {
     public class UserChangePasswordRequest : IRequest<Result>
     {

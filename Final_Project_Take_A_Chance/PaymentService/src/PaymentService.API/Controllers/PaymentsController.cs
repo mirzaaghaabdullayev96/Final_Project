@@ -7,22 +7,15 @@ namespace PaymentService.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class PaymentsController : ControllerBase
+    public class PaymentsController(ITransactionService transactionService) : ControllerBase
     {
-        private readonly ITransactionService _transactionService;
-
-        public PaymentsController(ITransactionService transactionService)
-        {
-            _transactionService = transactionService;
-        }
-
         [HttpPost("add-balance")]
         public async Task<IActionResult> AddBalance(/*[FromHeader] string token,*/ [FromBody] decimal amount)
         {
             try
             {
                 var token = HttpContext.Request.Headers["Authorization"].ToString().Replace("Bearer ", "");
-                await _transactionService.AddBalanceAsync(token, amount);
+                await transactionService.AddBalanceAsync(token, amount);
                 return Ok("Account was topped up successfully");
             }
             catch (AmountLessThanOneException ex)

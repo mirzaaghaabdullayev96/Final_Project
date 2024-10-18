@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UserService.Application.DTOs
+namespace PaymentService.Application.Utilities.Enums
 {
-    public class AmountDto
+    public enum TypeOpOperation
     {
-        public decimal Amount { get; set; }
+        TopUpBalance,
+        BuyTicket
     }
 }

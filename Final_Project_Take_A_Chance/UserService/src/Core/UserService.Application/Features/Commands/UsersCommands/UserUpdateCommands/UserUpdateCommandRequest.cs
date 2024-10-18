@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UserService.Application.Utilities.Helpers;
 
-namespace UserService.Application.Features.Commands.UsersCommands.UserUpdateCommands
+namespace UserService.Application.Features.Commands.UsersCommands
 {
 
     public class UserUpdateCommandRequest : IRequest<Result>

@@ -14,7 +14,6 @@ namespace UserService.Persistence.Contexts
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
         public DbSet<AppUser> Users { get; set; }
-        public DbSet<AccountTopUp> TransactionsBalanceTopUp { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -37,20 +36,6 @@ namespace UserService.Persistence.Contexts
                 .Property(u => u.Name)
                 .IsRequired()
                 .HasMaxLength(128);
-
-            modelBuilder.Entity<AccountTopUp>()
-                 .Property(u => u.Amount)
-                 .HasColumnType("decimal(18,2)");
-
-            modelBuilder.Entity<AccountTopUp>()
-                .HasKey(x => x.TransactionId);
-
-            modelBuilder.Entity<AccountTopUp>()
-                .HasOne(x => x.AppUser)
-                .WithMany(u => u.AccountTopUps)
-                .HasForeignKey(x => x.UserId)
-                .IsRequired();
-
             base.OnModelCreating(modelBuilder);
 
         }
@@ -60,8 +45,6 @@ namespace UserService.Persistence.Contexts
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
             var datas = ChangeTracker.Entries<AppUser>();
-            var transactions = ChangeTracker.Entries<AccountTopUp>();
-
 
             foreach (var data in datas)
             {
@@ -78,19 +61,6 @@ namespace UserService.Persistence.Contexts
                         break;
                 }
             }
-
-            foreach (var data in transactions)
-            {
-                switch (data.State)
-                {
-                    case EntityState.Added:
-                        data.Entity.CreatedAt = DateTime.Now;
-                        break;
-                    default:
-                        break;
-                }
-            }
-
             return await base.SaveChangesAsync(cancellationToken);
         }
     }

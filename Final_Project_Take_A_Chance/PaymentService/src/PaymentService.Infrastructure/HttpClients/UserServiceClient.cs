@@ -9,21 +9,14 @@ using System.Threading.Tasks;
 
 namespace PaymentService.Infrastructure.HttpClients
 {
-    public class UserServiceClient : IUserServiceClient
+    public class UserServiceClient(HttpClient client) : IUserServiceClient
     {
-        private readonly HttpClient _client;
-
-        public UserServiceClient(HttpClient client)
-        {
-            _client = client;
-        }
-
         public async Task<string> AddBalanceAsync(string token, decimal amount)
         {
-            _client.DefaultRequestHeaders.Authorization =
+            client.DefaultRequestHeaders.Authorization =
                 new AuthenticationHeaderValue("Bearer", token);
 
-            var response = await _client.PostAsJsonAsync("/api/user/transactions", new { amount });
+            var response = await client.PostAsJsonAsync("/api/user/addbalance", new { amount });
 
             if (!response.IsSuccessStatusCode)
             {

@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace UserService.Persistence.Migrations
 {
     /// <inheritdoc />
-    public partial class UsersTransactionsCreated : Migration
+    public partial class AppUserCreated : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -163,26 +163,6 @@ namespace UserService.Persistence.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
-            migrationBuilder.CreateTable(
-                name: "TransactionsBalanceTopUp",
-                columns: table => new
-                {
-                    TransactionId = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    Amount = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_TransactionsBalanceTopUp", x => x.TransactionId);
-                    table.ForeignKey(
-                        name: "FK_TransactionsBalanceTopUp_AspNetUsers_UserId",
-                        column: x => x.UserId,
-                        principalTable: "AspNetUsers",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
                 table: "AspNetRoleClaims",
@@ -221,11 +201,6 @@ namespace UserService.Persistence.Migrations
                 column: "NormalizedUserName",
                 unique: true,
                 filter: "[NormalizedUserName] IS NOT NULL");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_TransactionsBalanceTopUp_UserId",
-                table: "TransactionsBalanceTopUp",
-                column: "UserId");
         }
 
         /// <inheritdoc />
@@ -245,9 +220,6 @@ namespace UserService.Persistence.Migrations
 
             migrationBuilder.DropTable(
                 name: "AspNetUserTokens");
-
-            migrationBuilder.DropTable(
-                name: "TransactionsBalanceTopUp");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");
