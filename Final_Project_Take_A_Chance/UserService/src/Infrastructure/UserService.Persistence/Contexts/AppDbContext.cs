@@ -39,9 +39,6 @@ namespace UserService.Persistence.Contexts
             base.OnModelCreating(modelBuilder);
 
         }
-
-
-
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
             var datas = ChangeTracker.Entries<AppUser>();

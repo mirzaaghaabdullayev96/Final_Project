@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EBE7BD4F-7C03-4F13-84E5-D2C3F9C86136}|src\\Presentation\\UserService.API\\UserService.API.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\presentation\\userservice.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBE7BD4F-7C03-4F13-84E5-D2C3F9C86136}|src\\Presentation\\UserService.API\\UserService.API.csproj|solutionrelative:src\\presentation\\userservice.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\core\\userservice.application\\features\\commands\\userscommands\\userbalancechangecommands\\userbalancechangehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|solutionrelative:src\\core\\userservice.application\\features\\commands\\userscommands\\userbalancechangecommands\\userbalancechangehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Infrastructure\\UserService.Persistence\\Migrations\\20241018134006_AppUserCreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Infrastructure\\UserService.Persistence\\Migrations\\20241018134006_AppUserCreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBE7BD4F-7C03-4F13-84E5-D2C3F9C86136}|src\\Presentation\\UserService.API\\UserService.API.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\presentation\\userservice.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE7BD4F-7C03-4F13-84E5-D2C3F9C86136}|src\\Presentation\\UserService.API\\UserService.API.csproj|solutionrelative:src\\presentation\\userservice.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\core\\userservice.application\\utilities\\enums\\typeopoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|solutionrelative:src\\core\\userservice.application\\utilities\\enums\\typeopoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\core\\userservice.application\\features\\commands\\userscommands\\userbalancechangecommands\\userbalancechangerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|solutionrelative:src\\core\\userservice.application\\features\\commands\\userscommands\\userbalancechangecommands\\userbalancechangerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Presentation\\UserService.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "src\\Presentation\\UserService.API\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Presentation\\UserService.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "src\\Presentation\\UserService.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAgwD4AAAALAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "TypeOpOperation.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Utilities\\Enums\\TypeOpOperation.cs",
+              "RelativeDocumentMoniker": "src\\Core\\UserService.Application\\Utilities\\Enums\\TypeOpOperation.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Utilities\\Enums\\TypeOpOperation.cs",
+              "RelativeToolTip": "src\\Core\\UserService.Application\\Utilities\\Enums\\TypeOpOperation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T13:40:25.324Z",
+              "WhenOpened": "2024-10-19T11:02:40.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserBalanceChangeRequest.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Features\\Commands\\UsersCommands\\UserBalanceChangeCommands\\UserBalanceChangeRequest.cs",
+              "RelativeDocumentMoniker": "src\\Core\\UserService.Application\\Features\\Commands\\UsersCommands\\UserBalanceChangeCommands\\UserBalanceChangeRequest.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Features\\Commands\\UsersCommands\\UserBalanceChangeCommands\\UserBalanceChangeRequest.cs",
+              "RelativeToolTip": "src\\Core\\UserService.Application\\Features\\Commands\\UsersCommands\\UserBalanceChangeCommands\\UserBalanceChangeRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T15:50:39.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserBalanceChangeHandler.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Features\\Commands\\UsersCommands\\UserBalanceChangeCommands\\UserBalanceChangeHandler.cs",
+              "RelativeDocumentMoniker": "src\\Core\\UserService.Application\\Features\\Commands\\UsersCommands\\UserBalanceChangeCommands\\UserBalanceChangeHandler.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Features\\Commands\\UsersCommands\\UserBalanceChangeCommands\\UserBalanceChangeHandler.cs",
+              "RelativeToolTip": "src\\Core\\UserService.Application\\Features\\Commands\\UsersCommands\\UserBalanceChangeCommands\\UserBalanceChangeHandler.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAuwDEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T15:48:08.029Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "20241018134006_AppUserCreated.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Infrastructure\\UserService.Persistence\\Migrations\\20241018134006_AppUserCreated.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\UserService.Persistence\\Migrations\\20241018134006_AppUserCreated.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Infrastructure\\UserService.Persistence\\Migrations\\20241018134006_AppUserCreated.cs",
-              "RelativeToolTip": "src\\Infrastructure\\UserService.Persistence\\Migrations\\20241018134006_AppUserCreated.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Presentation\\UserService.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "src\\Presentation\\UserService.API\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Presentation\\UserService.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "src\\Presentation\\UserService.API\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAApwDgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T13:40:06.527Z",
+              "WhenOpened": "2024-10-18T13:45:00.694Z",
               "EditorCaption": ""
             }
           ]

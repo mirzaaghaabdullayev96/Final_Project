@@ -1,88 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{8BA4B9FF-B576-4805-A32F-E67BEB89E385}|src\\PaymentService.Infrastructure\\PaymentService.Infrastructure.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\paymentservice\\src\\paymentservice.infrastructure\\httpclients\\userserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BA4B9FF-B576-4805-A32F-E67BEB89E385}|src\\PaymentService.Infrastructure\\PaymentService.Infrastructure.csproj|solutionrelative:src\\paymentservice.infrastructure\\httpclients\\userserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DBDCF2F-4FC6-4F1E-A93F-7F2A8CBB4538}|src\\PaymentService.API\\PaymentService.API.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\paymentservice\\src\\paymentservice.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DBDCF2F-4FC6-4F1E-A93F-7F2A8CBB4538}|src\\PaymentService.API\\PaymentService.API.csproj|solutionrelative:src\\paymentservice.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A091AEE3-87DC-45CB-9D5F-38D19CE47470}|src\\PaymentService.Application\\PaymentService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\paymentservice\\src\\paymentservice.application\\utilities\\enums\\typeopoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A091AEE3-87DC-45CB-9D5F-38D19CE47470}|src\\PaymentService.Application\\PaymentService.Application.csproj|solutionrelative:src\\paymentservice.application\\utilities\\enums\\typeopoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BA4B9FF-B576-4805-A32F-E67BEB89E385}|src\\PaymentService.Infrastructure\\PaymentService.Infrastructure.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\paymentservice\\src\\paymentservice.infrastructure\\mongodb\\mongocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BA4B9FF-B576-4805-A32F-E67BEB89E385}|src\\PaymentService.Infrastructure\\PaymentService.Infrastructure.csproj|solutionrelative:src\\paymentservice.infrastructure\\mongodb\\mongocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 258,
-          "SelectedChildIndex": 3,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MongoContext.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.Infrastructure\\MongoDB\\MongoContext.cs",
-              "RelativeDocumentMoniker": "src\\PaymentService.Infrastructure\\MongoDB\\MongoContext.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.Infrastructure\\MongoDB\\MongoContext.cs",
-              "RelativeToolTip": "src\\PaymentService.Infrastructure\\MongoDB\\MongoContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T13:44:18.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TypeOpOperation.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.Application\\Utilities\\Enums\\TypeOpOperation.cs",
-              "RelativeDocumentMoniker": "src\\PaymentService.Application\\Utilities\\Enums\\TypeOpOperation.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.Application\\Utilities\\Enums\\TypeOpOperation.cs",
-              "RelativeToolTip": "src\\PaymentService.Application\\Utilities\\Enums\\TypeOpOperation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T13:34:26.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PaymentsController.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.API\\Controllers\\PaymentsController.cs",
-              "RelativeDocumentMoniker": "src\\PaymentService.API\\Controllers\\PaymentsController.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.API\\Controllers\\PaymentsController.cs",
-              "RelativeToolTip": "src\\PaymentService.API\\Controllers\\PaymentsController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T12:30:43.242Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserServiceClient.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.Infrastructure\\HttpClients\\UserServiceClient.cs",
-              "RelativeDocumentMoniker": "src\\PaymentService.Infrastructure\\HttpClients\\UserServiceClient.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.Infrastructure\\HttpClients\\UserServiceClient.cs",
-              "RelativeToolTip": "src\\PaymentService.Infrastructure\\HttpClients\\UserServiceClient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T11:15:45.579Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

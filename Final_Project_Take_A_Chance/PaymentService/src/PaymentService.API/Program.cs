@@ -1,9 +1,8 @@
 
-using PaymentService.Application.Services.Imlementations;
-using PaymentService.Application.Services.Interfaces;
-using PaymentService.Infrastructure.HttpClients;
-using PaymentService.Infrastructure.MongoDB;
+using PaymentService.Application.Repositories;
+using PaymentService.Infrastructure;
 using PaymentService.Infrastructure.Repositories;
+using PaymentService.Application.Features.Commands.TopUpCommands;
 
 namespace PaymentService.API
 {
@@ -12,13 +11,17 @@ namespace PaymentService.API
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-            builder.Services.AddSingleton<MongoContext>();
-            builder.Services.AddScoped<ITransactionService, TransactionService>();
-            builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
+           
+            builder.Services.RegisterServices(builder.Configuration);
 
             builder.Services.AddHttpClient<IUserServiceClient, UserServiceClient>(client =>
             {
                 client.BaseAddress = new Uri("http://localhost:5016");
+            });
+
+            builder.Services.AddMediatR(opt =>
+            {
+                opt.RegisterServicesFromAssemblyContaining(typeof(TopUpCreateRequest));
             });
 
             // Add services to the container.

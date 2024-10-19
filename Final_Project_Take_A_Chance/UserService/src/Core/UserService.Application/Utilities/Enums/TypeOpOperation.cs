@@ -8,7 +8,7 @@ namespace UserService.Application.Utilities.Enums
 {
     public enum TypeOpOperation
     {
-        TopUpBalance,
-        BuyTicket
+        TopUpBalance=1,
+        BuyTicket=2
     }
 }
