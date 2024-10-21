@@ -39,6 +39,9 @@ namespace LotteryService.Infrastructure.Migrations
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
 
+                    b.Property<decimal>("PricePerTicket")
+                        .HasColumnType("decimal(10,2)");
+
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
 

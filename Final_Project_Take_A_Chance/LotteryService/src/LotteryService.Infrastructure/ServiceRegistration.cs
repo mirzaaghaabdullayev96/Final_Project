@@ -18,6 +18,7 @@ namespace LotteryService.Infrastructure
         {
             services.AddScoped<ITicketRepository, TicketRepository>();
             services.AddScoped<ILotteryRepository, LotteryRepository>();
+            services.AddScoped<IRandomCodesGenerator, RandomCodesGenerator>();
 
             services.AddDbContext<AppDbContext>(opt =>
             {

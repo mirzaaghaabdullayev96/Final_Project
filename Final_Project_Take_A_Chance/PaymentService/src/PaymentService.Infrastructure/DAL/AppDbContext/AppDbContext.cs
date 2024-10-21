@@ -24,7 +24,7 @@ namespace PaymentService.Infrastructure.DAL.AppDbContext
                 switch (data.State)
                 {
                     case EntityState.Added:
-                        data.Entity.CreatedAt = DateTime.UtcNow;
+                        data.Entity.CreatedAt = DateTime.Now;
                         break;
                     default:
                         break;
@@ -36,7 +36,7 @@ namespace PaymentService.Infrastructure.DAL.AppDbContext
                 switch (data.State)
                 {
                     case EntityState.Added:
-                        data.Entity.BoughtAt = DateTime.UtcNow;
+                        data.Entity.BoughtAt = DateTime.Now;
                         break;
                     default:
                         break;

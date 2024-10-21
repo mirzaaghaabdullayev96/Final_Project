@@ -147,3 +147,7 @@ D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\Lotter
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\obj\Debug\net8.0\LotteryService.API.pdb
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\obj\Debug\net8.0\LotteryService.API.genruntimeconfig.cache
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\obj\Debug\net8.0\ref\LotteryService.API.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\bin\Debug\net8.0\MediatR.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\bin\Debug\net8.0\StackExchange.Redis.dll

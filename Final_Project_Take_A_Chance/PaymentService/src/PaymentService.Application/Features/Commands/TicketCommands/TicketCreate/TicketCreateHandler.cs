@@ -26,12 +26,11 @@ namespace PaymentService.Application.Features.Commands.TicketCommands.TicketCrea
 
             var handler = new JwtSecurityTokenHandler();
             var jwtToken = handler.ReadJwtToken(request.Token);
-
             var userId = jwtToken.Claims.FirstOrDefault(x => x.Type == ClaimTypes.NameIdentifier).Value;
 
             List<Ticket> tickets = [];
 
-            for (int i = 1; i == request.TicketsCount;i++)
+            for (int i = 1; i == request.TicketsCount; i++)
             {
                 Ticket buyTicket = new()
                 {

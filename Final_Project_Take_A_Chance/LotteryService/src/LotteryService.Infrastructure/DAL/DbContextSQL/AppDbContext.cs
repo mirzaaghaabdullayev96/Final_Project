@@ -37,7 +37,7 @@ namespace LotteryService.Infrastructure.DAL.DbContextSQL
                 switch (data.State)
                 {
                     case EntityState.Added:
-                        data.Entity.BoughtAt = DateTime.UtcNow;
+                        data.Entity.BoughtAt = DateTime.Now;
                         break;
                     default:
                         break;

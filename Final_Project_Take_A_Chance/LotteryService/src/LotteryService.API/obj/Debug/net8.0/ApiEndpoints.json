@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "LotteryService.API.Controllers.LotteriesController",
+    "Method": "CreatTickets",
+    "RelativePath": "api/Lotteries/CreateTickets",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LotteryService.Application.Features.Commands.TicketCommands.TicketCreateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LotteryService.API.Controllers.LotteriesController",
+    "Method": "StartLottery",
+    "RelativePath": "api/Lotteries/StartLottery",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LotteryService.Application.Features.Commands.LotteryCommands.LotteryCreate.LotteryCreateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

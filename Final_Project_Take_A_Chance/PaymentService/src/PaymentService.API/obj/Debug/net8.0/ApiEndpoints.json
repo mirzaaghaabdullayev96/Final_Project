@@ -14,21 +14,5 @@
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "PaymentService.API.Controllers.PaymentsController",
-    "Method": "BuyTicket",
-    "RelativePath": "api/Payments/buy-ticket",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "request",
-        "Type": "PaymentService.Application.Features.Commands.TicketCommands.TicketCreate.TicketCreateRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
   }
 ]

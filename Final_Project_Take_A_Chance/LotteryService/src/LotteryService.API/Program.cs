@@ -1,4 +1,6 @@
+using LotteryService.Application.Features.Commands.LotteryCommands.LotteryCreate;
 using LotteryService.Infrastructure;
+using StackExchange.Redis;
 
 
 namespace LotteryService.API
@@ -14,9 +16,15 @@ namespace LotteryService.API
             builder.Services.AddControllers();
             builder.Services.RegisterServices(builder.Configuration);
 
+            builder.Services.AddMediatR(opt =>
+            {
+                opt.RegisterServicesFromAssemblyContaining(typeof(LotteryCreateRequest));
+            });
 
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            ConnectionMultiplexer redis = ConnectionMultiplexer.Connect(builder.Configuration.GetConnectionString("Redis"));
+            builder.Services.AddSingleton<IConnectionMultiplexer>(redis);
 
             var app = builder.Build();
 
