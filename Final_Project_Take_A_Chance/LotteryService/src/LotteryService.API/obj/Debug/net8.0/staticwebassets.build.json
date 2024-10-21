@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "GJJlO7TRob8gcxDPSiWV3wadyb3rFRAkaJyqIYkT0TM=",
+  "Source": "LotteryService.API",
+  "BasePath": "_content/LotteryService.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -10,7 +10,7 @@ namespace PaymentService.Application.Features.Commands.TicketCommands.TicketCrea
 {
     public class TicketCreateRequest : IRequest<Result>
     {
-        public decimal PricePerTicket { get; set; }
+        public decimal Price { get; set; }
         public int TicketsCount { get; set; }
         public required string Token { get; set; }
     }

@@ -22,5 +22,6 @@ namespace PaymentService.Application.Repositories
         Task CreateAsync(T entity);
         Task UpdateAsync(T entity);
         Task RemoveAsync(T entity);
+        Task CreateManyAsync(ICollection<T> entities);
     }
 }

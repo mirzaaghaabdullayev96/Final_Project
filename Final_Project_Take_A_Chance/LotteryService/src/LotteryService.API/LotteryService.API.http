@@ -1,0 +1,6 @@
+@LotteryService.API_HostAddress = http://localhost:5192
+
+GET {{LotteryService.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

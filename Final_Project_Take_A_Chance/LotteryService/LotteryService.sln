@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B473D3A3-7525-4F28-BD47-A16778F406AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{071810F5-491B-4675-A239-B27D6585A470}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LotteryService.Domain", "src\LotteryService.Domain\LotteryService.Domain.csproj", "{1A45912A-CD59-41E7-B5E7-1812C3B2907C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LotteryService.Application", "src\LotteryService.Application\LotteryService.Application.csproj", "{78703E03-C0D8-45C6-841C-65ED69C971A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LotteryService.Infrastructure", "src\LotteryService.Infrastructure\LotteryService.Infrastructure.csproj", "{6A1F0EBE-D25C-4C17-B4AB-3886EB759937}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LotteryService.API", "src\LotteryService.API\LotteryService.API.csproj", "{6E9AEDB7-5F37-4FB5-B9E9-7D135A51B399}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A45912A-CD59-41E7-B5E7-1812C3B2907C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A45912A-CD59-41E7-B5E7-1812C3B2907C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A45912A-CD59-41E7-B5E7-1812C3B2907C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A45912A-CD59-41E7-B5E7-1812C3B2907C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78703E03-C0D8-45C6-841C-65ED69C971A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78703E03-C0D8-45C6-841C-65ED69C971A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78703E03-C0D8-45C6-841C-65ED69C971A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78703E03-C0D8-45C6-841C-65ED69C971A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A1F0EBE-D25C-4C17-B4AB-3886EB759937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A1F0EBE-D25C-4C17-B4AB-3886EB759937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A1F0EBE-D25C-4C17-B4AB-3886EB759937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A1F0EBE-D25C-4C17-B4AB-3886EB759937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E9AEDB7-5F37-4FB5-B9E9-7D135A51B399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E9AEDB7-5F37-4FB5-B9E9-7D135A51B399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E9AEDB7-5F37-4FB5-B9E9-7D135A51B399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E9AEDB7-5F37-4FB5-B9E9-7D135A51B399}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A45912A-CD59-41E7-B5E7-1812C3B2907C} = {B473D3A3-7525-4F28-BD47-A16778F406AB}
+		{78703E03-C0D8-45C6-841C-65ED69C971A4} = {B473D3A3-7525-4F28-BD47-A16778F406AB}
+		{6A1F0EBE-D25C-4C17-B4AB-3886EB759937} = {B473D3A3-7525-4F28-BD47-A16778F406AB}
+		{6E9AEDB7-5F37-4FB5-B9E9-7D135A51B399} = {B473D3A3-7525-4F28-BD47-A16778F406AB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD89E7A4-488A-4B06-83EF-8872273FAC20}
+	EndGlobalSection
+EndGlobal

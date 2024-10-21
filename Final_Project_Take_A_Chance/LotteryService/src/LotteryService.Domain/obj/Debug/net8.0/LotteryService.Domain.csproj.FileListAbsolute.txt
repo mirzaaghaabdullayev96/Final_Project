@@ -1,0 +1,12 @@
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.Domain\bin\Debug\net8.0\LotteryService.Domain.deps.json
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.Domain\bin\Debug\net8.0\LotteryService.Domain.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.Domain\bin\Debug\net8.0\LotteryService.Domain.pdb
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.Domain\obj\Debug\net8.0\LotteryService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.Domain\obj\Debug\net8.0\LotteryService.Domain.AssemblyInfoInputs.cache
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.Domain\obj\Debug\net8.0\LotteryService.Domain.AssemblyInfo.cs
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.Domain\obj\Debug\net8.0\LotteryService.Domain.csproj.CoreCompileInputs.cache
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.Domain\obj\Debug\net8.0\LotteryService.Domain.sourcelink.json
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.Domain\obj\Debug\net8.0\LotteryService.Domain.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.Domain\obj\Debug\net8.0\refint\LotteryService.Domain.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.Domain\obj\Debug\net8.0\LotteryService.Domain.pdb
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.Domain\obj\Debug\net8.0\ref\LotteryService.Domain.dll

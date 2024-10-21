@@ -66,6 +66,12 @@ namespace PaymentService.Infrastructure.Repositories
             await _dbContext.SaveChangesAsync();
         }
 
+        public virtual async Task CreateManyAsync(ICollection<T> entities)
+        {
+            await Table.AddRangeAsync(entities);
+            await _dbContext.SaveChangesAsync();
+        }
+
         public virtual async Task RemoveAsync(T entity)
         {
             var entityEntry = Table.Remove(entity);

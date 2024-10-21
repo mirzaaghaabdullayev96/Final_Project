@@ -39,25 +39,23 @@ namespace PaymentService.Infrastructure.Migrations
 
                     b.HasKey("TransactionId");
 
-                    b.ToTable("TransactionAccountTopUps");
+                    b.ToTable("TopUps");
                 });
 
-            modelBuilder.Entity("PaymentService.Domain.Entities.BuyTicket", b =>
+            modelBuilder.Entity("PaymentService.Domain.Entities.Ticket", b =>
                 {
                     b.Property<string>("TransactionId")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<decimal>("Amount")
-                        .HasColumnType("decimal(10,2)");
-
-                    b.Property<DateTime>("CreatedAt")
+                    b.Property<DateTime>("BoughtAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<decimal>("PricePerTicket")
-                        .HasColumnType("decimal(10,2)");
+                    b.Property<string>("Code")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("TicketsCount")
-                        .HasColumnType("int");
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(10,2)");
 
                     b.Property<string>("UserId")
                         .IsRequired()
@@ -65,7 +63,7 @@ namespace PaymentService.Infrastructure.Migrations
 
                     b.HasKey("TransactionId");
 
-                    b.ToTable("TransactionBuyTickets");
+                    b.ToTable("Tickets");
                 });
 #pragma warning restore 612, 618
         }

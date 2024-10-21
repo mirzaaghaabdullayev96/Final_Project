@@ -39,7 +39,6 @@ D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\Paymen
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.API\obj\Debug\net8.0\PaymentService.API.AssemblyInfoInputs.cache
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.API\obj\Debug\net8.0\PaymentService.API.AssemblyInfo.cs
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.API\obj\Debug\net8.0\PaymentService.API.csproj.CoreCompileInputs.cache
-D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.API\obj\Debug\net8.0\PaymentService.API.MvcApplicationPartsAssemblyInfo.cs
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.API\obj\Debug\net8.0\PaymentService.API.MvcApplicationPartsAssemblyInfo.cache
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.API\obj\Debug\net8.0\PaymentService.API.sourcelink.json
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.API\obj\Debug\net8.0\staticwebassets.build.json
@@ -163,3 +162,4 @@ D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\Paymen
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.API\bin\Debug\net8.0\MediatR.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.API\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.API\obj\Debug\net8.0\PaymentService.API.MvcApplicationPartsAssemblyInfo.cs
