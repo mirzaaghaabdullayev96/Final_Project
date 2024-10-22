@@ -13,6 +13,6 @@ namespace UserService.Application.Features.Commands.UsersCommands
     public class UserBalanceChangeRequest : IRequest<Result>
     {
         public decimal Amount { get; set; }
-        public TypeOpOperation TypeOpOperation { get; set; }
+        public TypeOfOperation TypeOfOperation { get; set; }
     }
 }

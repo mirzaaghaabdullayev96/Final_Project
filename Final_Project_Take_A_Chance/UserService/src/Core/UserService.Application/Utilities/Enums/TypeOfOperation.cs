@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UserService.Application.Features.Queries.UsersQueries.UserGetByEmail
+namespace UserService.Application.Utilities.Enums
 {
-    public class UserGetByEmailHandler
+    public enum TypeOfOperation
     {
+        TopUpBalance=1,
+        BuyTicket=2
     }
 }

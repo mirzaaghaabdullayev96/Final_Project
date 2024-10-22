@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using UserService.Application.Utilities.Helpers;
 using UserService.Domain.Entities;
 
-namespace UserService.Application.Features.Queries.UsersQueries.UserGetAllQueries
+namespace UserService.Application.Features.Queries.UsersQueries
 {
     public class UserGetAllHandler : IRequestHandler<UserGetAllRequest, Result<ICollection<UserGetAllResponse>>>
     {

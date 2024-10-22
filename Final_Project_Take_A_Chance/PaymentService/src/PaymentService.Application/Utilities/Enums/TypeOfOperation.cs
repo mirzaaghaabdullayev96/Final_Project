@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UserService.Application.Utilities.Enums
+namespace PaymentService.Application.Utilities.Enums
 {
-    public enum TypeOpOperation
+    public enum TypeOfOperation
     {
         TopUpBalance=1,
         BuyTicket=2

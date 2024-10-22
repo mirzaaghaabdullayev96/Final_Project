@@ -3,8 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using UserService.Application.Features.Commands.UsersCommands;
-using UserService.Application.Features.Queries.UsersQueries.UserForgotPasswordQueries;
-using UserService.Application.Features.Queries.UsersQueries.UserGetAllQueries;
+using UserService.Application.Features.Queries.UsersQueries;
 using UserService.Application.Utilities.Helpers;
 using UserService.Domain.Entities;
 
@@ -52,6 +51,13 @@ namespace UserService.API.Controllers
 
         [HttpPut("ChangeBalance")]
         public async Task<IActionResult> ChangeBalance([FromBody] UserBalanceChangeRequest request)
+        {
+            var result = await mediator.Send(request);
+            return ActionResponse.HandleResult(this, result);
+        }
+
+        [HttpPost("CheckBalance")]
+        public async Task<IActionResult> CheckBalance([FromBody] UserBalanceCheckRequest request)
         {
             var result = await mediator.Send(request);
             return ActionResponse.HandleResult(this, result);

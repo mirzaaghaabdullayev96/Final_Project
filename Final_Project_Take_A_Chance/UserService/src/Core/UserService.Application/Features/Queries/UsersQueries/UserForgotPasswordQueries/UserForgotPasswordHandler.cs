@@ -14,7 +14,7 @@ using UserService.Application.Utilities.Helpers;
 using UserService.Domain.Entities;
 using static System.Net.Mime.MediaTypeNames;
 
-namespace UserService.Application.Features.Queries.UsersQueries.UserForgotPasswordQueries
+namespace UserService.Application.Features.Queries.UsersQueries
 {
     public class UserForgotPasswordHandler: IRequestHandler<UserForgotPasswordRequest, Result<UserForgotPasswordResponse>>
     {

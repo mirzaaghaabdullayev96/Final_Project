@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UserService.Application.Features.Queries.UsersQueries.UserForgotPasswordQueries;
 using UserService.Application.Utilities.Helpers;
 using UserService.Domain.Entities;
 
@@ -35,7 +34,7 @@ namespace UserService.Application.Features.Commands.UsersCommands.UserChangePass
 
             if (!result.Succeeded)
             {
-                return new ErrorResult("", 400) { Messages = result.Errors.Select(x => x.Description).ToList() };
+                return new ErrorResult("", 400) { Message = result.Errors.FirstOrDefault().ToString() };
             }
 
             return new SuccessResult("Changed password successfully", 200);

@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC245FE-EC3D-4A32-B545-C924F22CBF0B}|src\\ProductService.Application\\ProductService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\productservice\\src\\productservice.application\\utilities\\helpers\\actionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC245FE-EC3D-4A32-B545-C924F22CBF0B}|src\\ProductService.Application\\ProductService.Application.csproj|solutionrelative:src\\productservice.application\\utilities\\helpers\\actionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC245FE-EC3D-4A32-B545-C924F22CBF0B}|src\\ProductService.Application\\ProductService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\productservice\\src\\productservice.application\\utilities\\helpers\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC245FE-EC3D-4A32-B545-C924F22CBF0B}|src\\ProductService.Application\\ProductService.Application.csproj|solutionrelative:src\\productservice.application\\utilities\\helpers\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 258,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.Application\\Utilities\\Helpers\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "src\\ProductService.Application\\Utilities\\Helpers\\ApiResponse.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.Application\\Utilities\\Helpers\\ApiResponse.cs",
+              "RelativeToolTip": "src\\ProductService.Application\\Utilities\\Helpers\\ApiResponse.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T20:09:54.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ActionResponse.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.Application\\Utilities\\Helpers\\ActionResponse.cs",
+              "RelativeDocumentMoniker": "src\\ProductService.Application\\Utilities\\Helpers\\ActionResponse.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.Application\\Utilities\\Helpers\\ActionResponse.cs",
+              "RelativeToolTip": "src\\ProductService.Application\\Utilities\\Helpers\\ActionResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T20:09:51.542Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

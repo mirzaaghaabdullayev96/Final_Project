@@ -9,15 +9,17 @@ using System.Xml.Linq;
 
 namespace UserService.Application.Utilities.Helpers
 {
-    public abstract class Result
+    public class Result
     {
-        public bool Success { get; protected set; }
-        public int StatusCode { get; protected set; }
+        public string Message { get; set; }
+        public bool Success { get; set; }
+        public int StatusCode { get; set; }
+        public string PropertyName { get; set; }
     }
 
-    public abstract class Result<T> : Result
+    public class Result<T> : Result
     {
-        private  T _entities;
+        private T _entities;
 
         protected Result(T data)
         {
@@ -39,7 +41,6 @@ namespace UserService.Application.Utilities.Helpers
             Message = message;
             StatusCode = statusCode;
         }
-        public string Message { get; protected set; }
     }
 
     public class SuccessResult<T> : Result<T>
@@ -50,34 +51,28 @@ namespace UserService.Application.Utilities.Helpers
             Message = message;
             StatusCode = statusCode;
         }
-        public string Message { get; protected set; }
     }
 
     public class ErrorResult : Result
     {
-        public ErrorResult(string message, int statusCode, string propertyName="")
+        public ErrorResult(string message, int statusCode, string propertyName = "")
         {
-            Messages = new List<string> { message };
+            Message = message;
             Success = false;
             StatusCode = statusCode;
             PropertyName = propertyName;
         }
-        public string PropertyName { get; set; }
-        public List<string> Messages { get;  set; }
     }
 
     public class ErrorResult<T> : Result<T>
     {
-        public ErrorResult(string message, int statusCode, string propertyName="") : base(default)
+        public ErrorResult(string message, int statusCode, string propertyName = "") : base(default)
         {
-            Messages = new List<string> { message };
+            Message = message;
             Success = false;
             StatusCode = statusCode;
             PropertyName = propertyName;
         }
-        public string PropertyName { get; set; }
-        public List<string> Messages { get;  set; }
     }
-
 
 }

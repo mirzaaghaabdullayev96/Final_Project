@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "LotteryService.API.Controllers.LotteriesController",
-    "Method": "CreatTickets",
+    "Method": "CreateTickets",
     "RelativePath": "api/Lotteries/CreateTickets",
     "HttpMethod": "POST",
     "IsController": true,

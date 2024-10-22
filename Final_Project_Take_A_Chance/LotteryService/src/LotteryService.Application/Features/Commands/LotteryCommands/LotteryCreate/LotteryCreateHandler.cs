@@ -15,8 +15,8 @@ namespace LotteryService.Application.Features.Commands.LotteryCommands.LotteryCr
         public async Task<Result> Handle(LotteryCreateRequest request, CancellationToken cancellationToken)
         {
             if (request is null) return new ErrorResult("Amount must be more than 0", 400);
-            if (request.TicketsCount < 0) return new ErrorResult("Tickets counts must be more than 0", 400, "TicketsCount");
-            if (request.PricePerTicket < 0) return new ErrorResult("Price per ticket must be more than 0", 400, "PricePerTicket");
+            if (request.TicketsCount <= 0) return new ErrorResult("Tickets counts must be more than 0", 400, "TicketsCount");
+            if (request.PricePerTicket <= 0) return new ErrorResult("Price per ticket must be more than 0", 400, "PricePerTicket");
 
             Lottery lottery = new Lottery()
             {

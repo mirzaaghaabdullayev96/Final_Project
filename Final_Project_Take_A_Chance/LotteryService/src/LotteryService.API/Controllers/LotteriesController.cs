@@ -19,7 +19,7 @@ namespace LotteryService.API.Controllers
         }
 
         [HttpPost("CreateTickets")]
-        public async Task<IActionResult> CreatTickets([FromBody] TicketCreateRequest request)
+        public async Task<IActionResult> CreateTickets([FromBody] TicketCreateRequest request)
         {
             var result = await mediator.Send(request);
             return ActionResponse.HandleResult(this, result);

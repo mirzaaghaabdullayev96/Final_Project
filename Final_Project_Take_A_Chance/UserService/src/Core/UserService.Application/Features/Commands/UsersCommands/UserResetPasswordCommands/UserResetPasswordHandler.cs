@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UserService.Application.Features.Queries.UsersQueries.UserForgotPasswordQueries;
 using UserService.Application.Utilities.Helpers;
 using UserService.Domain.Entities;
 

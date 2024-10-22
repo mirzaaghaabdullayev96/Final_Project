@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8BA4B9FF-B576-4805-A32F-E67BEB89E385}|src\\PaymentService.Infrastructure\\PaymentService.Infrastructure.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\paymentservice\\src\\paymentservice.infrastructure\\dal\\appdbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BA4B9FF-B576-4805-A32F-E67BEB89E385}|src\\PaymentService.Infrastructure\\PaymentService.Infrastructure.csproj|solutionrelative:src\\paymentservice.infrastructure\\dal\\appdbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8BA4B9FF-B576-4805-A32F-E67BEB89E385}|src\\PaymentService.Infrastructure\\PaymentService.Infrastructure.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\paymentservice\\src\\paymentservice.infrastructure\\repositories\\requesttoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BA4B9FF-B576-4805-A32F-E67BEB89E385}|src\\PaymentService.Infrastructure\\PaymentService.Infrastructure.csproj|solutionrelative:src\\paymentservice.infrastructure\\repositories\\requesttoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DBDCF2F-4FC6-4F1E-A93F-7F2A8CBB4538}|src\\PaymentService.API\\PaymentService.API.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\paymentservice\\src\\paymentservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DBDCF2F-4FC6-4F1E-A93F-7F2A8CBB4538}|src\\PaymentService.API\\PaymentService.API.csproj|solutionrelative:src\\paymentservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A091AEE3-87DC-45CB-9D5F-38D19CE47470}|src\\PaymentService.Application\\PaymentService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\paymentservice\\src\\paymentservice.application\\features\\commands\\ticketcommands\\ticketbuy\\ticketbuyhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A091AEE3-87DC-45CB-9D5F-38D19CE47470}|src\\PaymentService.Application\\PaymentService.Application.csproj|solutionrelative:src\\paymentservice.application\\features\\commands\\ticketcommands\\ticketbuy\\ticketbuyhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 258,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.Infrastructure\\DAL\\AppDbContext\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "src\\PaymentService.Infrastructure\\DAL\\AppDbContext\\AppDbContext.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.Infrastructure\\DAL\\AppDbContext\\AppDbContext.cs",
-              "RelativeToolTip": "src\\PaymentService.Infrastructure\\DAL\\AppDbContext\\AppDbContext.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAuwCYAAAA4AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "TicketBuyHandler.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.Application\\Features\\Commands\\TicketCommands\\TicketBuy\\TicketBuyHandler.cs",
+              "RelativeDocumentMoniker": "src\\PaymentService.Application\\Features\\Commands\\TicketCommands\\TicketBuy\\TicketBuyHandler.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.Application\\Features\\Commands\\TicketCommands\\TicketBuy\\TicketBuyHandler.cs",
+              "RelativeToolTip": "src\\PaymentService.Application\\Features\\Commands\\TicketCommands\\TicketBuy\\TicketBuyHandler.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwCEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T17:01:51.162Z",
+              "WhenOpened": "2024-10-22T15:28:15.289Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.API\\Program.cs",
-              "RelativeDocumentMoniker": "src\\PaymentService.API\\Program.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.API\\Program.cs",
-              "RelativeToolTip": "src\\PaymentService.API\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAPAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "RequestToServices.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.Infrastructure\\Repositories\\RequestToServices.cs",
+              "RelativeDocumentMoniker": "src\\PaymentService.Infrastructure\\Repositories\\RequestToServices.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.Infrastructure\\Repositories\\RequestToServices.cs",
+              "RelativeToolTip": "src\\PaymentService.Infrastructure\\Repositories\\RequestToServices.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC8AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T17:00:43.932Z",
+              "WhenOpened": "2024-10-22T15:19:26.479Z",
               "EditorCaption": ""
             }
           ]

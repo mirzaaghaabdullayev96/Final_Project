@@ -163,3 +163,4 @@ D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\Paymen
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.API\bin\Debug\net8.0\MediatR.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.API\bin\Debug\net8.0\MediatR.Contracts.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.API\obj\Debug\net8.0\PaymentService.API.MvcApplicationPartsAssemblyInfo.cs
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.API\bin\Debug\net8.0\RestSharp.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KHOCtgVu7sM=",
+  "dgSpecHash": "xmeCnpcIBH4=",
   "success": true,
   "projectFilePath": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.API\\PaymentService.API.csproj",
   "expectedPackageFiles": [
@@ -75,6 +75,7 @@
     "C:\\Users\\mirze\\.nuget\\packages\\mongodb.driver.core\\2.29.0\\mongodb.driver.core.2.29.0.nupkg.sha512",
     "C:\\Users\\mirze\\.nuget\\packages\\mongodb.libmongocrypt\\1.12.0\\mongodb.libmongocrypt.1.12.0.nupkg.sha512",
     "C:\\Users\\mirze\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\mirze\\.nuget\\packages\\restsharp\\112.1.0\\restsharp.112.1.0.nupkg.sha512",
     "C:\\Users\\mirze\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
     "C:\\Users\\mirze\\.nuget\\packages\\snappier\\1.0.0\\snappier.1.0.0.nupkg.sha512",
     "C:\\Users\\mirze\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",

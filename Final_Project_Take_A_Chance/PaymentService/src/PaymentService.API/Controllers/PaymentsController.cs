@@ -7,6 +7,7 @@ using PaymentService.Application.Utilities.Helpers;
 using PaymentService.Application.Features.Commands.TopUpCommands;
 using PaymentService.Domain.Entities;
 using PaymentService.Application.Features.Commands.TicketCommands.TicketCreate;
+using PaymentService.Application.Features.Commands.TicketCommands;
 
 namespace PaymentService.API.Controllers
 {
@@ -21,11 +22,11 @@ namespace PaymentService.API.Controllers
             return ActionResponse.HandleResult(this, result);
         }
 
-        //[HttpPost("buy-ticket")]
-        //public async Task<IActionResult> BuyTicket([FromBody] TicketCreateRequest request)
-        //{
-        //    var result = await mediator.Send(request);
-        //    return ActionResponse.HandleResult(this, result);
-        //}
+        [HttpPost("buy-ticket")]
+        public async Task<IActionResult> BuyTicket([FromBody] TicketBuyRequest request)
+        {
+            var result = await mediator.Send(request);
+            return ActionResponse.HandleResult(this, result);
+        }
     }
 }

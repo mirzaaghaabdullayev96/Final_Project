@@ -141,6 +141,22 @@
   },
   {
     "ContainingType": "UserService.API.Controllers.UsersController",
+    "Method": "CheckBalance",
+    "RelativePath": "api/Users/CheckBalance",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "UserService.Application.Features.Queries.UsersQueries.UserBalanceCheckRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserService.API.Controllers.UsersController",
     "Method": "ForgotPassword",
     "RelativePath": "api/Users/ForgotPassword",
     "HttpMethod": "POST",
@@ -149,7 +165,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "UserService.Application.Features.Queries.UsersQueries.UserForgotPasswordQueries.UserForgotPasswordRequest",
+        "Type": "UserService.Application.Features.Queries.UsersQueries.UserForgotPasswordRequest",
         "IsRequired": true
       }
     ],

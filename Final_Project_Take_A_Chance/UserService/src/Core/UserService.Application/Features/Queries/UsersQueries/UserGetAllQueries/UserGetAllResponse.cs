@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UserService.Application.Features.Queries.UsersQueries.UserGetAllQueries
+namespace UserService.Application.Features.Queries.UsersQueries
 {
     public class UserGetAllResponse
     {

@@ -17,7 +17,7 @@ namespace LotteryService.Application.Features.Commands.TicketCommands
             var lottery = await lotteryRepository.GetAsync(request.LotteryId);
             if (lottery == null) return new ErrorResult("Lottery was not found", 404);
 
-            if (lottery.TicketsCount < request.Count) return new ErrorResult("There are less tickets that you want to buy", 400, "TicketCount");
+            if (lottery.TicketsCount < request.Count) return new ErrorResult("There are less tickets than you want to buy", 400, "TicketCount");
 
             var codes = randomCodesGenerator.GetCodesFromRedis(request.LotteryId, request.Count);
             List<Ticket> tickets = [];

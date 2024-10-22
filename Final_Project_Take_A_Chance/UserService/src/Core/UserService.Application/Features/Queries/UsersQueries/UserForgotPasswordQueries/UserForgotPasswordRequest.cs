@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using UserService.Application.Features.Queries.UsersQueries.UserLoginQueries;
 using UserService.Application.Utilities.Helpers;
 
-namespace UserService.Application.Features.Queries.UsersQueries.UserForgotPasswordQueries
+namespace UserService.Application.Features.Queries.UsersQueries
 {
     public class UserForgotPasswordRequest : IRequest<Result<UserForgotPasswordResponse>>
     {

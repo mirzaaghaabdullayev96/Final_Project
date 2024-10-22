@@ -80,7 +80,7 @@ namespace UserService.Application.Features.Commands.UsersCommands.UserRegisterCo
             var result = await _userManager.CreateAsync(appUser, "Salam123@");
             if (!result.Succeeded)
             {
-                return new ErrorResult("", 400) { Messages = result.Errors.Select(x => x.Description).ToList() };
+                return new ErrorResult("", 400) { Message = result.Errors.FirstOrDefault().ToString()};
             }
             await _userManager.AddToRoleAsync(appUser, "Member");
 

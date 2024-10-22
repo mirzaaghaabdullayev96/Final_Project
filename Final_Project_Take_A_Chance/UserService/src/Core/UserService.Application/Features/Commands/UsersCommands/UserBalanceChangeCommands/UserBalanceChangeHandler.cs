@@ -18,7 +18,7 @@ namespace UserService.Application.Features.Commands.UsersCommands.UserBalanceCha
         public async Task<Result> Handle(UserBalanceChangeRequest request, CancellationToken cancellationToken)
         {
             var httpContext = httpContextAccessor.HttpContext;
-            if (request.TypeOpOperation == Utilities.Enums.TypeOpOperation.TopUpBalance)
+            if (request.TypeOfOperation == Utilities.Enums.TypeOfOperation.TopUpBalance)
             {
                 var userIdClaim = httpContext.User.FindFirst(ClaimTypes.NameIdentifier);
                 if (userIdClaim == null) return new ErrorResult("User is not authorized", 401);
@@ -35,8 +35,9 @@ namespace UserService.Application.Features.Commands.UsersCommands.UserBalanceCha
                 return new SuccessResult("Successfull transaction", 200);
             }
 
-            if (request.TypeOpOperation == Utilities.Enums.TypeOpOperation.BuyTicket)
+            if (request.TypeOfOperation == Utilities.Enums.TypeOfOperation.BuyTicket)
             {
+                //var token=httpContext.Re
                 var userIdClaim = httpContext.User.FindFirst(ClaimTypes.NameIdentifier);
                 if (userIdClaim == null) return new ErrorResult("User is not authorized", 401);
                 string userId = userIdClaim.Value;
@@ -47,13 +48,11 @@ namespace UserService.Application.Features.Commands.UsersCommands.UserBalanceCha
                 if (request.Amount <= 0) return new ErrorResult("Amount must be greater than 0", 400);
 
                 user.Account -= request.Amount;
-                if (user.Account < 0) return new ErrorResult("There is not enough money in the account to complete the transaction.", 400);
 
                 await userManager.UpdateAsync(user);
                 return new SuccessResult("Successfull transaction", 200);
             }
-            return new ErrorResult("Something went wrong",400);
-
+            return new ErrorResult("Something went wrong", 400);
         }
     }
 }

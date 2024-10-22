@@ -15,6 +15,7 @@ namespace PaymentService.Infrastructure
             services.AddSingleton<MongoContext>();
             services.AddScoped<ITopUpRepository, TopUpRepository>();
             services.AddScoped<ITicketRepository, TicketRepository>();
+            services.AddScoped<IRequestToServices, RequestToServices>();
 
             services.AddDbContext<AppDbContext>(opt =>
             {
