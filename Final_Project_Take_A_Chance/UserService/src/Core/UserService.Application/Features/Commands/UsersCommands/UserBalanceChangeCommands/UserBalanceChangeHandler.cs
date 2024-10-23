@@ -17,14 +17,9 @@ namespace UserService.Application.Features.Commands.UsersCommands.UserBalanceCha
     {
         public async Task<Result> Handle(UserBalanceChangeRequest request, CancellationToken cancellationToken)
         {
-            var httpContext = httpContextAccessor.HttpContext;
             if (request.TypeOfOperation == Utilities.Enums.TypeOfOperation.TopUpBalance)
             {
-                var userIdClaim = httpContext.User.FindFirst(ClaimTypes.NameIdentifier);
-                if (userIdClaim == null) return new ErrorResult("User is not authorized", 401);
-                string userId = userIdClaim.Value;
-
-                var user = await userManager.FindByIdAsync(userId);
+                var user = await userManager.FindByIdAsync(request.UserId);
                 if (user == null) return new ErrorResult("User not found.", 404);
 
                 if (request.Amount <= 0) return new ErrorResult("Amount must be greater than 0", 400);
@@ -37,12 +32,7 @@ namespace UserService.Application.Features.Commands.UsersCommands.UserBalanceCha
 
             if (request.TypeOfOperation == Utilities.Enums.TypeOfOperation.BuyTicket)
             {
-                //var token=httpContext.Re
-                var userIdClaim = httpContext.User.FindFirst(ClaimTypes.NameIdentifier);
-                if (userIdClaim == null) return new ErrorResult("User is not authorized", 401);
-                string userId = userIdClaim.Value;
-
-                var user = await userManager.FindByIdAsync(userId);
+                var user = await userManager.FindByIdAsync(request.UserId);
                 if (user == null) return new ErrorResult("User not found.", 404);
 
                 if (request.Amount <= 0) return new ErrorResult("Amount must be greater than 0", 400);

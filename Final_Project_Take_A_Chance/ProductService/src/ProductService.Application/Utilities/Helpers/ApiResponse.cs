@@ -8,14 +8,15 @@ using System.Xml.Linq;
 
 namespace ProductService.Application.Utilities.Helpers
 {
-    public abstract class Result
+    public class Result
     {
         public string Message { get; set; }
-        public bool Success { get; protected set; }
-        public int StatusCode { get; protected set; }
+        public bool Success { get; set; }
+        public int StatusCode { get; set; }
+        public string PropertyName { get; set; }
     }
 
-    public abstract class Result<T> : Result
+    public class Result<T> : Result
     {
         private T _entities;
 
@@ -60,7 +61,6 @@ namespace ProductService.Application.Utilities.Helpers
             StatusCode = statusCode;
             PropertyName = propertyName;
         }
-        public string PropertyName { get; set; }
     }
 
     public class ErrorResult<T> : Result<T>
@@ -72,8 +72,6 @@ namespace ProductService.Application.Utilities.Helpers
             StatusCode = statusCode;
             PropertyName = propertyName;
         }
-        public string PropertyName { get; set; }
-
     }
 
 

@@ -14,5 +14,6 @@ namespace UserService.Application.Features.Commands.UsersCommands
     {
         public decimal Amount { get; set; }
         public TypeOfOperation TypeOfOperation { get; set; }
+        public required string UserId { get; set; }
     }
 }

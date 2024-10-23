@@ -6,6 +6,7 @@ using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Security.Claims;
 using System.Text;
+using System.Text.Json.Serialization;
 using UserService.Application.Features.Commands.UsersCommands;
 using UserService.Application.Services.Interfaces;
 using UserService.Application.Utilities.Helpers;
@@ -21,7 +22,10 @@ namespace UserService.API
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            builder.Services.AddControllers();
+            builder.Services.AddControllers().AddJsonOptions(options =>
+            {
+                options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
+            });
 
             builder.Services.AddDbContext<AppDbContext>(opt =>
             {

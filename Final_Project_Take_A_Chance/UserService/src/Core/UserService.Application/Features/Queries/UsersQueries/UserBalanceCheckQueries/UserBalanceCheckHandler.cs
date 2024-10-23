@@ -16,12 +16,8 @@ namespace UserService.Application.Features.Queries.UsersQueries
     {
         public async Task<Result> Handle(UserBalanceCheckRequest request, CancellationToken cancellationToken)
         {
-            var httpContext = httpContextAccessor.HttpContext;
-            var userIdClaim = httpContext.User.FindFirst(ClaimTypes.NameIdentifier);
-            if (userIdClaim == null) return new ErrorResult("User is not authorized", 401);
-            string userId = userIdClaim.Value;
-
-            var user = await userManager.FindByIdAsync(userId);
+           
+            var user = await userManager.FindByIdAsync(request.UserId);
             if (user == null) return new ErrorResult("User not found.", 404);
 
             if (request.Amount <= 0) return new ErrorResult("Amount must be greater than 0", 400);

@@ -11,5 +11,6 @@ namespace UserService.Application.Features.Queries.UsersQueries
     public class UserBalanceCheckRequest : IRequest<Result>
     {
         public decimal Amount { get; set; }
+        public required string UserId { get; set; }
     }
 }

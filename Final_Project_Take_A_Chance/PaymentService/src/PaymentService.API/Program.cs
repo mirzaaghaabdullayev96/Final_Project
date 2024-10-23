@@ -3,6 +3,7 @@ using PaymentService.Application.Repositories;
 using PaymentService.Infrastructure;
 using PaymentService.Infrastructure.Repositories;
 using PaymentService.Application.Features.Commands.TopUpCommands;
+using System.Text.Json.Serialization;
 
 namespace PaymentService.API
 {
@@ -11,7 +12,7 @@ namespace PaymentService.API
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-           
+
             builder.Services.RegisterServices(builder.Configuration);
 
             builder.Services.AddHttpClient<IUserServiceClient, UserServiceClient>(client =>
@@ -26,7 +27,10 @@ namespace PaymentService.API
 
             // Add services to the container.
 
-            builder.Services.AddControllers();
+            builder.Services.AddControllers().AddJsonOptions(options =>
+            {
+                options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
+            });
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();

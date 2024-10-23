@@ -26,11 +26,11 @@ namespace PaymentService.Infrastructure.Repositories
             _restClientLottery = new RestClient(_configuration.GetSection("ApiServices:LotteryService").Value);
         }
 
-        public async Task<Result> CheckBalance(string endpoint, string token, decimal amount)
+        public async Task<Result> CheckBalance(string endpoint, string userId, decimal amount)
         {
-            _restClientUser.AddDefaultHeader("Authorization", "Bearer " + token);
+
             var request = new RestRequest(endpoint, Method.Post);
-            request.AddJsonBody(new { Amount = amount });
+            request.AddJsonBody(new { Amount = amount, UserId = userId });
             var response = await _restClientUser.ExecuteAsync<Result>(request);
             return response.Data;
         }
@@ -43,11 +43,11 @@ namespace PaymentService.Infrastructure.Repositories
             return response.Data;
         }
 
-        public async Task<Result> DeductFromBalance(string endpoint, string token, decimal amount)
+        public async Task<Result> DeductFromBalance(string endpoint, string userId, decimal amount)
         {
-            _restClientUser.AddDefaultHeader("Authorization", "Bearer " + token);
+
             var request = new RestRequest(endpoint, Method.Put);
-            request.AddJsonBody(new UserBalanceChangeDto() { Amount= amount, TypeOfOperation = Application.Utilities.Enums.TypeOfOperation.BuyTicket});
+            request.AddJsonBody(new UserBalanceChangeDto() { Amount = amount, UserId = userId, TypeOfOperation = Application.Utilities.Enums.TypeOfOperation.BuyTicket });
             var response = await _restClientUser.ExecuteAsync<Result>(request);
             return response.Data;
         }

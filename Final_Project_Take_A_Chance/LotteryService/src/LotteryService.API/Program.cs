@@ -1,6 +1,7 @@
 using LotteryService.Application.Features.Commands.LotteryCommands.LotteryCreate;
 using LotteryService.Infrastructure;
 using StackExchange.Redis;
+using System.Text.Json.Serialization;
 
 
 namespace LotteryService.API
@@ -13,7 +14,10 @@ namespace LotteryService.API
 
             // Add services to the container.
 
-            builder.Services.AddControllers();
+            builder.Services.AddControllers().AddJsonOptions(options =>
+            {
+                options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
+            });
             builder.Services.RegisterServices(builder.Configuration);
 
             builder.Services.AddMediatR(opt =>

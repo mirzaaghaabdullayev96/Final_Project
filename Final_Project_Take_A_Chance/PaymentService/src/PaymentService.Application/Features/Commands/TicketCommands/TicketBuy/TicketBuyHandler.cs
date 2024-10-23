@@ -24,13 +24,13 @@ namespace PaymentService.Application.Features.Commands.TicketCommands
             var userId = jwtToken.Claims.FirstOrDefault(x => x.Type == ClaimTypes.NameIdentifier).Value;
 
 
-            var resultCheck = await requestToServices.CheckBalance("/Users/CheckBalance", request.Token, request.Price * request.TicketsCount);
+            var resultCheck = await requestToServices.CheckBalance("/Users/CheckBalance", userId, request.Price * request.TicketsCount);
             if (!resultCheck.Success) return new ErrorResult(resultCheck.Message, 400);
 
             var resultCreate = await requestToServices.CreateTickets("/Lotteries/CreateTickets", userId, request.LotteryId, request.TicketsCount);
             if (!resultCreate.Success) return new ErrorResult(resultCreate.Message, 400);
 
-            var resultDeduct = await requestToServices.DeductFromBalance("/Users/ChangeBalance", request.Token, request.Price * request.TicketsCount);
+            var resultDeduct = await requestToServices.DeductFromBalance("/Users/ChangeBalance", userId, request.Price * request.TicketsCount);
             if (!resultDeduct.Success) return new ErrorResult(resultDeduct.Message, 400);
 
             return new SuccessResult("Tickets bought successfully", 200);

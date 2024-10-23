@@ -1,6 +1,7 @@
 
 using ProductService.Application.Features.Commands.ProductCommands.ProductCreate;
 using ProductService.Infrastructure;
+using System.Text.Json.Serialization;
 
 namespace ProductService.API
 {
@@ -12,7 +13,10 @@ namespace ProductService.API
 
             builder.Services.RegisterServices(builder.Configuration);
 
-            builder.Services.AddControllers();
+            builder.Services.AddControllers().AddJsonOptions(options =>
+            {
+                options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
+            });
 
             builder.Services.AddMediatR(opt =>
             {
