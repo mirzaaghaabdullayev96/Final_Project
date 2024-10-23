@@ -1,6 +1,8 @@
 ﻿using LotteryService.Application.Repositories;
+using LotteryService.Application.Services.Interfaces;
 using LotteryService.Infrastructure.DAL.DbContextSQL;
 using LotteryService.Infrastructure.Repositories;
+using LotteryService.Infrastructure.Services.Implementations;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -19,6 +21,8 @@ namespace LotteryService.Infrastructure
             services.AddScoped<ITicketRepository, TicketRepository>();
             services.AddScoped<ILotteryRepository, LotteryRepository>();
             services.AddScoped<IRandomCodesGenerator, RandomCodesGenerator>();
+            services.AddSingleton<IBackgroundTaskQueue, BackgroundTaskQueue>();
+            services.AddHostedService<QueuedHostedService>();
 
             services.AddDbContext<AppDbContext>(opt =>
             {

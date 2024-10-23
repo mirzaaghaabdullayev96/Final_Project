@@ -35,12 +35,12 @@ namespace ProductService.Infrastructure.DAL
                 switch (data.State)
                 {
                     case EntityState.Added:
-                        data.Entity.CreatedAt = DateTime.UtcNow;
-                        data.Entity.UpdatedAt = DateTime.UtcNow;
+                        data.Entity.CreatedAt = DateTime.Now;
+                        data.Entity.UpdatedAt = DateTime.Now;
                         data.Entity.IsDeleted = false;
                         break;
                     case EntityState.Modified:
-                        data.Entity.UpdatedAt = DateTime.UtcNow;
+                        data.Entity.UpdatedAt = DateTime.Now;
                         break;
                     default:
                         break;

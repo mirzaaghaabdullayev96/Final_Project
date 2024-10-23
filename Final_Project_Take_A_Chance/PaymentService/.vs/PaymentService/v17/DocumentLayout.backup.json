@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.Infrastructure\\Migrations\\20241023151546_PaymentsCreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\PaymentService.Infrastructure\\Migrations\\20241023151546_PaymentsCreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BA4B9FF-B576-4805-A32F-E67BEB89E385}|src\\PaymentService.Infrastructure\\PaymentService.Infrastructure.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\paymentservice\\src\\paymentservice.infrastructure\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BA4B9FF-B576-4805-A32F-E67BEB89E385}|src\\PaymentService.Infrastructure\\PaymentService.Infrastructure.csproj|solutionrelative:src\\paymentservice.infrastructure\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A091AEE3-87DC-45CB-9D5F-38D19CE47470}|src\\PaymentService.Application\\PaymentService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\paymentservice\\src\\paymentservice.application\\features\\commands\\ticketcommands\\ticketbuy\\ticketbuyhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A091AEE3-87DC-45CB-9D5F-38D19CE47470}|src\\PaymentService.Application\\PaymentService.Application.csproj|solutionrelative:src\\paymentservice.application\\features\\commands\\ticketcommands\\ticketbuy\\ticketbuyhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20241023151546_PaymentsCreated.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.Infrastructure\\Migrations\\20241023151546_PaymentsCreated.cs",
-              "RelativeDocumentMoniker": "src\\PaymentService.Infrastructure\\Migrations\\20241023151546_PaymentsCreated.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.Infrastructure\\Migrations\\20241023151546_PaymentsCreated.cs",
-              "RelativeToolTip": "src\\PaymentService.Infrastructure\\Migrations\\20241023151546_PaymentsCreated.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "TicketBuyHandler.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.Application\\Features\\Commands\\TicketCommands\\TicketBuy\\TicketBuyHandler.cs",
+              "RelativeDocumentMoniker": "src\\PaymentService.Application\\Features\\Commands\\TicketCommands\\TicketBuy\\TicketBuyHandler.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.Application\\Features\\Commands\\TicketCommands\\TicketBuy\\TicketBuyHandler.cs",
+              "RelativeToolTip": "src\\PaymentService.Application\\Features\\Commands\\TicketCommands\\TicketBuy\\TicketBuyHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T15:15:46.489Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.Infrastructure\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "src\\PaymentService.Infrastructure\\ServiceRegistration.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\PaymentService\\src\\PaymentService.Infrastructure\\ServiceRegistration.cs",
-              "RelativeToolTip": "src\\PaymentService.Infrastructure\\ServiceRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T15:15:31.765Z",
+              "WhenOpened": "2024-10-23T15:24:45.107Z",
               "EditorCaption": ""
             }
           ]

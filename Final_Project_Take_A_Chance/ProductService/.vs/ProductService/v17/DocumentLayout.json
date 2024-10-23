@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.Infrastructure\\Migrations\\20241023151108_ProductsCreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ProductService.Infrastructure\\Migrations\\20241023151108_ProductsCreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F738877-399F-44F7-8F5B-BC00990E4357}|src\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\productservice\\src\\productservice.infrastructure\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F738877-399F-44F7-8F5B-BC00990E4357}|src\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj|solutionrelative:src\\productservice.infrastructure\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20241023151108_ProductsCreated.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.Infrastructure\\Migrations\\20241023151108_ProductsCreated.cs",
-              "RelativeDocumentMoniker": "src\\ProductService.Infrastructure\\Migrations\\20241023151108_ProductsCreated.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.Infrastructure\\Migrations\\20241023151108_ProductsCreated.cs",
-              "RelativeToolTip": "src\\ProductService.Infrastructure\\Migrations\\20241023151108_ProductsCreated.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.Infrastructure\\DAL\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "src\\ProductService.Infrastructure\\DAL\\AppDbContext.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.Infrastructure\\DAL\\AppDbContext.cs",
+              "RelativeToolTip": "src\\ProductService.Infrastructure\\DAL\\AppDbContext.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAiwCoAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T15:11:08.967Z",
+              "WhenOpened": "2024-10-23T16:31:47.454Z",
               "EditorCaption": ""
             }
           ]
