@@ -128,11 +128,6 @@ namespace ProductService.Infrastructure.Migrations
                         .HasColumnType("nvarchar(max)")
                         .HasDefaultValue("Pending");
 
-                    b.Property<int>("TicketCount")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasDefaultValue(0);
-
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
 

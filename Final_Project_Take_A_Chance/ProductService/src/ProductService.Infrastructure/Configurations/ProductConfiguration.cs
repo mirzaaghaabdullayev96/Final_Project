@@ -32,15 +32,12 @@ namespace ProductService.Infrastructure.Configurations
                     .HasDefaultValue(ProductStatus.Pending)
                     .HasConversion<string>();
 
-            builder.Property(p => p.TicketCount)
-                    .HasDefaultValue(0);
-
             builder.HasMany(p => p.Images)
-                    .WithOne(i=>i.Product)
+                    .WithOne(i => i.Product)
                     .OnDelete(DeleteBehavior.Cascade);
 
             builder.HasMany(p => p.ProductCategories)
-                    .WithOne(pc=>pc.Product)
+                    .WithOne(pc => pc.Product)
                     .OnDelete(DeleteBehavior.Cascade);
         }
     }

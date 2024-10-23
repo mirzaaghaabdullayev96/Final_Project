@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\LotteryService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E9AEDB7-5F37-4FB5-B9E9-7D135A51B399}|src\\LotteryService.API\\LotteryService.API.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\lotteryservice\\src\\lotteryservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E9AEDB7-5F37-4FB5-B9E9-7D135A51B399}|src\\LotteryService.API\\LotteryService.API.csproj|solutionrelative:src\\lotteryservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E9AEDB7-5F37-4FB5-B9E9-7D135A51B399}|src\\LotteryService.API\\LotteryService.API.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\lotteryservice\\src\\lotteryservice.api\\controllers\\lotteriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E9AEDB7-5F37-4FB5-B9E9-7D135A51B399}|src\\LotteryService.API\\LotteryService.API.csproj|solutionrelative:src\\lotteryservice.api\\controllers\\lotteriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78703E03-C0D8-45C6-841C-65ED69C971A4}|src\\LotteryService.Application\\LotteryService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\lotteryservice\\src\\lotteryservice.application\\features\\commands\\ticketcommands\\ticketcreate\\ticketcreatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78703E03-C0D8-45C6-841C-65ED69C971A4}|src\\LotteryService.Application\\LotteryService.Application.csproj|solutionrelative:src\\lotteryservice.application\\features\\commands\\ticketcommands\\ticketcreate\\ticketcreatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78703E03-C0D8-45C6-841C-65ED69C971A4}|src\\LotteryService.Application\\LotteryService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\lotteryservice\\src\\lotteryservice.application\\features\\commands\\lotterycommands\\lotterycreate\\lotterycreatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78703E03-C0D8-45C6-841C-65ED69C971A4}|src\\LotteryService.Application\\LotteryService.Application.csproj|solutionrelative:src\\lotteryservice.application\\features\\commands\\lotterycommands\\lotterycreate\\lotterycreatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\LotteryService\\src\\LotteryService.API\\Program.cs",
-              "RelativeDocumentMoniker": "src\\LotteryService.API\\Program.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\LotteryService\\src\\LotteryService.API\\Program.cs",
-              "RelativeToolTip": "src\\LotteryService.API\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABMAAAAPAAAAAAAAAA==",
+              "Title": "LotteriesController.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\LotteryService\\src\\LotteryService.API\\Controllers\\LotteriesController.cs",
+              "RelativeDocumentMoniker": "src\\LotteryService.API\\Controllers\\LotteriesController.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\LotteryService\\src\\LotteryService.API\\Controllers\\LotteriesController.cs",
+              "RelativeToolTip": "src\\LotteryService.API\\Controllers\\LotteriesController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T11:48:51.519Z",
+              "WhenOpened": "2024-10-23T15:20:46.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TicketCreateHandler.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\LotteryService\\src\\LotteryService.Application\\Features\\Commands\\TicketCommands\\TicketCreate\\TicketCreateHandler.cs",
+              "RelativeDocumentMoniker": "src\\LotteryService.Application\\Features\\Commands\\TicketCommands\\TicketCreate\\TicketCreateHandler.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\LotteryService\\src\\LotteryService.Application\\Features\\Commands\\TicketCommands\\TicketCreate\\TicketCreateHandler.cs",
+              "RelativeToolTip": "src\\LotteryService.Application\\Features\\Commands\\TicketCommands\\TicketCreate\\TicketCreateHandler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACgAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T15:18:23.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LotteryCreateHandler.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\LotteryService\\src\\LotteryService.Application\\Features\\Commands\\LotteryCommands\\LotteryCreate\\LotteryCreateHandler.cs",
+              "RelativeDocumentMoniker": "src\\LotteryService.Application\\Features\\Commands\\LotteryCommands\\LotteryCreate\\LotteryCreateHandler.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\LotteryService\\src\\LotteryService.Application\\Features\\Commands\\LotteryCommands\\LotteryCreate\\LotteryCreateHandler.cs",
+              "RelativeToolTip": "src\\LotteryService.Application\\Features\\Commands\\LotteryCommands\\LotteryCreate\\LotteryCreateHandler.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T15:18:11.003Z",
               "EditorCaption": ""
             }
           ]

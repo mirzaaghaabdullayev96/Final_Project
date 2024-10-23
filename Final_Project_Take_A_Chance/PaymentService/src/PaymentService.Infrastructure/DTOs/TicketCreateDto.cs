@@ -8,7 +8,7 @@ namespace PaymentService.Infrastructure.DTOs
 {
     public class TicketCreateDto
     {
-        public required string UserId { get; set; }
+        public string UserId { get; set; }
         public int LotteryId { get; set; }
         public int Count { get; set; }
     }

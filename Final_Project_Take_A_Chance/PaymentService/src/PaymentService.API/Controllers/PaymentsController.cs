@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Components.Forms;
 using PaymentService.Application.Utilities.Helpers;
 using PaymentService.Application.Features.Commands.TopUpCommands;
 using PaymentService.Domain.Entities;
-using PaymentService.Application.Features.Commands.TicketCommands.TicketCreate;
 using PaymentService.Application.Features.Commands.TicketCommands;
 
 namespace PaymentService.API.Controllers

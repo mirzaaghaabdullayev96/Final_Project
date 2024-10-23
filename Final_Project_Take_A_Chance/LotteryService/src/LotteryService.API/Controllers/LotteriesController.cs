@@ -1,5 +1,6 @@
 ﻿using LotteryService.Application.Features.Commands.LotteryCommands.LotteryCreate;
-using LotteryService.Application.Features.Commands.TicketCommands;
+using LotteryService.Application.Features.Commands.TicketCommands.TicketCreate;
+using LotteryService.Application.Features.Commands.TicketCommands.WinnerChoose;
 using LotteryService.Application.Utilities.Helpers;
 using MediatR;
 using Microsoft.AspNetCore.Http;
@@ -23,6 +24,13 @@ namespace LotteryService.API.Controllers
         {
             var result = await mediator.Send(request);
             return ActionResponse.HandleResult(this, result);
+        }
+
+        [HttpPost("WinnerChoose")]
+        public async Task<IActionResult> WinnerChoose([FromBody] WinnerChooseRequest request)
+        {
+            var result = await mediator.Send(request);
+            return ActionResponse.HandleResult<WinnerChooseResponse>(this, result);
         }
 
     }

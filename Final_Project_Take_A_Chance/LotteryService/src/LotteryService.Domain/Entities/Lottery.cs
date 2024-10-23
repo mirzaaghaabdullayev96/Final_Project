@@ -13,7 +13,8 @@ namespace LotteryService.Domain.Entities
         public int ProductId { get; set; }
         public string? WinnerUserId { get; set; }
         public int TicketsCount { get; set; }
-        public DateTime? TicketsSoldAt { get; set; }
+        public DateTime? AllTicketsSoldAt { get; set; }
+        public DateTime? WinnerChosenAt { get; set; }
         public string? WinnerTicketCode { get; set; }
         public DateTime CreatedAt { get; set; }
         public string? CreatedBy { get; set; }

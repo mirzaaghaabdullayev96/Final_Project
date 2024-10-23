@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "LotteryService.Application.Features.Commands.TicketCommands.TicketCreateRequest",
+        "Type": "LotteryService.Application.Features.Commands.TicketCommands.TicketCreate.TicketCreateRequest",
         "IsRequired": true
       }
     ],
@@ -26,6 +26,22 @@
       {
         "Name": "request",
         "Type": "LotteryService.Application.Features.Commands.LotteryCommands.LotteryCreate.LotteryCreateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LotteryService.API.Controllers.LotteriesController",
+    "Method": "WinnerChoose",
+    "RelativePath": "api/Lotteries/WinnerChoose",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LotteryService.Application.Features.Commands.TicketCommands.WinnerChoose.WinnerChooseRequest",
         "IsRequired": true
       }
     ],

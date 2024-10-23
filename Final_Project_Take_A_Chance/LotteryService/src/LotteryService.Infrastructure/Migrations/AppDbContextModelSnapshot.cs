@@ -30,6 +30,9 @@ namespace LotteryService.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<DateTime?>("AllTicketsSoldAt")
+                        .HasColumnType("datetime2");
+
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
@@ -48,7 +51,7 @@ namespace LotteryService.Infrastructure.Migrations
                     b.Property<int>("TicketsCount")
                         .HasColumnType("int");
 
-                    b.Property<DateTime?>("TicketsSoldAt")
+                    b.Property<DateTime?>("WinnerChosenAt")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("WinnerTicketCode")

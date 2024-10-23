@@ -1,4 +1,5 @@
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Infrastructure\bin\Debug\net8.0\PaymentService.Infrastructure.deps.json
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Infrastructure\bin\Debug\net8.0\PaymentService.Infrastructure.runtimeconfig.json
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Infrastructure\bin\Debug\net8.0\PaymentService.Infrastructure.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Infrastructure\bin\Debug\net8.0\PaymentService.Infrastructure.pdb
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Infrastructure\bin\Debug\net8.0\PaymentService.Application.dll
@@ -15,6 +16,5 @@ D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\Paymen
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Infrastructure\obj\Debug\net8.0\PaymentService.Infrastructure.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Infrastructure\obj\Debug\net8.0\refint\PaymentService.Infrastructure.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Infrastructure\obj\Debug\net8.0\PaymentService.Infrastructure.pdb
-D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Infrastructure\obj\Debug\net8.0\ref\PaymentService.Infrastructure.dll
-D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Infrastructure\bin\Debug\net8.0\PaymentService.Infrastructure.runtimeconfig.json
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Infrastructure\obj\Debug\net8.0\PaymentService.Infrastructure.genruntimeconfig.cache
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\PaymentService\src\PaymentService.Infrastructure\obj\Debug\net8.0\ref\PaymentService.Infrastructure.dll

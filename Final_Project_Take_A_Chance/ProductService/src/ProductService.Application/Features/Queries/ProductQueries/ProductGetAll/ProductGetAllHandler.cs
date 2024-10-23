@@ -21,7 +21,6 @@ namespace ProductService.Application.Features.Queries.ProductQueries.ProductGetA
                 Name = x.Name,
                 Description = x.Description,
                 Price = x.Price,
-                TicketCount = x.TicketCount,
                 Status = x.Status.ToString(),
                 Images = x.Images.Select(i => i.ImageURL).ToList(),
                 ProductCategories = x.ProductCategories.Select(x => x.Category.Name).ToList()

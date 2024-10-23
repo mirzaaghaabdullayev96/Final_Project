@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54864E3A-5D29-46A1-9A2E-DBB50AF4B5AB}|src\\ProductService.API\\ProductService.API.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\productservice\\src\\productservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54864E3A-5D29-46A1-9A2E-DBB50AF4B5AB}|src\\ProductService.API\\ProductService.API.csproj|solutionrelative:src\\productservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4FC245FE-EC3D-4A32-B545-C924F22CBF0B}|src\\ProductService.Application\\ProductService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\productservice\\src\\productservice.application\\utilities\\helpers\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FC245FE-EC3D-4A32-B545-C924F22CBF0B}|src\\ProductService.Application\\ProductService.Application.csproj|solutionrelative:src\\productservice.application\\utilities\\helpers\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4FC245FE-EC3D-4A32-B545-C924F22CBF0B}|src\\ProductService.Application\\ProductService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\productservice\\src\\productservice.application\\utilities\\helpers\\actionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FC245FE-EC3D-4A32-B545-C924F22CBF0B}|src\\ProductService.Application\\ProductService.Application.csproj|solutionrelative:src\\productservice.application\\utilities\\helpers\\actionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.Infrastructure\\Migrations\\20241023151108_ProductsCreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ProductService.Infrastructure\\Migrations\\20241023151108_ProductsCreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.API\\Program.cs",
-              "RelativeDocumentMoniker": "src\\ProductService.API\\Program.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.API\\Program.cs",
-              "RelativeToolTip": "src\\ProductService.API\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Title": "20241023151108_ProductsCreated.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.Infrastructure\\Migrations\\20241023151108_ProductsCreated.cs",
+              "RelativeDocumentMoniker": "src\\ProductService.Infrastructure\\Migrations\\20241023151108_ProductsCreated.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.Infrastructure\\Migrations\\20241023151108_ProductsCreated.cs",
+              "RelativeToolTip": "src\\ProductService.Infrastructure\\Migrations\\20241023151108_ProductsCreated.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T11:49:27.742Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApiResponse.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.Application\\Utilities\\Helpers\\ApiResponse.cs",
-              "RelativeDocumentMoniker": "src\\ProductService.Application\\Utilities\\Helpers\\ApiResponse.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.Application\\Utilities\\Helpers\\ApiResponse.cs",
-              "RelativeToolTip": "src\\ProductService.Application\\Utilities\\Helpers\\ApiResponse.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwEoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T20:09:54.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ActionResponse.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.Application\\Utilities\\Helpers\\ActionResponse.cs",
-              "RelativeDocumentMoniker": "src\\ProductService.Application\\Utilities\\Helpers\\ActionResponse.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\ProductService\\src\\ProductService.Application\\Utilities\\Helpers\\ActionResponse.cs",
-              "RelativeToolTip": "src\\ProductService.Application\\Utilities\\Helpers\\ActionResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T20:09:51.542Z",
+              "WhenOpened": "2024-10-23T15:11:08.967Z",
               "EditorCaption": ""
             }
           ]

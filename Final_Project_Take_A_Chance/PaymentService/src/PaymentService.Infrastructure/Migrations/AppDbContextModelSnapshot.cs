@@ -41,30 +41,6 @@ namespace PaymentService.Infrastructure.Migrations
 
                     b.ToTable("TopUps");
                 });
-
-            modelBuilder.Entity("PaymentService.Domain.Entities.Ticket", b =>
-                {
-                    b.Property<string>("TransactionId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<DateTime>("BoughtAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Code")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(10,2)");
-
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("TransactionId");
-
-                    b.ToTable("Tickets");
-                });
 #pragma warning restore 612, 618
         }
     }

@@ -10,10 +10,10 @@ namespace PaymentService.Application.Utilities.Helpers
 {
     public class Result
     {
-        public string Message { get; set; }
+        public string? Message { get; set; }
         public bool Success { get;  set; }
         public int StatusCode { get;  set; }
-        public string PropertyName { get; set; }
+        public string? PropertyName { get; set; }
     }
 
     public class Result<T> : Result

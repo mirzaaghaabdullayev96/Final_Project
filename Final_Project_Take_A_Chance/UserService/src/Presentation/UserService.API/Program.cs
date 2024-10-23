@@ -61,7 +61,7 @@ namespace UserService.API
                     ValidAudience = "http://localhost:5016/",
                     ValidateLifetime = true,
 
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["SecretKeyForToken"])),
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["SecretKeyForToken"]!)),
                     ClockSkew = TimeSpan.Zero
                 };
             });
