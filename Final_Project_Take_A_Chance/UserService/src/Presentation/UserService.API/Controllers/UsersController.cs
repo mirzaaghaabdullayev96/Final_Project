@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using UserService.Application.Features.Commands.UsersCommands;
 using UserService.Application.Features.Queries.UsersQueries;
+using UserService.Application.Features.Queries.UsersQueries.UserGetByIdQueries;
 using UserService.Application.Utilities.Helpers;
 using UserService.Domain.Entities;
 
@@ -26,6 +27,12 @@ namespace UserService.API.Controllers
         public async Task<IActionResult> GetAllUsers()
         {
             return Ok(await mediator.Send(new UserGetAllRequest()));
+        }
+
+        [HttpGet("GetUserById{id}")]
+        public async Task<IActionResult> GetUserById([FromRoute] string id)
+        {
+            return Ok(await mediator.Send(new UserGetByIdRequest() { Id=id}));
         }
 
         [HttpPost("ForgotPassword")]

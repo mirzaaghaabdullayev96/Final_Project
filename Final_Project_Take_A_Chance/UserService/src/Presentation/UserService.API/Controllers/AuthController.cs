@@ -50,17 +50,17 @@ namespace UserService.API.Controllers
             return BadRequest("Email confirmation failed.");
         }
 
-        //[HttpPost("Roles")]
-        //public async Task<IActionResult> CreateRoles()
-        //{
-        //    IdentityRole role = new IdentityRole("Admin");
-        //    IdentityRole role1 = new IdentityRole("Member");
+        [HttpPost("Roles")]
+        public async Task<IActionResult> CreateRoles()
+        {
+            IdentityRole role = new IdentityRole("Admin");
+            IdentityRole role1 = new IdentityRole("Member");
 
-        //    await roleManager.CreateAsync(role);
-        //    await roleManager.CreateAsync(role1);
+            await roleManager.CreateAsync(role);
+            await roleManager.CreateAsync(role1);
 
-        //    return Ok();
-        //}
-
+            return Ok();
+        }
+        
     }
 }

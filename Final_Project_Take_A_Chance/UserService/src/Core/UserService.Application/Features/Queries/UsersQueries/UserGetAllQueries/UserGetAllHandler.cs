@@ -11,16 +11,11 @@ using UserService.Domain.Entities;
 
 namespace UserService.Application.Features.Queries.UsersQueries
 {
-    public class UserGetAllHandler : IRequestHandler<UserGetAllRequest, Result<ICollection<UserGetAllResponse>>>
+    public class UserGetAllHandler(UserManager<AppUser> userManager) : IRequestHandler<UserGetAllRequest, Result<ICollection<UserGetAllResponse>>>
     {
-        private readonly UserManager<AppUser> _userManager;
-        public UserGetAllHandler(UserManager<AppUser> userManager)
-        {
-            _userManager = userManager;
-        }
         public async Task<Result<ICollection<UserGetAllResponse>>> Handle(UserGetAllRequest request, CancellationToken cancellationToken)
         {
-            var users = await _userManager.Users.ToListAsync();
+            var users = await userManager.Users.ToListAsync();
 
             var userResponses = users.Select(user => new UserGetAllResponse
             {

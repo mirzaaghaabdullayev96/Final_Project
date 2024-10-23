@@ -93,6 +93,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "UserService.API.Controllers.AuthController",
+    "Method": "CreateRoles",
+    "RelativePath": "api/Auth/Roles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "UserService.API.Controllers.UsersController",
     "Method": "ChangeBalance",
     "RelativePath": "api/Users/ChangeBalance",
@@ -179,6 +189,22 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserService.API.Controllers.UsersController",
+    "Method": "GetUserById",
+    "RelativePath": "api/Users/GetUserById{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
