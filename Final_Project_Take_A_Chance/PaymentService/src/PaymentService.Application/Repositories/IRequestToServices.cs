@@ -12,5 +12,6 @@ namespace PaymentService.Application.Repositories
         Task<Result> CheckBalance(string endpoint, string token, decimal amount);
         Task<Result> CreateTickets(string endpoint, string userId, int lotteryId, int count);
         Task<Result> DeductFromBalance(string endpoint, string token, decimal amount);
+        Task<Result> TopUpBalance(string endpoint, string userId, decimal amount);
     }
 }

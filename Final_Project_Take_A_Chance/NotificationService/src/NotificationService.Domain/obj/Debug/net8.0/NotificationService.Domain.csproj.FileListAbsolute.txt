@@ -1,0 +1,12 @@
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Domain\bin\Debug\net8.0\NotificationService.Domain.deps.json
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Domain\bin\Debug\net8.0\NotificationService.Domain.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Domain\bin\Debug\net8.0\NotificationService.Domain.pdb
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Domain\obj\Debug\net8.0\NotificationService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Domain\obj\Debug\net8.0\NotificationService.Domain.AssemblyInfoInputs.cache
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Domain\obj\Debug\net8.0\NotificationService.Domain.AssemblyInfo.cs
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Domain\obj\Debug\net8.0\NotificationService.Domain.csproj.CoreCompileInputs.cache
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Domain\obj\Debug\net8.0\NotificationService.Domain.sourcelink.json
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Domain\obj\Debug\net8.0\NotificationService.Domain.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Domain\obj\Debug\net8.0\refint\NotificationService.Domain.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Domain\obj\Debug\net8.0\NotificationService.Domain.pdb
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Domain\obj\Debug\net8.0\ref\NotificationService.Domain.dll

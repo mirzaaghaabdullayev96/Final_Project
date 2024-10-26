@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Connections;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using RabbitMQ.Client;
 using System;
 using System.Security.Claims;
 using System.Text;
@@ -26,6 +28,19 @@ namespace UserService.API
             {
                 options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
             });
+
+
+
+            var rabbitMqConnectionFactory = new ConnectionFactory()
+            {
+                HostName = "localhost",
+                UserName = "guest",
+                Password = "guest"
+            };
+
+            builder.Services.AddSingleton<IConnection>(rabbitMqConnectionFactory.CreateConnection());
+
+
 
             builder.Services.AddDbContext<AppDbContext>(opt =>
             {

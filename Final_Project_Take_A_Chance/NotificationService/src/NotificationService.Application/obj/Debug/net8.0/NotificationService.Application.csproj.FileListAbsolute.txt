@@ -1,0 +1,16 @@
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Application\bin\Debug\net8.0\NotificationService.Application.deps.json
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Application\bin\Debug\net8.0\NotificationService.Application.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Application\bin\Debug\net8.0\NotificationService.Application.pdb
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Application\bin\Debug\net8.0\NotificationService.Domain.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Application\bin\Debug\net8.0\NotificationService.Domain.pdb
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Application\obj\Debug\net8.0\NotificationService.Application.csproj.AssemblyReference.cache
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Application\obj\Debug\net8.0\NotificationService.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Application\obj\Debug\net8.0\NotificationService.Application.AssemblyInfoInputs.cache
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Application\obj\Debug\net8.0\NotificationService.Application.AssemblyInfo.cs
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Application\obj\Debug\net8.0\NotificationService.Application.csproj.CoreCompileInputs.cache
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Application\obj\Debug\net8.0\NotificationService.Application.sourcelink.json
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Application\obj\Debug\net8.0\Notifica.DAFDC56B.Up2Date
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Application\obj\Debug\net8.0\NotificationService.Application.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Application\obj\Debug\net8.0\refint\NotificationService.Application.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Application\obj\Debug\net8.0\NotificationService.Application.pdb
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Application\obj\Debug\net8.0\ref\NotificationService.Application.dll

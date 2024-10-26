@@ -161,9 +161,12 @@ D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentat
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\UserService.API.pdb
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\Azure.Core.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\Azure.Identity.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\Humanizer.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\MailKit.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\MediatR.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -198,7 +201,10 @@ D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentat
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\MimeKit.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\RabbitMQ.Client.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -282,8 +288,10 @@ D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentat
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\UserService.Application.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\UserService.Domain.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\UserService.Infrastructure.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\UserService.Persistence.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\UserService.Application.pdb
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\UserService.Infrastructure.pdb
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\UserService.Persistence.pdb
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\UserService.Domain.pdb
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\obj\Debug\net8.0\UserService.API.csproj.AssemblyReference.cache
@@ -291,6 +299,7 @@ D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentat
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\obj\Debug\net8.0\UserService.API.AssemblyInfoInputs.cache
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\obj\Debug\net8.0\UserService.API.AssemblyInfo.cs
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\obj\Debug\net8.0\UserService.API.csproj.CoreCompileInputs.cache
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\obj\Debug\net8.0\UserService.API.MvcApplicationPartsAssemblyInfo.cs
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\obj\Debug\net8.0\UserService.API.MvcApplicationPartsAssemblyInfo.cache
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\obj\Debug\net8.0\UserService.API.sourcelink.json
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\obj\Debug\net8.0\staticwebassets.build.json
@@ -307,10 +316,3 @@ D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentat
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\obj\Debug\net8.0\UserService.API.pdb
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\obj\Debug\net8.0\UserService.API.genruntimeconfig.cache
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\obj\Debug\net8.0\ref\UserService.API.dll
-D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\UserService.Infrastructure.dll
-D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\UserService.Infrastructure.pdb
-D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
-D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\MailKit.dll
-D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\bin\Debug\net8.0\MimeKit.dll
-D:\programming\CodeAcademy\Final_Project_Take_A_Chance\UserService\src\Presentation\UserService.API\obj\Debug\net8.0\UserService.API.MvcApplicationPartsAssemblyInfo.cs

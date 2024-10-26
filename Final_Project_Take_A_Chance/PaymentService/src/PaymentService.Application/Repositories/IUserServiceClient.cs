@@ -10,7 +10,7 @@ namespace PaymentService.Application.Repositories
 {
     public interface IUserServiceClient
     {
-        Task<HttpResponseMessage> AddBalanceAsync(string token, decimal amount);
-        Task<HttpResponseMessage> BuyTicket(string token, decimal amount);
+        //Task<HttpResponseMessage> AddBalanceAsync(string token, decimal amount);
+        //Task<HttpResponseMessage> BuyTicket(string token, decimal amount);
     }
 }

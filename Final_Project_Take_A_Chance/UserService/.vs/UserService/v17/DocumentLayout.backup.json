@@ -3,40 +3,28 @@
   "WorkspaceRootPath": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\core\\userservice.application\\features\\commands\\userscommands\\usercreatecommands\\usercreatecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|solutionrelative:src\\core\\userservice.application\\features\\commands\\userscommands\\usercreatecommands\\usercreatecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBE7BD4F-7C03-4F13-84E5-D2C3F9C86136}|src\\Presentation\\UserService.API\\UserService.API.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\presentation\\userservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBE7BD4F-7C03-4F13-84E5-D2C3F9C86136}|src\\Presentation\\UserService.API\\UserService.API.csproj|solutionrelative:src\\presentation\\userservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD884069-6385-42FD-A6A3-C05AB799A50B}|src\\Infrastructure\\UserService.Infrastructure\\UserService.Infrastructure.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\infrastructure\\userservice.infrastructure\\services\\implementations\\backgroundtaskqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD884069-6385-42FD-A6A3-C05AB799A50B}|src\\Infrastructure\\UserService.Infrastructure\\UserService.Infrastructure.csproj|solutionrelative:src\\infrastructure\\userservice.infrastructure\\services\\implementations\\backgroundtaskqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD884069-6385-42FD-A6A3-C05AB799A50B}|src\\Infrastructure\\UserService.Infrastructure\\UserService.Infrastructure.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\infrastructure\\userservice.infrastructure\\services\\implementations\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD884069-6385-42FD-A6A3-C05AB799A50B}|src\\Infrastructure\\UserService.Infrastructure\\UserService.Infrastructure.csproj|solutionrelative:src\\infrastructure\\userservice.infrastructure\\services\\implementations\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBE7BD4F-7C03-4F13-84E5-D2C3F9C86136}|src\\Presentation\\UserService.API\\UserService.API.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\presentation\\userservice.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBE7BD4F-7C03-4F13-84E5-D2C3F9C86136}|src\\Presentation\\UserService.API\\UserService.API.csproj|solutionrelative:src\\presentation\\userservice.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EBE7BD4F-7C03-4F13-84E5-D2C3F9C86136}|src\\Presentation\\UserService.API\\UserService.API.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\presentation\\userservice.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBE7BD4F-7C03-4F13-84E5-D2C3F9C86136}|src\\Presentation\\UserService.API\\UserService.API.csproj|solutionrelative:src\\presentation\\userservice.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\core\\userservice.application\\features\\queries\\usersqueries\\usergetbyidqueries\\usergetbyidrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|solutionrelative:src\\core\\userservice.application\\features\\queries\\usersqueries\\usergetbyidqueries\\usergetbyidrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\core\\userservice.application\\features\\queries\\usersqueries\\userforgotpasswordqueries\\userforgotpasswordhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|solutionrelative:src\\core\\userservice.application\\features\\queries\\usersqueries\\userforgotpasswordqueries\\userforgotpasswordhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\core\\userservice.application\\features\\queries\\usersqueries\\usergetbyidqueries\\usergetbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|solutionrelative:src\\core\\userservice.application\\features\\queries\\usersqueries\\usergetbyidqueries\\usergetbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\core\\userservice.application\\features\\commands\\userscommands\\usercreatecommands\\usercreatecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|solutionrelative:src\\core\\userservice.application\\features\\commands\\userscommands\\usercreatecommands\\usercreatecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\core\\userservice.application\\features\\queries\\usersqueries\\usergetallqueries\\usergetallhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|solutionrelative:src\\core\\userservice.application\\features\\queries\\usersqueries\\usergetallqueries\\usergetallhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\core\\userservice.application\\events\\userforgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|solutionrelative:src\\core\\userservice.application\\events\\userforgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\core\\userservice.application\\events\\usercreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|solutionrelative:src\\core\\userservice.application\\events\\usercreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE7BD4F-7C03-4F13-84E5-D2C3F9C86136}|src\\Presentation\\UserService.API\\UserService.API.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\presentation\\userservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE7BD4F-7C03-4F13-84E5-D2C3F9C86136}|src\\Presentation\\UserService.API\\UserService.API.csproj|solutionrelative:src\\presentation\\userservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,120 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 258,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Presentation\\UserService.API\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Presentation\\UserService.API\\Program.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Presentation\\UserService.API\\Program.cs",
-              "RelativeToolTip": "src\\Presentation\\UserService.API\\Program.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAswEwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T17:09:47.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserCreateCommandHandler.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Features\\Commands\\UsersCommands\\UserCreateCommands\\UserCreateCommandHandler.cs",
-              "RelativeDocumentMoniker": "src\\Core\\UserService.Application\\Features\\Commands\\UsersCommands\\UserCreateCommands\\UserCreateCommandHandler.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Features\\Commands\\UsersCommands\\UserCreateCommands\\UserCreateCommandHandler.cs",
-              "RelativeToolTip": "src\\Core\\UserService.Application\\Features\\Commands\\UsersCommands\\UserCreateCommands\\UserCreateCommandHandler.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAADwv2sAAAARAAAAAAAAAA==",
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Presentation\\UserService.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "src\\Presentation\\UserService.API\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Presentation\\UserService.API\\Controllers\\UsersController.cs*",
+              "RelativeToolTip": "src\\Presentation\\UserService.API\\Controllers\\UsersController.cs*",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAACoAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T17:08:53.012Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BackgroundTaskQueue.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Infrastructure\\UserService.Infrastructure\\Services\\Implementations\\BackgroundTaskQueue.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\UserService.Infrastructure\\Services\\Implementations\\BackgroundTaskQueue.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Infrastructure\\UserService.Infrastructure\\Services\\Implementations\\BackgroundTaskQueue.cs",
-              "RelativeToolTip": "src\\Infrastructure\\UserService.Infrastructure\\Services\\Implementations\\BackgroundTaskQueue.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T17:07:11.82Z",
+              "WhenOpened": "2024-10-26T16:00:30.664Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Infrastructure\\UserService.Infrastructure\\Services\\Implementations\\EmailService.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\UserService.Infrastructure\\Services\\Implementations\\EmailService.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Infrastructure\\UserService.Infrastructure\\Services\\Implementations\\EmailService.cs",
-              "RelativeToolTip": "src\\Infrastructure\\UserService.Infrastructure\\Services\\Implementations\\EmailService.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "UserForgotPassword.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Events\\UserForgotPassword.cs",
+              "RelativeDocumentMoniker": "src\\Core\\UserService.Application\\Events\\UserForgotPassword.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Events\\UserForgotPassword.cs",
+              "RelativeToolTip": "src\\Core\\UserService.Application\\Events\\UserForgotPassword.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T16:19:36.019Z",
+              "WhenOpened": "2024-10-26T15:44:21.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Presentation\\UserService.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "src\\Presentation\\UserService.API\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Presentation\\UserService.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "src\\Presentation\\UserService.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAgwDYAAAAJAAAAAAAAAA==",
+              "Title": "UserCreatedEvent.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Events\\UserCreatedEvent.cs",
+              "RelativeDocumentMoniker": "src\\Core\\UserService.Application\\Events\\UserCreatedEvent.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Events\\UserCreatedEvent.cs",
+              "RelativeToolTip": "src\\Core\\UserService.Application\\Events\\UserCreatedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T16:08:37.03Z",
+              "WhenOpened": "2024-10-26T15:44:08.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserForgotPasswordHandler.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Features\\Queries\\UsersQueries\\UserForgotPasswordQueries\\UserForgotPasswordHandler.cs",
+              "RelativeDocumentMoniker": "src\\Core\\UserService.Application\\Features\\Queries\\UsersQueries\\UserForgotPasswordQueries\\UserForgotPasswordHandler.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Features\\Queries\\UsersQueries\\UserForgotPasswordQueries\\UserForgotPasswordHandler.cs",
+              "RelativeToolTip": "src\\Core\\UserService.Application\\Features\\Queries\\UsersQueries\\UserForgotPasswordQueries\\UserForgotPasswordHandler.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAmwFYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T15:43:28.143Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Presentation\\UserService.API\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "src\\Presentation\\UserService.API\\Controllers\\UsersController.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Presentation\\UserService.API\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "src\\Presentation\\UserService.API\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAACIAAABKAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Presentation\\UserService.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Presentation\\UserService.API\\Program.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Presentation\\UserService.API\\Program.cs",
+              "RelativeToolTip": "src\\Presentation\\UserService.API\\Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T16:06:03.853Z"
+              "WhenOpened": "2024-10-26T13:48:36.741Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserGetByIdRequest.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Features\\Queries\\UsersQueries\\UserGetByIdQueries\\UserGetByIdRequest.cs",
-              "RelativeDocumentMoniker": "src\\Core\\UserService.Application\\Features\\Queries\\UsersQueries\\UserGetByIdQueries\\UserGetByIdRequest.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Features\\Queries\\UsersQueries\\UserGetByIdQueries\\UserGetByIdRequest.cs",
-              "RelativeToolTip": "src\\Core\\UserService.Application\\Features\\Queries\\UsersQueries\\UserGetByIdQueries\\UserGetByIdRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "UserCreateCommandHandler.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Features\\Commands\\UsersCommands\\UserCreateCommands\\UserCreateCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\Core\\UserService.Application\\Features\\Commands\\UsersCommands\\UserCreateCommands\\UserCreateCommandHandler.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Features\\Commands\\UsersCommands\\UserCreateCommands\\UserCreateCommandHandler.cs",
+              "RelativeToolTip": "src\\Core\\UserService.Application\\Features\\Commands\\UsersCommands\\UserCreateCommands\\UserCreateCommandHandler.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAADwv3cAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T16:03:56.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserGetByIdHandler.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Features\\Queries\\UsersQueries\\UserGetByIdQueries\\UserGetByIdHandler.cs",
-              "RelativeDocumentMoniker": "src\\Core\\UserService.Application\\Features\\Queries\\UsersQueries\\UserGetByIdQueries\\UserGetByIdHandler.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Features\\Queries\\UsersQueries\\UserGetByIdQueries\\UserGetByIdHandler.cs",
-              "RelativeToolTip": "src\\Core\\UserService.Application\\Features\\Queries\\UsersQueries\\UserGetByIdQueries\\UserGetByIdHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T15:58:54.314Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserGetAllHandler.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Features\\Queries\\UsersQueries\\UserGetAllQueries\\UserGetAllHandler.cs",
-              "RelativeDocumentMoniker": "src\\Core\\UserService.Application\\Features\\Queries\\UsersQueries\\UserGetAllQueries\\UserGetAllHandler.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Features\\Queries\\UsersQueries\\UserGetAllQueries\\UserGetAllHandler.cs",
-              "RelativeToolTip": "src\\Core\\UserService.Application\\Features\\Queries\\UsersQueries\\UserGetAllQueries\\UserGetAllHandler.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAB6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T15:17:16.766Z"
+              "WhenOpened": "2024-10-26T13:36:03.48Z",
+              "EditorCaption": ""
             }
           ]
         }

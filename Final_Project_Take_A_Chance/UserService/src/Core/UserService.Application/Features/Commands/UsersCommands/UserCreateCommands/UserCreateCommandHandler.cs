@@ -3,12 +3,15 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Routing;
+using Newtonsoft.Json;
+using RabbitMQ.Client;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using UserService.Application.Events;
 using UserService.Application.Services.Interfaces;
 using UserService.Application.Utilities.Enums;
 using UserService.Application.Utilities.Helpers;
@@ -25,7 +28,9 @@ namespace UserService.Application.Features.Commands.UsersCommands.UserRegisterCo
         private readonly IHttpContextAccessor _httpContextAccessor;
         private readonly IEmailService _emailService;
         private readonly IBackgroundTaskQueue _taskQueue;
-        public UserRegisterCommandHandler(UserManager<AppUser> userManager, IWebHostEnvironment env, LinkGenerator linkGenerator, IHttpContextAccessor httpContextAccessor, IEmailService emailService, IBackgroundTaskQueue taskQueue)
+        private readonly IConnection _rabbitConnection;
+
+        public UserRegisterCommandHandler(UserManager<AppUser> userManager, IWebHostEnvironment env, LinkGenerator linkGenerator, IHttpContextAccessor httpContextAccessor, IEmailService emailService, IBackgroundTaskQueue taskQueue, IConnection rabbitConnection)
         {
             _userManager = userManager;
             _env = env;
@@ -33,6 +38,7 @@ namespace UserService.Application.Features.Commands.UsersCommands.UserRegisterCo
             _httpContextAccessor = httpContextAccessor;
             _emailService = emailService;
             _taskQueue = taskQueue;
+            _rabbitConnection = rabbitConnection;
         }
 
         public async Task<Result> Handle(UserRegisterCommandRequest request, CancellationToken cancellationToken)
@@ -99,6 +105,24 @@ namespace UserService.Application.Features.Commands.UsersCommands.UserRegisterCo
             scheme: "http");
 
             string text = "To confirm your Email, please click to the link below";
+
+
+            var userCreatedEvent = new UserCreatedEvent
+            {
+                Email = request.Email,
+                Name = appUser.Name,
+                ActivationLink = confirmationLink
+            };
+
+
+            using (var channel = _rabbitConnection.CreateModel())
+            {
+                channel.QueueDeclare(queue: "user_created_queue", durable: true, exclusive: false, autoDelete: false, arguments: null);
+
+                var messageBody = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(userCreatedEvent));
+
+                channel.BasicPublish(exchange: "", routingKey: "user_created_queue", basicProperties: null, body: messageBody);
+            }
 
             //await _emailService.SendMailAsync(request.Email, "Email Confirmation", appUser.Name, token: confirmationLink, text: text);
 

@@ -13,7 +13,8 @@ namespace UserService.API.Controllers
     [Route("api/[controller]")]
     [ApiController]
     public class UsersController(IMediator mediator) : Controller
-    {
+    {   
+       
         [HttpPut("UpdateUser{id}")]
         public async Task<IActionResult> UpdateUser([FromRoute] string id, [FromForm] UserUpdateCommandRequest request)
         {
@@ -39,7 +40,7 @@ namespace UserService.API.Controllers
         public async Task<IActionResult> ForgotPassword([FromBody] UserForgotPasswordRequest request)
         {
             var result = await mediator.Send(request);
-            return ActionResponse.HandleResult(this, result);
+            return ActionResponse.HandleResult<UserForgotPasswordResponse>(this, result);
         }
 
         [HttpPost("ResetPassword")]

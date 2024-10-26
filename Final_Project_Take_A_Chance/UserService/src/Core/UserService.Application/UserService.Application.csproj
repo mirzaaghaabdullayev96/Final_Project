@@ -12,6 +12,8 @@
 		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.10" />
 		<PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
 		<PackageReference Include="MimeKit" Version="4.8.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="RabbitMQ.Client" Version="6.8.1" />
 		<FrameworkReference Include="Microsoft.AspNetCore.App" />
 	</ItemGroup>
 

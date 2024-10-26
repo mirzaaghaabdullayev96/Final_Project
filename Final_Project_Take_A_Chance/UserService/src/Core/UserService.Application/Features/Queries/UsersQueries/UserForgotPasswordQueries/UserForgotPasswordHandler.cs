@@ -3,11 +3,14 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.Configuration;
+using Newtonsoft.Json;
+using RabbitMQ.Client;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UserService.Application.Events;
 using UserService.Application.Features.Queries.UsersQueries.UserLoginQueries;
 using UserService.Application.Services.Interfaces;
 using UserService.Application.Utilities.Helpers;
@@ -16,7 +19,7 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace UserService.Application.Features.Queries.UsersQueries
 {
-    public class UserForgotPasswordHandler: IRequestHandler<UserForgotPasswordRequest, Result<UserForgotPasswordResponse>>
+    public class UserForgotPasswordHandler : IRequestHandler<UserForgotPasswordRequest, Result<UserForgotPasswordResponse>>
     {
 
         private readonly UserManager<AppUser> _userManager;
@@ -26,15 +29,17 @@ namespace UserService.Application.Features.Queries.UsersQueries
         private readonly IHttpContextAccessor _httpContextAccessor;
         private readonly IEmailService _emailService;
         private readonly IBackgroundTaskQueue _taskQueue;
+        private readonly IConnection _rabbitConnection;
 
 
-        public UserForgotPasswordHandler(UserManager<AppUser> userManager, 
-            SignInManager<AppUser> signInManager, 
-            IConfiguration configuration, 
-            LinkGenerator linkGenerator, 
-            IHttpContextAccessor httpContextAccessor, 
-            IEmailService emailService, 
-            IBackgroundTaskQueue taskQueue)
+        public UserForgotPasswordHandler(UserManager<AppUser> userManager,
+            SignInManager<AppUser> signInManager,
+            IConfiguration configuration,
+            LinkGenerator linkGenerator,
+            IHttpContextAccessor httpContextAccessor,
+            IEmailService emailService,
+            IBackgroundTaskQueue taskQueue,
+            IConnection rabbitConnection)
         {
             _userManager = userManager;
             _signInManager = signInManager;
@@ -43,6 +48,7 @@ namespace UserService.Application.Features.Queries.UsersQueries
             _httpContextAccessor = httpContextAccessor;
             _emailService = emailService;
             _taskQueue = taskQueue;
+            _rabbitConnection = rabbitConnection;
         }
 
         public async Task<Result<UserForgotPasswordResponse>> Handle(UserForgotPasswordRequest request, CancellationToken cancellationToken)
@@ -60,13 +66,21 @@ namespace UserService.Application.Features.Queries.UsersQueries
                                                                     values: new { email = request.Email, token = token },
                                                                     scheme: "http");
 
-            string text = "To reset your password, please click to the link below";
-
-            //await _emailService.SendMailAsync(request.Email, "Forgot Password", user.Name, confirmationLink);
-            _taskQueue.QueueBackgroundWorkItem(async tokenCancellation =>
+            var userForgotPasswordEvent = new UserForgotPassword
             {
-                await _emailService.SendMailAsync(request.Email, "Email Confirmation", user.Name, token: confirmationLink, text: text);
-            });
+                Email = request.Email,
+                Name = user.Name,
+                ActivationLink = confirmationLink
+            };
+
+            using (var channel = _rabbitConnection.CreateModel())
+            {
+                channel.QueueDeclare(queue: "user_forgot_password_queue", durable: true, exclusive: false, autoDelete: false, arguments: null);
+
+                var messageBody = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(userForgotPasswordEvent));
+
+                channel.BasicPublish(exchange: "", routingKey: "user_forgot_password_queue", basicProperties: null, body: messageBody);
+            }
 
             UserForgotPasswordResponse userForgotPasswordResponse = new UserForgotPasswordResponse() { AccessToken = token, Email = request.Email };
             return new SuccessResult<UserForgotPasswordResponse>(userForgotPasswordResponse, "Forgot password action done successfully", 200);

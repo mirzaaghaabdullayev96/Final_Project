@@ -13,7 +13,7 @@ using UserService.Domain.Entities;
 
 namespace UserService.Application.Features.Commands.UsersCommands.UserBalanceChangeCommands
 {
-    public class UserBalanceChangeHandler(UserManager<AppUser> userManager, IHttpContextAccessor httpContextAccessor) : IRequestHandler<UserBalanceChangeRequest, Result>
+    public class UserBalanceChangeHandler(UserManager<AppUser> userManager) : IRequestHandler<UserBalanceChangeRequest, Result>
     {
         public async Task<Result> Handle(UserBalanceChangeRequest request, CancellationToken cancellationToken)
         {

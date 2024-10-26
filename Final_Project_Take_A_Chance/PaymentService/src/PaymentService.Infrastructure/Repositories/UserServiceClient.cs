@@ -13,22 +13,22 @@ namespace PaymentService.Infrastructure.Repositories
 {
     public class UserServiceClient(HttpClient client) : IUserServiceClient
     {
-        public async Task<HttpResponseMessage> AddBalanceAsync(string token, decimal amount)
-        {
-            client.DefaultRequestHeaders.Authorization =
-                new AuthenticationHeaderValue("Bearer", token);
+        //public async Task<HttpResponseMessage> AddBalanceAsync(string token, decimal amount)
+        //{
+        //    client.DefaultRequestHeaders.Authorization =
+        //        new AuthenticationHeaderValue("Bearer", token);
 
-            return await client.PutAsJsonAsync("/api/Users/ChangeBalance", new { Amount = amount, TypeOpOperation = 1 });
+        //    return await client.PutAsJsonAsync("/api/Users/ChangeBalance", new { Amount = amount, TypeOpOperation = 1 });
 
-        }
+        //}
 
-        public async Task<HttpResponseMessage> BuyTicket(string token, decimal amount)
-        {
-            client.DefaultRequestHeaders.Authorization =
-                new AuthenticationHeaderValue("Bearer", token);
+        //public async Task<HttpResponseMessage> BuyTicket(string token, decimal amount)
+        //{
+        //    client.DefaultRequestHeaders.Authorization =
+        //        new AuthenticationHeaderValue("Bearer", token);
 
-            return await client.PutAsJsonAsync("/api/Users/ChangeBalance", new { Amount = amount, TypeOpOperation = 2 });
+        //    return await client.PutAsJsonAsync("/api/Users/ChangeBalance", new { Amount = amount, TypeOpOperation = 2 });
 
-        }
+        //}
     }
 }

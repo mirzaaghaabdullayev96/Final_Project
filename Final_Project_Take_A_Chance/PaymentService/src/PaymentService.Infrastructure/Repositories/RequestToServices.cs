@@ -26,6 +26,8 @@ namespace PaymentService.Infrastructure.Repositories
             _restClientLottery = new RestClient(_configuration.GetSection("ApiServices:LotteryService").Value!);
         }
 
+        
+
         public async Task<Result> CheckBalance(string endpoint, string userId, decimal amount)
         {
 
@@ -48,6 +50,16 @@ namespace PaymentService.Infrastructure.Repositories
 
             var request = new RestRequest(endpoint, Method.Put);
             request.AddJsonBody(new UserBalanceChangeDto() { Amount = amount, UserId = userId, TypeOfOperation = Application.Utilities.Enums.TypeOfOperation.BuyTicket });
+            var response = await _restClientUser.ExecuteAsync<Result>(request);
+            return response.Data!;
+        }
+
+
+        public async Task<Result> TopUpBalance(string endpoint, string userId, decimal amount)
+        {
+
+            var request = new RestRequest(endpoint, Method.Put);
+            request.AddJsonBody(new UserBalanceChangeDto() { Amount = amount, UserId = userId, TypeOfOperation = Application.Utilities.Enums.TypeOfOperation.TopUpBalance });
             var response = await _restClientUser.ExecuteAsync<Result>(request);
             return response.Data!;
         }

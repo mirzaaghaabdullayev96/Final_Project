@@ -62,7 +62,6 @@ namespace LotteryService.Application.Features.Commands.TicketCommands.TicketCrea
 
                         await mediator.Send(new WinnerChooseRequest { LotteryId = request.LotteryId });
                     }
-
                 });
             }
             else
