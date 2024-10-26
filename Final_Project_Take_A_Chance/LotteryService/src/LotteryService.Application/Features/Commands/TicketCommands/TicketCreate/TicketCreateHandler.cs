@@ -1,10 +1,13 @@
-﻿using LotteryService.Application.Features.Commands.TicketCommands.WinnerChoose;
+﻿using LotteryService.Application.Events;
+using LotteryService.Application.Features.Commands.TicketCommands.WinnerChoose;
 using LotteryService.Application.Repositories;
 using LotteryService.Application.Services.Interfaces;
 using LotteryService.Application.Utilities.Helpers;
 using LotteryService.Domain.Entities;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
+using Newtonsoft.Json;
+using RabbitMQ.Client;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +21,9 @@ namespace LotteryService.Application.Features.Commands.TicketCommands.TicketCrea
         ILotteryRepository lotteryRepository,
         IMediator mediator,
         IBackgroundTaskQueue taskQueue,
-        IServiceScopeFactory scopeFactory) : IRequestHandler<TicketCreateRequest, Result>
+        IServiceScopeFactory scopeFactory,
+        IRequestToServices requestToServices,
+        IConnection rabbitConnection) : IRequestHandler<TicketCreateRequest, Result>
     {
         public async Task<Result> Handle(TicketCreateRequest request, CancellationToken cancellationToken)
         {
@@ -60,7 +65,27 @@ namespace LotteryService.Application.Features.Commands.TicketCommands.TicketCrea
 
                         await Task.Delay(TimeSpan.FromSeconds(10));
 
-                        await mediator.Send(new WinnerChooseRequest { LotteryId = request.LotteryId });
+                        var winner = await mediator.Send(new WinnerChooseRequest { LotteryId = request.LotteryId });
+
+                        var winnerUserInfo = await requestToServices.GetUserById($"Users/GetUserById/{winner.Entities.UserId}");
+                        var winnerProductInfo = await requestToServices.GetProductById($"Products/GetProductById/{winner.Entities.ProductId}");
+
+                        WinnerChosenEvent winnerChosenEvent = new()
+                        {
+                            Email = winnerUserInfo.Entities.Email,
+                            UserName = winnerUserInfo.Entities.Name,
+                            ProductName = winnerProductInfo.Entities.Name
+                        };
+
+                        using (var channel = rabbitConnection.CreateModel())
+                        {
+                            channel.QueueDeclare(queue: "winner_chosen_queue", durable: true, exclusive: false, autoDelete: false, arguments: null);
+
+                            var messageBody = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(winnerChosenEvent));
+
+                            channel.BasicPublish(exchange: "", routingKey: "winner_chosen_queue", basicProperties: null, body: messageBody);
+                        }
+
                     }
                 });
             }

@@ -86,7 +86,7 @@ namespace UserService.Application.Features.Commands.UsersCommands.UserRegisterCo
             var result = await _userManager.CreateAsync(appUser, "Salam123@");
             if (!result.Succeeded)
             {
-                return new ErrorResult("", 400) { Message = result.Errors.FirstOrDefault().ToString()};
+                return new ErrorResult("", 400) { Message = result.Errors.FirstOrDefault().ToString() };
             }
             await _userManager.AddToRoleAsync(appUser, "Member");
 
@@ -123,13 +123,6 @@ namespace UserService.Application.Features.Commands.UsersCommands.UserRegisterCo
 
                 channel.BasicPublish(exchange: "", routingKey: "user_created_queue", basicProperties: null, body: messageBody);
             }
-
-            //await _emailService.SendMailAsync(request.Email, "Email Confirmation", appUser.Name, token: confirmationLink, text: text);
-
-            //_taskQueue.QueueBackgroundWorkItem(async tokenCancellation =>
-            //{
-            //    await _emailService.SendMailAsync(request.Email, "Email Confirmation", appUser.Name, token:confirmationLink, text:text);
-            //});
 
             return new SuccessResult("User successfully created", 201);
         }

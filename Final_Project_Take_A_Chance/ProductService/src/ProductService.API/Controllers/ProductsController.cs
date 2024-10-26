@@ -1,4 +1,4 @@
-﻿using Azure.Core;
+﻿    using Azure.Core;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -22,7 +22,7 @@ namespace ProductService.API.Controllers
             return ActionResponse.HandleResult(this, result);
         }
 
-        [HttpPut("UpdateProduct{id}")]
+        [HttpPut("UpdateProduct/{id}")]
         public async Task<IActionResult> UpdateProduct([FromRoute] int id, [FromForm] ProductUpdateRequest request)
         {
             request.Id = id;

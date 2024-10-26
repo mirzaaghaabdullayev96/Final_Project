@@ -6,6 +6,7 @@ using LotteryService.Infrastructure.Services.Implementations;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using RabbitMQ.Client;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,6 +22,7 @@ namespace LotteryService.Infrastructure
             services.AddScoped<ITicketRepository, TicketRepository>();
             services.AddScoped<ILotteryRepository, LotteryRepository>();
             services.AddScoped<IRandomCodesGenerator, RandomCodesGenerator>();
+            services.AddScoped<IRequestToServices, RequestToServices>();
             services.AddSingleton<IBackgroundTaskQueue, BackgroundTaskQueue>();
             services.AddHostedService<QueuedHostedService>();
 
@@ -28,6 +30,15 @@ namespace LotteryService.Infrastructure
             {
                 opt.UseSqlServer(configuration.GetConnectionString("Default"));
             });
+
+            var rabbitMqConnectionFactory = new ConnectionFactory()
+            {
+                HostName = "localhost",
+                UserName = "guest",
+                Password = "guest"
+            };
+
+            services.AddSingleton<IConnection>(rabbitMqConnectionFactory.CreateConnection());
         }
     }
 }

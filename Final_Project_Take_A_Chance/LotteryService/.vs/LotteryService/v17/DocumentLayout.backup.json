@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\LotteryService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78703E03-C0D8-45C6-841C-65ED69C971A4}|src\\LotteryService.Application\\LotteryService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\lotteryservice\\src\\lotteryservice.application\\features\\commands\\ticketcommands\\winnerchoose\\winnerchoosehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78703E03-C0D8-45C6-841C-65ED69C971A4}|src\\LotteryService.Application\\LotteryService.Application.csproj|solutionrelative:src\\lotteryservice.application\\features\\commands\\ticketcommands\\winnerchoose\\winnerchoosehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78703E03-C0D8-45C6-841C-65ED69C971A4}|src\\LotteryService.Application\\LotteryService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\lotteryservice\\src\\lotteryservice.application\\features\\commands\\ticketcommands\\ticketcreate\\ticketcreatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78703E03-C0D8-45C6-841C-65ED69C971A4}|src\\LotteryService.Application\\LotteryService.Application.csproj|solutionrelative:src\\lotteryservice.application\\features\\commands\\ticketcommands\\ticketcreate\\ticketcreatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1F0EBE-D25C-4C17-B4AB-3886EB759937}|src\\LotteryService.Infrastructure\\LotteryService.Infrastructure.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\lotteryservice\\src\\lotteryservice.infrastructure\\repositories\\randomcodesgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A1F0EBE-D25C-4C17-B4AB-3886EB759937}|src\\LotteryService.Infrastructure\\LotteryService.Infrastructure.csproj|solutionrelative:src\\lotteryservice.infrastructure\\repositories\\randomcodesgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A1F0EBE-D25C-4C17-B4AB-3886EB759937}|src\\LotteryService.Infrastructure\\LotteryService.Infrastructure.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\lotteryservice\\src\\lotteryservice.infrastructure\\services\\implementations\\requesttoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A1F0EBE-D25C-4C17-B4AB-3886EB759937}|src\\LotteryService.Infrastructure\\LotteryService.Infrastructure.csproj|solutionrelative:src\\lotteryservice.infrastructure\\services\\implementations\\requesttoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78703E03-C0D8-45C6-841C-65ED69C971A4}|src\\LotteryService.Application\\LotteryService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\lotteryservice\\src\\lotteryservice.application\\features\\commands\\lotterycommands\\lotterycreate\\lotterycreatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78703E03-C0D8-45C6-841C-65ED69C971A4}|src\\LotteryService.Application\\LotteryService.Application.csproj|solutionrelative:src\\lotteryservice.application\\features\\commands\\lotterycommands\\lotterycreate\\lotterycreatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E9AEDB7-5F37-4FB5-B9E9-7D135A51B399}|src\\LotteryService.API\\LotteryService.API.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\lotteryservice\\src\\lotteryservice.api\\controllers\\lotteriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E9AEDB7-5F37-4FB5-B9E9-7D135A51B399}|src\\LotteryService.API\\LotteryService.API.csproj|solutionrelative:src\\lotteryservice.api\\controllers\\lotteriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78703E03-C0D8-45C6-841C-65ED69C971A4}|src\\LotteryService.Application\\LotteryService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\lotteryservice\\src\\lotteryservice.application\\utilities\\helpers\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78703E03-C0D8-45C6-841C-65ED69C971A4}|src\\LotteryService.Application\\LotteryService.Application.csproj|solutionrelative:src\\lotteryservice.application\\utilities\\helpers\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,54 +26,41 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RandomCodesGenerator.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\LotteryService\\src\\LotteryService.Infrastructure\\Repositories\\RandomCodesGenerator.cs",
-              "RelativeDocumentMoniker": "src\\LotteryService.Infrastructure\\Repositories\\RandomCodesGenerator.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\LotteryService\\src\\LotteryService.Infrastructure\\Repositories\\RandomCodesGenerator.cs",
-              "RelativeToolTip": "src\\LotteryService.Infrastructure\\Repositories\\RandomCodesGenerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\LotteryService\\src\\LotteryService.Application\\Utilities\\Helpers\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "src\\LotteryService.Application\\Utilities\\Helpers\\ApiResponse.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\LotteryService\\src\\LotteryService.Application\\Utilities\\Helpers\\ApiResponse.cs",
+              "RelativeToolTip": "src\\LotteryService.Application\\Utilities\\Helpers\\ApiResponse.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T10:12:04.827Z",
+              "WhenOpened": "2024-10-26T18:54:38.509Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LotteryCreateHandler.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\LotteryService\\src\\LotteryService.Application\\Features\\Commands\\LotteryCommands\\LotteryCreate\\LotteryCreateHandler.cs",
-              "RelativeDocumentMoniker": "src\\LotteryService.Application\\Features\\Commands\\LotteryCommands\\LotteryCreate\\LotteryCreateHandler.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\LotteryService\\src\\LotteryService.Application\\Features\\Commands\\LotteryCommands\\LotteryCreate\\LotteryCreateHandler.cs",
-              "RelativeToolTip": "src\\LotteryService.Application\\Features\\Commands\\LotteryCommands\\LotteryCreate\\LotteryCreateHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "RequestToServices.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\LotteryService\\src\\LotteryService.Infrastructure\\Services\\Implementations\\RequestToServices.cs",
+              "RelativeDocumentMoniker": "src\\LotteryService.Infrastructure\\Services\\Implementations\\RequestToServices.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\LotteryService\\src\\LotteryService.Infrastructure\\Services\\Implementations\\RequestToServices.cs",
+              "RelativeToolTip": "src\\LotteryService.Infrastructure\\Services\\Implementations\\RequestToServices.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAzwB8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T10:11:52.813Z",
+              "WhenOpened": "2024-10-26T18:34:04.936Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WinnerChooseHandler.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\LotteryService\\src\\LotteryService.Application\\Features\\Commands\\TicketCommands\\WinnerChoose\\WinnerChooseHandler.cs",
-              "RelativeDocumentMoniker": "src\\LotteryService.Application\\Features\\Commands\\TicketCommands\\WinnerChoose\\WinnerChooseHandler.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\LotteryService\\src\\LotteryService.Application\\Features\\Commands\\TicketCommands\\WinnerChoose\\WinnerChooseHandler.cs",
-              "RelativeToolTip": "src\\LotteryService.Application\\Features\\Commands\\TicketCommands\\WinnerChoose\\WinnerChooseHandler.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Title": "TicketCreateHandler.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\LotteryService\\src\\LotteryService.Application\\Features\\Commands\\TicketCommands\\TicketCreate\\TicketCreateHandler.cs",
+              "RelativeDocumentMoniker": "src\\LotteryService.Application\\Features\\Commands\\TicketCommands\\TicketCreate\\TicketCreateHandler.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\LotteryService\\src\\LotteryService.Application\\Features\\Commands\\TicketCommands\\TicketCreate\\TicketCreateHandler.cs",
+              "RelativeToolTip": "src\\LotteryService.Application\\Features\\Commands\\TicketCommands\\TicketCreate\\TicketCreateHandler.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAswD0AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T10:03:30.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LotteriesController.cs",
-              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\LotteryService\\src\\LotteryService.API\\Controllers\\LotteriesController.cs",
-              "RelativeDocumentMoniker": "src\\LotteryService.API\\Controllers\\LotteriesController.cs",
-              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\LotteryService\\src\\LotteryService.API\\Controllers\\LotteriesController.cs",
-              "RelativeToolTip": "src\\LotteryService.API\\Controllers\\LotteriesController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T10:02:50.309Z",
+              "WhenOpened": "2024-10-25T11:02:55.482Z",
               "EditorCaption": ""
             }
           ]

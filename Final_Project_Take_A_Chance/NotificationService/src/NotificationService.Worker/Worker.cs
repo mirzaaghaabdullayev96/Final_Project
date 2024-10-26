@@ -21,7 +21,8 @@ namespace NotificationService.Worker
 
                 Task.WaitAll(
                    UserCreatedEvent.ListenForUserCreated(channel, stoppingToken, scopeFactory),
-                   UserForgotPassword.ListenForForgotPassword(channel, stoppingToken, scopeFactory)
+                   UserForgotPasswordEvent.ListenForForgotPassword(channel, stoppingToken, scopeFactory),
+                   WinnerChosenEvent.ListenForWinnerChose(channel, stoppingToken, scopeFactory)
                 );
 
                 await Task.Delay(Timeout.Infinite, stoppingToken);

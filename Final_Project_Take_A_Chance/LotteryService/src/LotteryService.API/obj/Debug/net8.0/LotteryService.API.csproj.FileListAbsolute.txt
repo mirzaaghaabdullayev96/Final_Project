@@ -8,6 +8,8 @@ D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\Lotter
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\bin\Debug\net8.0\Azure.Core.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\bin\Debug\net8.0\Azure.Identity.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\bin\Debug\net8.0\Humanizer.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\bin\Debug\net8.0\MediatR.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\bin\Debug\net8.0\MediatR.Contracts.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -38,6 +40,11 @@ D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\Lotter
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\bin\Debug\net8.0\RabbitMQ.Client.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\bin\Debug\net8.0\RestSharp.dll
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\bin\Debug\net8.0\StackExchange.Redis.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -147,7 +154,3 @@ D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\Lotter
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\obj\Debug\net8.0\LotteryService.API.pdb
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\obj\Debug\net8.0\LotteryService.API.genruntimeconfig.cache
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\obj\Debug\net8.0\ref\LotteryService.API.dll
-D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\bin\Debug\net8.0\MediatR.dll
-D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\bin\Debug\net8.0\MediatR.Contracts.dll
-D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
-D:\programming\CodeAcademy\Final_Project_Take_A_Chance\LotteryService\src\LotteryService.API\bin\Debug\net8.0\StackExchange.Redis.dll

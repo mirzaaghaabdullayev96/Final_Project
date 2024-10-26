@@ -138,7 +138,7 @@
   {
     "ContainingType": "ProductService.API.Controllers.ProductsController",
     "Method": "UpdateProduct",
-    "RelativePath": "api/Products/UpdateProduct{id}",
+    "RelativePath": "api/Products/UpdateProduct/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,

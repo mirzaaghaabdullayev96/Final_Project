@@ -27,13 +27,15 @@ namespace UserService.API.Controllers
         [HttpGet("GetAllUsers")]
         public async Task<IActionResult> GetAllUsers()
         {
-            return Ok(await mediator.Send(new UserGetAllRequest()));
+            var result = await mediator.Send(new UserGetAllRequest());
+            return ActionResponse.HandleResult<ICollection<UserGetAllResponse>>(this, result);
         }
 
-        [HttpGet("GetUserById{id}")]
+        [HttpGet("GetUserById/{id}")]
         public async Task<IActionResult> GetUserById([FromRoute] string id)
         {
-            return Ok(await mediator.Send(new UserGetByIdRequest() { Id=id}));
+            var result = await mediator.Send(new UserGetByIdRequest() { Id=id});
+            return ActionResponse.HandleResult<UserGetByIdResponse>(this, result);
         }
 
         [HttpPost("ForgotPassword")]

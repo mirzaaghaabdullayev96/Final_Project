@@ -1,9 +1,3 @@
-D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Worker\obj\Debug\net8.0\NotificationService.Worker.csproj.AssemblyReference.cache
-D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Worker\obj\Debug\net8.0\NotificationService.Worker.GeneratedMSBuildEditorConfig.editorconfig
-D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Worker\obj\Debug\net8.0\NotificationService.Worker.AssemblyInfoInputs.cache
-D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Worker\obj\Debug\net8.0\NotificationService.Worker.AssemblyInfo.cs
-D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Worker\obj\Debug\net8.0\NotificationService.Worker.csproj.CoreCompileInputs.cache
-D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Worker\obj\Debug\net8.0\NotificationService.Worker.sourcelink.json
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Worker\bin\Debug\net8.0\appsettings.Development.json
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Worker\bin\Debug\net8.0\appsettings.json
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Worker\bin\Debug\net8.0\NotificationService.Worker.exe
@@ -54,6 +48,12 @@ D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\N
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Worker\bin\Debug\net8.0\NotificationService.Infrastructure.pdb
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Worker\bin\Debug\net8.0\NotificationService.Application.pdb
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Worker\bin\Debug\net8.0\NotificationService.Domain.pdb
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Worker\obj\Debug\net8.0\NotificationService.Worker.csproj.AssemblyReference.cache
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Worker\obj\Debug\net8.0\NotificationService.Worker.GeneratedMSBuildEditorConfig.editorconfig
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Worker\obj\Debug\net8.0\NotificationService.Worker.AssemblyInfoInputs.cache
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Worker\obj\Debug\net8.0\NotificationService.Worker.AssemblyInfo.cs
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Worker\obj\Debug\net8.0\NotificationService.Worker.csproj.CoreCompileInputs.cache
+D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Worker\obj\Debug\net8.0\NotificationService.Worker.sourcelink.json
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Worker\obj\Debug\net8.0\Notifica.DD3B5EB1.Up2Date
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Worker\obj\Debug\net8.0\NotificationService.Worker.dll
 D:\programming\CodeAcademy\Final_Project_Take_A_Chance\NotificationService\src\NotificationService.Worker\obj\Debug\net8.0\refint\NotificationService.Worker.dll

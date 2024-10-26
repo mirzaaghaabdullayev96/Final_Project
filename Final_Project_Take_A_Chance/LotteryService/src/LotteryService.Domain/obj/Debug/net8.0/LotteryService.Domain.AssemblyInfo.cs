@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LotteryService.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31f4d70a8a99bb3a932c39865aa0113808016f9c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe694d970f5b2bada4113e8fdca8832ab03fdb7c")]
 [assembly: System.Reflection.AssemblyProductAttribute("LotteryService.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LotteryService.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

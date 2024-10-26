@@ -194,7 +194,7 @@
   {
     "ContainingType": "UserService.API.Controllers.UsersController",
     "Method": "GetUserById",
-    "RelativePath": "api/Users/GetUserById{id}",
+    "RelativePath": "api/Users/GetUserById/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
