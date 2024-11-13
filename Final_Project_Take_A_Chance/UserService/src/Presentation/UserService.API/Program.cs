@@ -86,6 +86,17 @@ namespace UserService.API
                 opt.RegisterServicesFromAssemblyContaining(typeof(UserRegisterCommandRequest));
             });
 
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll", builder =>
+                {
+                    builder.AllowAnyOrigin()
+                           .AllowAnyMethod()
+                           .AllowAnyHeader();
+                });
+            });
+
             //for email
             builder.Services.AddSingleton<IBackgroundTaskQueue, BackgroundTaskQueue>();
             builder.Services.AddScoped<IEmailService, EmailService>();
@@ -141,6 +152,7 @@ namespace UserService.API
             app.UseStaticFiles();
             app.UseAuthentication();
             app.UseAuthorization();
+            app.UseCors("AllowAll");
 
 
             app.MapControllers();

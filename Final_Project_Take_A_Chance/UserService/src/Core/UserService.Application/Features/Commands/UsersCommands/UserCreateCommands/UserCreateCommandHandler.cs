@@ -107,22 +107,22 @@ namespace UserService.Application.Features.Commands.UsersCommands.UserRegisterCo
             string text = "To confirm your Email, please click to the link below";
 
 
-            var userCreatedEvent = new UserCreatedEvent
-            {
-                Email = request.Email,
-                Name = appUser.Name,
-                ActivationLink = confirmationLink
-            };
+            //var userCreatedEvent = new UserCreatedEvent
+            //{
+            //    Email = request.Email,
+            //    Name = appUser.Name,
+            //    ActivationLink = confirmationLink
+            //};
 
 
-            using (var channel = _rabbitConnection.CreateModel())
-            {
-                channel.QueueDeclare(queue: "user_created_queue", durable: true, exclusive: false, autoDelete: false, arguments: null);
+            //using (var channel = _rabbitConnection.CreateModel())
+            //{
+            //    channel.QueueDeclare(queue: "user_created_queue", durable: true, exclusive: false, autoDelete: false, arguments: null);
 
-                var messageBody = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(userCreatedEvent));
+            //    var messageBody = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(userCreatedEvent));
 
-                channel.BasicPublish(exchange: "", routingKey: "user_created_queue", basicProperties: null, body: messageBody);
-            }
+            //    channel.BasicPublish(exchange: "", routingKey: "user_created_queue", basicProperties: null, body: messageBody);
+            //}
 
             return new SuccessResult("User successfully created", 201);
         }

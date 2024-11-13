@@ -14,7 +14,7 @@ namespace UserService.API.Controllers
     public class AuthController(UserManager<AppUser> userManager, IMediator mediator, RoleManager<IdentityRole> roleManager) : ControllerBase
     {
         [HttpPost("RegisterUser")]
-        public async Task<IActionResult> Register([FromForm] UserRegisterCommandRequest request)
+        public async Task<IActionResult> Register([FromBody] UserRegisterCommandRequest request)
         {
             var result = await mediator.Send(request);
             return ActionResponse.HandleResult(this, result);
