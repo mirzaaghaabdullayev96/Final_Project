@@ -6605,7 +6605,7 @@ a:not([href]):hover {
   text-decoration: none;
 }
 
-input:-webkit-autofill,
+/* input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 textarea:-webkit-autofill,
@@ -6617,7 +6617,7 @@ select:-webkit-autofill:focus,
 input:-internal-autofill-selected {
   background-clip: text !important;
   -webkit-background-clip: text !important;
-}
+} */
 
 [dir=rtl] .list-inline,
 [dir=rtl] .list-unstyled {

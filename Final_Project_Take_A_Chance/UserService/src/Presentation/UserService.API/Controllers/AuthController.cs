@@ -21,7 +21,7 @@ namespace UserService.API.Controllers
         }
 
         [HttpPost("Login")]
-        public async Task<IActionResult> Login([FromForm] UserLoginRequest request)
+        public async Task<IActionResult> Login([FromBody] UserLoginRequest request)
         {
             var result = await mediator.Send(request);
             return ActionResponse.HandleResult<UserLoginResponse>(this, result);

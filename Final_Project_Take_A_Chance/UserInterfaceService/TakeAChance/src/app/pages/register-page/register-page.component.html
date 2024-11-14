@@ -1,8 +1,11 @@
-<div class="container-xxl" style="max-width: 100% !important; background-color: #0D0D0D !important;">
+<div
+  class="container-xxl"
+  style="max-width: 100% !important; background-color: #0d0d0d !important"
+>
   <div class="authentication-wrapper authentication-basic container-p-y">
     <div class="authentication-inner py-4">
       <!-- Register Card -->
-      <div class="card" style="background-color: #1E1E1E !important;">
+      <div class="card" style="background-color: #1e1e1e !important">
         <div class="card-body">
           <!-- Logo -->
           <div class="app-brand justify-content-center mb-4 mt-2">
@@ -20,9 +23,162 @@
             id="formAuthentication"
             class="mb-3"
             action="index.html"
-            method="GET"
+            [formGroup]="registerForm"
+            (ngSubmit)="onSubmit()"
           >
-            <div class="mb-3">
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  placeholder="Enter your name"
+                  formControlName="name"
+                />
+                @if (registerForm.get('name')?.touched &&
+                registerForm.get('name')?.errors) {
+
+                <div class="text-danger">
+                  @if (registerForm.get('name')?.errors?.['required']) {<small
+                    >Name is required.</small
+                  >}
+                </div>
+                }
+              </div>
+              <div class="col-md-6">
+                <label for="surname" class="form-label">Surname</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="surname"
+                  name="surname"
+                  placeholder="Enter your surname"
+                  formControlName="surname"
+                />
+                @if (registerForm.get('surname')?.touched &&
+                registerForm.get('surname')?.errors) {
+
+                <div class="text-danger">
+                  @if (registerForm.get('surname')?.errors?.['required'])
+                  {<small>Surname is required.</small>}
+                </div>
+                }
+              </div>
+            </div>
+
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <label for="username" class="form-label">Username</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="username"
+                  name="username"
+                  placeholder="Enter your username"
+                  formControlName="username"
+                />
+                @if (registerForm.get('username')?.touched &&
+                registerForm.get('username')?.errors) {
+
+                <div class="text-danger">
+                  @if (registerForm.get('username')?.errors?.['required'])
+                  {<small>Username is required.</small>} @if
+                  (error?.propertyName==="Username") {<small
+                    >Username is already taken.</small
+                  >}
+                </div>
+                }
+              </div>
+              <div class="col-md-6">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your email"
+                  formControlName="email"
+                />
+
+                @if (registerForm.get('email')?.touched &&
+                registerForm.get('email')?.errors) {
+
+                <div class="text-danger">
+                  @if (registerForm.get('email')?.errors?.['required']) {<small
+                    >Email is required.</small
+                  >} @if (registerForm.get('email')?.errors?.['email']) {<small
+                    >Email is not valid.</small
+                  >}
+                </div>
+                }
+              </div>
+            </div>
+
+            <div class="row mb-3" [formGroupName]="'birthday'">
+              <label class="form-label">Birthday</label>
+              <div class="col-md-4">
+                <select
+                  class="form-select"
+                  name="birthMonth"
+                  formControlName="month"
+                >
+                  <option [value]="null" disabled selected>Month</option>
+
+                  @for (month of months; track $index) {
+                  <option [value]="month.value">
+                    {{ month.name }}
+                  </option>
+                  }
+                </select>
+              </div>
+              <div class="col-md-4">
+                <select
+                  class="form-select"
+                  name="birthDay"
+                  formControlName="day"
+                >
+                  <option [value]="null" disabled selected>Day</option>
+
+                  @for (day of days; track $index) {
+                  <option [value]="day">
+                    {{ day }}
+                  </option>
+                  }
+                </select>
+              </div>
+              <div class="col-md-4">
+                <select
+                  class="form-select"
+                  name="birthYear"
+                  formControlName="year"
+                >
+                  <option [value]="null" disabled selected>Year</option>
+
+                  @for (year of years; track $index) {
+                  <option [value]="year">
+                    {{ year }}
+                  </option>
+                  }
+                </select>
+              </div>
+
+              @if (registerForm.get('birthday')?.touched &&
+              registerForm.get('birthday')?.invalid) {
+
+              <div class="text-danger">
+                @if (registerForm.get('birthday.day')?.errors?.['required'] ||
+                registerForm.get('birthday.month')?.errors?.['required'] ||
+                registerForm.get('birthday.year')?.errors?.['required']) {<small
+                  >Birthdate is required.</small
+                >} @if (registerForm.get('birthday')?.errors?.['invalidDate'])
+                {<small>Please, put your real birthdate</small>}
+              </div>
+              }
+            </div>
+
+            <!-- <div class="mb-3">
               <label for="username" class="form-label">Username</label>
               <input
                 type="text"
@@ -42,7 +198,8 @@
                 name="email"
                 placeholder="Enter your email"
               />
-            </div>
+            </div> -->
+
             <div class="mb-3 form-password-toggle">
               <label class="form-label" for="password">Password</label>
               <div class="input-group input-group-merge">
@@ -53,31 +210,60 @@
                   name="password"
                   placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
                   aria-describedby="password"
+                  formControlName="password"
                 />
+
                 <span class="input-group-text cursor-pointer"></span>
               </div>
+              @if (registerForm.get('password')?.touched &&
+              registerForm.get('password')?.errors) {
+              <div class="text-danger">
+                @if (registerForm.get('password')?.errors?.['required']) {<small
+                  >Password is required.</small
+                >} @if
+                (registerForm.get('password')?.errors?.['notValidPassword'] &&
+                !registerForm.get('password')?.errors?.['required']) {<small
+                  >Password must contain at least 8 characters including one
+                  uppercase letter, digit, special character.</small
+                >}
+              </div>
+              }
             </div>
 
-            <div class="mb-3">
-              <div class="form-check">
+            <div class="mb-3 form-password-toggle">
+              <label class="form-label" for="password">Confirm password</label>
+              <div class="input-group input-group-merge">
                 <input
-                  class="form-check-input"
-                  type="checkbox"
-                  id="terms-conditions"
-                  name="terms"
+                  type="password"
+                  id="confirmpassword"
+                  class="form-control"
+                  name="password"
+                  placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
+                  aria-describedby="password"
+                  formControlName="confirmpassword"
                 />
-                <label class="form-check-label" for="terms-conditions">
-                  I agree to
-                  <a href="javascript:void(0);">privacy policy & terms</a>
-                </label>
+
+                <span class="input-group-text cursor-pointer"></span>
               </div>
+              @if (registerForm.get('confirmpassword')?.touched) {
+              <div class="text-danger">
+                @if (registerForm.get('confirmpassword')?.errors?.['required'] )
+                {<small>Confirm password is required.</small> } @if
+                (registerForm.errors?.['passwordMismatch']
+                && !registerForm.get('confirmpassword')?.errors?.['required'])
+                {<small>Passwords do not match.</small>}
+              </div>
+              }
             </div>
-            <button class="btn btn-primary d-grid w-100">Sign up</button>
+
+            <button class="btn btn-primary d-grid w-100 mt-4" type="submit">
+              Sign up
+            </button>
           </form>
 
           <p class="text-center">
             <span>Already have an account? </span>
-            <a href="auth-login-basic.html">
+            <a [routerLink]="'/login'">
               <span>Sign in instead</span>
             </a>
           </p>

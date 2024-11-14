@@ -9,7 +9,7 @@ export class UserService {
 
   http:HttpClient = inject(HttpClient)
   
-  baseApiUrl = environment.baseApiUrl;
+  baseApiUrl = environment.baseUserApiUrl;
 
   
 }
