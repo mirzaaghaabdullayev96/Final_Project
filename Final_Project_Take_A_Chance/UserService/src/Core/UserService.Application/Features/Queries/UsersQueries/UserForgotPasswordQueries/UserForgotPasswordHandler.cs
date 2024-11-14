@@ -60,11 +60,13 @@ namespace UserService.Application.Features.Queries.UsersQueries
             }
 
             string token = await _userManager.GeneratePasswordResetTokenAsync(user);
-            string confirmationLink = _linkGenerator.GetUriByAction(_httpContextAccessor.HttpContext!,
-                                                                    action: "ResetPassword",
-                                                                    controller: "Users",
-                                                                    values: new { email = request.Email, token = token },
-                                                                    scheme: "http");
+            //string confirmationLink = _linkGenerator.GetUriByAction(_httpContextAccessor.HttpContext!,
+            //                                                        action: "ResetPassword",
+            //                                                        controller: "Users",
+            //                                                        values: new { email = request.Email, token = token },
+            //                                                        scheme: "http");
+
+            string confirmationLink = $"http://localhost:4200/reset-password?email={request.Email}&token={Uri.EscapeDataString(token)}";
 
             var userForgotPasswordEvent = new UserForgotPassword
             {

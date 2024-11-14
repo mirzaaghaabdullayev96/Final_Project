@@ -53,7 +53,7 @@ namespace UserService.API.Controllers
         }
 
         [HttpPut("ChangePassword")]
-        public async Task<IActionResult> ChangePassword([FromForm] UserChangePasswordRequest request)
+        public async Task<IActionResult> ChangePassword([FromBody] UserChangePasswordRequest request)
         {
             var result = await mediator.Send(request);
             return ActionResponse.HandleResult(this, result);

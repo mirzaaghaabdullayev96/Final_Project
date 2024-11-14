@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\NotificationService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D293645C-FDF7-4B8B-8ECD-B98728A4651A}|src\\NotificationService.Application\\NotificationService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\notificationservice\\src\\notificationservice.application\\events\\usercreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D293645C-FDF7-4B8B-8ECD-B98728A4651A}|src\\NotificationService.Application\\NotificationService.Application.csproj|solutionrelative:src\\notificationservice.application\\events\\usercreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D293645C-FDF7-4B8B-8ECD-B98728A4651A}|src\\NotificationService.Application\\NotificationService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\notificationservice\\src\\notificationservice.application\\events\\winnerchosenevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D293645C-FDF7-4B8B-8ECD-B98728A4651A}|src\\NotificationService.Application\\NotificationService.Application.csproj|solutionrelative:src\\notificationservice.application\\events\\winnerchosenevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,19 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UserCreatedEvent.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\NotificationService\\src\\NotificationService.Application\\Events\\UserCreatedEvent.cs",
+              "RelativeDocumentMoniker": "src\\NotificationService.Application\\Events\\UserCreatedEvent.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\NotificationService\\src\\NotificationService.Application\\Events\\UserCreatedEvent.cs",
+              "RelativeToolTip": "src\\NotificationService.Application\\Events\\UserCreatedEvent.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T21:34:29.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "WinnerChosenEvent.cs",
               "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\NotificationService\\src\\NotificationService.Application\\Events\\WinnerChosenEvent.cs",
               "RelativeDocumentMoniker": "src\\NotificationService.Application\\Events\\WinnerChosenEvent.cs",
               "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\NotificationService\\src\\NotificationService.Application\\Events\\WinnerChosenEvent.cs",
               "RelativeToolTip": "src\\NotificationService.Application\\Events\\WinnerChosenEvent.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAswCcAAABcAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAA7wCcAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T19:40:26.989Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Worker.cs",
               "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\NotificationService\\src\\NotificationService.Worker\\Worker.cs",
               "RelativeDocumentMoniker": "src\\NotificationService.Worker\\Worker.cs",
@@ -51,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\NotificationService\\src\\NotificationService.Worker\\Program.cs",
               "RelativeDocumentMoniker": "src\\NotificationService.Worker\\Program.cs",

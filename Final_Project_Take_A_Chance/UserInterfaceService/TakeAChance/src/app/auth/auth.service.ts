@@ -71,7 +71,56 @@ export class AuthService {
         })
       );
   }
+
+
+  forgotPassword(request: ForgotPasswordRequest) {
+    return this.http
+      .post<ResultPositive<LoginResponse>>(
+        `${this.baseApiUrl}users/forgotpassword`,
+        request
+      )
+      .pipe(
+        catchError((error) => {
+          console.log(error);
+          const resultNegative: ResultNegative = {
+            message: error.error.message || 'Unknown error',
+            propertyName: error.error.propertyName || '',
+            statusCode: error.error.statusCode,
+            success: false,
+          };
+          return throwError(() => resultNegative);
+        })
+      );
+  }
+
+
+  resetPassword(request:ResetPasswordRequest){
+    return this.http
+      .post<ResultPositive<LoginResponse>>(
+        `${this.baseApiUrl}users/resetpassword`,
+        request
+      )
+      .pipe(
+        catchError((error) => {
+          console.log(error);
+          const resultNegative: ResultNegative = {
+            message: error.error.message || 'Unknown error',
+            propertyName: error.error.propertyName || '',
+            statusCode: error.error.statusCode,
+            success: false,
+          };
+          return throwError(() => resultNegative);
+        })
+      );
+  }
+
 }
+
+
+
+
+
+
 
 export interface LoginRequest {
   email: string;
@@ -91,4 +140,15 @@ export interface RegisterRequest {
   confirmpassword: string;
   birthdate:Date;
   username:string;
+}
+
+export interface ForgotPasswordRequest{
+  email:string;
+}
+
+export interface ResetPasswordRequest{
+  email:string;
+  token:string;
+  password:string;
+  confirmpassword:string;
 }

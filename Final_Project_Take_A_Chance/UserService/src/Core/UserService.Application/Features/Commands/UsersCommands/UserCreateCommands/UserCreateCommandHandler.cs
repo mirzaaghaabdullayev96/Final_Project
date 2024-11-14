@@ -43,9 +43,19 @@ namespace UserService.Application.Features.Commands.UsersCommands.UserRegisterCo
 
         public async Task<Result> Handle(UserRegisterCommandRequest request, CancellationToken cancellationToken)
         {
+            if (_userManager.Users.Any(x => x.Email == request.Email))
+            {
+                return new ErrorResult("Email already exists", 400, nameof(request.Email));
+            }
+
             if (request.Password != request.ConfirmPassword)
             {
                 return new ErrorResult("Passwords do not match", 400, nameof(request.Password));
+            }
+
+            if (_userManager.Users.Any(x => x.UserName == request.Username))
+            {
+                return new ErrorResult("Username already exists", 400, nameof(request.Username));
             }
 
             if (request.ProfilePicture is not null)
@@ -59,11 +69,6 @@ namespace UserService.Application.Features.Commands.UsersCommands.UserRegisterCo
                 {
                     return new ErrorResult("Image size must be less than 2MB", 400, nameof(request.ProfilePicture));
                 }
-            }
-
-            if (_userManager.Users.Any(x => x.UserName == request.Username))
-            {
-                return new ErrorResult("Username already exists", 400, nameof(request.Username));
             }
 
 
@@ -107,22 +112,22 @@ namespace UserService.Application.Features.Commands.UsersCommands.UserRegisterCo
             string text = "To confirm your Email, please click to the link below";
 
 
-            //var userCreatedEvent = new UserCreatedEvent
-            //{
-            //    Email = request.Email,
-            //    Name = appUser.Name,
-            //    ActivationLink = confirmationLink
-            //};
+            var userCreatedEvent = new UserCreatedEvent
+            {
+                Email = request.Email,
+                Name = appUser.Name,
+                ActivationLink = confirmationLink
+            };
 
 
-            //using (var channel = _rabbitConnection.CreateModel())
-            //{
-            //    channel.QueueDeclare(queue: "user_created_queue", durable: true, exclusive: false, autoDelete: false, arguments: null);
+            using (var channel = _rabbitConnection.CreateModel())
+            {
+                channel.QueueDeclare(queue: "user_created_queue", durable: true, exclusive: false, autoDelete: false, arguments: null);
 
-            //    var messageBody = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(userCreatedEvent));
+                var messageBody = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(userCreatedEvent));
 
-            //    channel.BasicPublish(exchange: "", routingKey: "user_created_queue", basicProperties: null, body: messageBody);
-            //}
+                channel.BasicPublish(exchange: "", routingKey: "user_created_queue", basicProperties: null, body: messageBody);
+            }
 
             return new SuccessResult("User successfully created", 201);
         }

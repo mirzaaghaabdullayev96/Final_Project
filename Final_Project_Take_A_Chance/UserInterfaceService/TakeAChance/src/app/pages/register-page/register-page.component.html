@@ -80,12 +80,12 @@
                   formControlName="username"
                 />
                 @if (registerForm.get('username')?.touched &&
-                registerForm.get('username')?.errors) {
+                registerForm.get('username')?.errors || error!==null) {
 
                 <div class="text-danger">
                   @if (registerForm.get('username')?.errors?.['required'])
                   {<small>Username is required.</small>} @if
-                  (error?.propertyName==="Username") {<small
+                  (error?.propertyName === 'Username') {<small
                     >Username is already taken.</small
                   >}
                 </div>
@@ -103,13 +103,17 @@
                 />
 
                 @if (registerForm.get('email')?.touched &&
-                registerForm.get('email')?.errors) {
+                registerForm.get('email')?.errors || error!==null) {
 
                 <div class="text-danger">
                   @if (registerForm.get('email')?.errors?.['required']) {<small
                     >Email is required.</small
                   >} @if (registerForm.get('email')?.errors?.['email']) {<small
                     >Email is not valid.</small
+                  >}
+                  @if
+                  (error?.propertyName === 'Email') {<small
+                    >{{error?.message}}</small
                   >}
                 </div>
                 }
@@ -171,7 +175,7 @@
                 @if (registerForm.get('birthday.day')?.errors?.['required'] ||
                 registerForm.get('birthday.month')?.errors?.['required'] ||
                 registerForm.get('birthday.year')?.errors?.['required']) {<small
-                  >Birthdate is required.</small
+                  >Full birthdate is required.</small
                 >} @if (registerForm.get('birthday')?.errors?.['invalidDate'])
                 {<small>Please, put your real birthdate</small>}
               </div>

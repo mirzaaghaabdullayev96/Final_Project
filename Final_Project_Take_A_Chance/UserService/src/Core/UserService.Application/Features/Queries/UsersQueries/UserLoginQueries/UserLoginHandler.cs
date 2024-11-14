@@ -44,10 +44,10 @@ namespace UserService.Application.Features.Queries.UsersQueries.UserLoginQueries
                 return new ErrorResult<UserLoginResponse>("Invalid credentials. Please check your email and password.", 400);
             }
 
-            //if (!user.EmailConfirmed)
-            //{
-            //    return new ErrorResult<UserLoginResponse>("Email is not confirmed. Please confirm you email", 400);
-            //}
+            if (!user.EmailConfirmed)
+            {
+                return new ErrorResult<UserLoginResponse>("Email is not confirmed. Please confirm you email", 400);
+            }
 
             var roles = await _userManager.GetRolesAsync(user);
 

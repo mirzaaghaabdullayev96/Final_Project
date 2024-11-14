@@ -14,6 +14,7 @@ import {
   ErrorFromApi,
   ResultNegative,
 } from '../../data/interfaces/result.interface';
+import { SharedDataService } from '../../data/services/shared-data.service';
 
 @Component({
   selector: 'app-register-page',
@@ -37,6 +38,7 @@ export class RegisterPageComponent {
   authService = inject(AuthService);
   formBuilder = inject(FormBuilder);
   router = inject(Router);
+  sharedDataService = inject(SharedDataService);
 
   error: ErrorFromApi | null = null;
 
@@ -170,7 +172,8 @@ export class RegisterPageComponent {
       this.authService.register(payload).subscribe({
         next: (res) => {
           console.log('Success:', res);
-          this.router.navigate(['']);
+          this.sharedDataService.setEmail(payload.email);
+          this.router.navigate(['/verify-email']);
         },
         error: (err: ResultNegative) => {
           this.error = { message: err.message, propertyName: err.propertyName };

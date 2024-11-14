@@ -87,24 +87,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Id",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "CurrentPassword",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "NewPassword",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "ConfirmNewPassword",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "request",
+        "Type": "UserService.Application.Features.Commands.UsersCommands.UserChangePasswordRequest",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

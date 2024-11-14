@@ -44,7 +44,7 @@ namespace UserService.API.Controllers
             var result = await userManager.ConfirmEmailAsync(user, token);
             if (result.Succeeded)
             {
-                return Ok("Email successfully confirmed!");
+                return Redirect("http://localhost:4200/email-verified");
             }
 
             return BadRequest("Email confirmation failed.");
