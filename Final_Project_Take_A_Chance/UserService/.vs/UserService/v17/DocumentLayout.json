@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\core\\userservice.application\\features\\queries\\usersqueries\\userloginqueries\\userloginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|solutionrelative:src\\core\\userservice.application\\features\\queries\\usersqueries\\userloginqueries\\userloginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE7BD4F-7C03-4F13-84E5-D2C3F9C86136}|src\\Presentation\\UserService.API\\UserService.API.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\presentation\\userservice.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE7BD4F-7C03-4F13-84E5-D2C3F9C86136}|src\\Presentation\\UserService.API\\UserService.API.csproj|solutionrelative:src\\presentation\\userservice.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\core\\userservice.application\\features\\commands\\userscommands\\userresetpasswordcommands\\userresetpasswordhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|solutionrelative:src\\core\\userservice.application\\features\\commands\\userscommands\\userresetpasswordcommands\\userresetpasswordhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\core\\userservice.application\\features\\queries\\usersqueries\\userforgotpasswordqueries\\userforgotpasswordhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FA6A253-3161-402B-A1AB-7F84EEF3615D}|src\\Core\\UserService.Application\\UserService.Application.csproj|solutionrelative:src\\core\\userservice.application\\features\\queries\\usersqueries\\userforgotpasswordqueries\\userforgotpasswordhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBE7BD4F-7C03-4F13-84E5-D2C3F9C86136}|src\\Presentation\\UserService.API\\UserService.API.csproj|d:\\programming\\codeacademy\\final_project_take_a_chance\\userservice\\src\\presentation\\userservice.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBE7BD4F-7C03-4F13-84E5-D2C3F9C86136}|src\\Presentation\\UserService.API\\UserService.API.csproj|solutionrelative:src\\presentation\\userservice.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 258,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "UserLoginHandler.cs",
+              "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Features\\Queries\\UsersQueries\\UserLoginQueries\\UserLoginHandler.cs",
+              "RelativeDocumentMoniker": "src\\Core\\UserService.Application\\Features\\Queries\\UsersQueries\\UserLoginQueries\\UserLoginHandler.cs",
+              "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Features\\Queries\\UsersQueries\\UserLoginQueries\\UserLoginHandler.cs",
+              "RelativeToolTip": "src\\Core\\UserService.Application\\Features\\Queries\\UsersQueries\\UserLoginQueries\\UserLoginHandler.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T11:04:11.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UserForgotPasswordHandler.cs",
               "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Features\\Queries\\UsersQueries\\UserForgotPasswordQueries\\UserForgotPasswordHandler.cs",
               "RelativeDocumentMoniker": "src\\Core\\UserService.Application\\Features\\Queries\\UsersQueries\\UserForgotPasswordQueries\\UserForgotPasswordHandler.cs",
@@ -38,12 +55,11 @@
               "RelativeToolTip": "src\\Core\\UserService.Application\\Features\\Queries\\UsersQueries\\UserForgotPasswordQueries\\UserForgotPasswordHandler.cs",
               "ViewState": "AgIAADYAAAAAAAAAAAAcwDcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T22:11:40.926Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T22:11:40.926Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "UserResetPasswordRequest.cs",
               "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Features\\Commands\\UsersCommands\\UserResetPasswordCommands\\UserResetPasswordRequest.cs",
               "RelativeDocumentMoniker": "src\\Core\\UserService.Application\\Features\\Commands\\UsersCommands\\UserResetPasswordCommands\\UserResetPasswordRequest.cs",
@@ -51,31 +67,30 @@
               "RelativeToolTip": "src\\Core\\UserService.Application\\Features\\Commands\\UsersCommands\\UserResetPasswordCommands\\UserResetPasswordRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T22:10:48.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T22:10:48.818Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "UsersController.cs",
               "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Presentation\\UserService.API\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "src\\Presentation\\UserService.API\\Controllers\\UsersController.cs",
               "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Presentation\\UserService.API\\Controllers\\UsersController.cs",
               "RelativeToolTip": "src\\Presentation\\UserService.API\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAYwDAAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAADAAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T21:49:01.602Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UserResetPasswordHandler.cs",
               "DocumentMoniker": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Features\\Commands\\UsersCommands\\UserResetPasswordCommands\\UserResetPasswordHandler.cs",
               "RelativeDocumentMoniker": "src\\Core\\UserService.Application\\Features\\Commands\\UsersCommands\\UserResetPasswordCommands\\UserResetPasswordHandler.cs",
               "ToolTip": "D:\\programming\\CodeAcademy\\Final_Project_Take_A_Chance\\UserService\\src\\Core\\UserService.Application\\Features\\Commands\\UsersCommands\\UserResetPasswordCommands\\UserResetPasswordHandler.cs",
               "RelativeToolTip": "src\\Core\\UserService.Application\\Features\\Commands\\UsersCommands\\UserResetPasswordCommands\\UserResetPasswordHandler.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA7wCcAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwCcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T21:48:57.614Z",
               "EditorCaption": ""

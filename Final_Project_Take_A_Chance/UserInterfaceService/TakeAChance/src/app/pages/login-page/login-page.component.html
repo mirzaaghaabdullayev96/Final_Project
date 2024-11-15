@@ -67,7 +67,7 @@
             </div>
             <div class="input-group input-group-merge">
               <input
-                type="password"
+                [type]="isPasswordVisible()?'text':'password'"
                 id="password"
                 class="form-control"
                 name="password"
@@ -76,7 +76,7 @@
                 formControlName="password"
               />
 
-              <span class="input-group-text cursor-pointer"> </span>
+              <span class="input-group-text cursor-pointer" (click)="isPasswordVisible.set(!isPasswordVisible())"><i [class]="isPasswordVisible() ? 'ti ti-eye' : 'ti ti-eye-off'"  ></i> </span>
             </div>
             <!-- errors -->
             @if (loginForm.get('password')?.touched &&

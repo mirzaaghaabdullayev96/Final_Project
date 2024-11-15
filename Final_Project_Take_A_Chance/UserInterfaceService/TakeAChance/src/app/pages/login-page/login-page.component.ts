@@ -1,4 +1,4 @@
-import { Component, inject, ViewEncapsulation } from '@angular/core';
+import { Component, inject, signal, ViewEncapsulation } from '@angular/core';
 import { AuthService } from '../../auth/auth.service';
 import {
   FormBuilder,
@@ -64,7 +64,7 @@ export class LoginPageComponent {
     }
   }
 
-  toRegisterPage() {
-    this.router.navigate(['/register']);
-  }
+ 
+  isPasswordVisible = signal<boolean>(false);
+
 }

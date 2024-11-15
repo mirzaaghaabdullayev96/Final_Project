@@ -110,10 +110,9 @@
                     >Email is required.</small
                   >} @if (registerForm.get('email')?.errors?.['email']) {<small
                     >Email is not valid.</small
-                  >}
-                  @if
-                  (error?.propertyName === 'Email') {<small
-                    >{{error?.message}}</small
+                  >} @if (error?.propertyName === 'Email') {<small>{{
+                    error?.message
+                  }}</small
                   >}
                 </div>
                 }
@@ -217,7 +216,15 @@
                   formControlName="password"
                 />
 
-                <span class="input-group-text cursor-pointer"></span>
+                <span
+                  class="input-group-text cursor-pointer"
+                  (click)="isPasswordVisible.set(!isPasswordVisible())"
+                  ><i
+                    [class]="
+                      isPasswordVisible() ? 'ti ti-eye' : 'ti ti-eye-off'
+                    "
+                  ></i>
+                </span>
               </div>
               @if (registerForm.get('password')?.touched &&
               registerForm.get('password')?.errors) {
@@ -238,7 +245,7 @@
               <label class="form-label" for="password">Confirm password</label>
               <div class="input-group input-group-merge">
                 <input
-                  type="password"
+                  [type]="isConfirmPasswordVisible() ? 'text' : 'password'"
                   id="confirmpassword"
                   class="form-control"
                   name="password"
@@ -247,14 +254,22 @@
                   formControlName="confirmpassword"
                 />
 
-                <span class="input-group-text cursor-pointer"></span>
+                <span
+                  class="input-group-text cursor-pointer"
+                  (click)="isConfirmPasswordVisible.set(!isConfirmPasswordVisible())"
+                  ><i
+                    [class]="
+                      isConfirmPasswordVisible() ? 'ti ti-eye' : 'ti ti-eye-off'
+                    "
+                  ></i>
+                </span>
               </div>
               @if (registerForm.get('confirmpassword')?.touched) {
               <div class="text-danger">
                 @if (registerForm.get('confirmpassword')?.errors?.['required'] )
                 {<small>Confirm password is required.</small> } @if
-                (registerForm.errors?.['passwordMismatch']
-                && !registerForm.get('confirmpassword')?.errors?.['required'])
+                (registerForm.errors?.['passwordMismatch'] &&
+                !registerForm.get('confirmpassword')?.errors?.['required'])
                 {<small>Passwords do not match.</small>}
               </div>
               }

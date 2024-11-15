@@ -1,4 +1,4 @@
-import { Component, inject, ViewEncapsulation } from '@angular/core';
+import { Component, inject, signal, ViewEncapsulation } from '@angular/core';
 import {
   AbstractControl,
   FormBuilder,
@@ -182,4 +182,11 @@ export class RegisterPageComponent {
       });
     }
   }
+
+
+
+  isPasswordVisible = signal<boolean>(false);
+  isConfirmPasswordVisible = signal<boolean>(false);
+
+  
 }

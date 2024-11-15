@@ -1,4 +1,4 @@
-import { Component, inject, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, inject, OnInit, signal, ViewEncapsulation } from '@angular/core';
 import {
   AbstractControl,
   FormBuilder,
@@ -124,4 +124,10 @@ export class ResetPasswordPageComponent implements OnInit {
       });
     }
   }
+
+
+  isPasswordVisible = signal<boolean>(false);
+  isConfirmPasswordVisible = signal<boolean>(false);
+
+  
 }
